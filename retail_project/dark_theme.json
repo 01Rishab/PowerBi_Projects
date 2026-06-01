@@ -1,0 +1,38 @@
+{
+  "name": "RetailDark",
+  "dataColors": [
+    "#f0b429",
+    "#4ecdc4",
+    "#a78bfa",
+    "#e05c5c",
+    "#34d399",
+    "#7a849e",
+    "#f97316",
+    "#60a5fa"
+  ],
+  "background": "#0d0f14",
+  "foreground": "#e8ecf4",
+  "tableAccent": "#f0b429",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [{ "value": "Segoe UI" }],
+        "fontSize": [{ "value": 11 }],
+        "color": [{ "value": "#e8ecf4" }],
+        "background": [{ "value": "#161a23" }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "value": "#0d0f14" }],
+        "outspace": [{ "value": "#0d0f14" }]
+      }
+    },
+    "card": {
+      "*": {
+        "background": [{ "value": "#161a23" }],
+        "border": [{ "value": "#2a3045" }]
+      }
+    }
+  }
+}

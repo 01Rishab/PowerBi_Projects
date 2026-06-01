@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>RetailIQ — Shopping Behavior Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+/* ── RESET & VARS ───────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:        #09090c;
+  --bg2:       #111116;
+  --bg3:       #18181f;
+  --border:    rgba(255,255,255,0.07);
+  --text:      #f0ede8;
+  --muted:     #6b6878;
+  --accent:    #c8f060;
+  --accent2:   #60c8f0;
+  --accent3:   #f060a8;
+  --accent4:   #f0a860;
+  --font-head: 'Syne', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+  --r:         12px;
+}
+
+html, body { height: 100%; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ── NOISE OVERLAY ──────────────────────────────── */
+body::before {
+  content: '';
+  position: fixed; inset: 0; z-index: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+  opacity: 0.025;
+  pointer-events: none;
+}
+
+/* ── LAYOUT ─────────────────────────────────────── */
+.shell {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  grid-template-rows: auto 1fr;
+  min-height: 100vh;
+  position: relative; z-index: 1;
+}
+
+/* ── SIDEBAR ────────────────────────────────────── */
+.sidebar {
+  grid-row: 1 / -1;
+  background: var(--bg2);
+  border-right: 1px solid var(--border);
+  padding: 2rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  position: sticky; top: 0; height: 100vh;
+}
+
+.logo {
+  font-family: var(--font-head);
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  display: flex; align-items: center; gap: 10px;
+}
+.logo-dot {
+  width: 28px; height: 28px;
+  background: var(--accent);
+  border-radius: 8px;
+  display: grid; place-items: center;
+  font-size: 14px;
+}
+
+.nav-section label {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: block;
+  margin-bottom: 8px;
+  padding-left: 10px;
+}
+.nav-link {
+  display: flex; align-items: center; gap: 10px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 13px;
+  transition: all .2s;
+  cursor: pointer;
+  border: none; background: none; width: 100%;
+  text-align: left; font-family: var(--font-mono);
+}
+.nav-link:hover { color: var(--text); background: var(--bg3); }
+.nav-link.active {
+  color: var(--bg);
+  background: var(--accent);
+  font-weight: 500;
+}
+.nav-icon { font-size: 16px; width: 20px; text-align: center; }
+
+.sidebar-footer {
+  margin-top: auto;
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.8;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+}
+.sidebar-footer strong { color: var(--accent); display: block; margin-bottom: 4px; }
+
+/* ── TOPBAR ─────────────────────────────────────── */
+.topbar {
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 1rem;
+  background: var(--bg);
+  position: sticky; top: 0; z-index: 10;
+}
+.topbar-title {
+  font-family: var(--font-head);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+.topbar-title span { color: var(--accent); }
+
+.filters {
+  display: flex; gap: 8px; flex-wrap: wrap;
+}
+.filters select {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  transition: border-color .2s;
+}
+.filters select:focus { border-color: var(--accent); }
+
+/* ── MAIN ───────────────────────────────────────── */
+.main {
+  padding: 2rem;
+  display: flex; flex-direction: column; gap: 1.5rem;
+  overflow-y: auto;
+}
+
+/* ── KPI CARDS ──────────────────────────────────── */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+.kpi {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 1.25rem 1rem;
+  position: relative;
+  overflow: hidden;
+  animation: fadeUp .4s ease both;
+}
+.kpi::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: var(--kpi-color, var(--accent));
+}
+.kpi-icon {
+  font-size: 20px; margin-bottom: 10px;
+  opacity: 0.7;
+}
+.kpi-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.kpi-value {
+  font-family: var(--font-head);
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.kpi-sub {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 6px;
+}
+
+/* ── CHART GRID ─────────────────────────────────── */
+.chart-row { display: grid; gap: 12px; }
+.row-2 { grid-template-columns: 1fr 1fr; }
+.row-3 { grid-template-columns: 2fr 1fr 1fr; }
+.row-full { grid-template-columns: 1fr; }
+
+.card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 1.25rem;
+  animation: fadeUp .5s ease both;
+}
+.card-head {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.card-title {
+  font-family: var(--font-head);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+}
+.card-badge {
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 20px;
+  background: var(--bg3);
+  color: var(--muted);
+  border: 1px solid var(--border);
+}
+
+/* ── LEGEND ─────────────────────────────────────── */
+.legend {
+  display: flex; flex-wrap: wrap; gap: 10px;
+  margin-bottom: 12px;
+  font-size: 11px; color: var(--muted);
+}
+.legend-item { display: flex; align-items: center; gap: 5px; }
+.legend-dot { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
+
+/* ── TABLE ──────────────────────────────────────── */
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+thead th {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  font-weight: 400;
+}
+tbody td {
+  padding: 9px 10px;
+  border-bottom: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--text);
+}
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:hover td { background: var(--bg3); }
+.rank { color: var(--muted); font-size: 11px; }
+.cat-tag {
+  font-size: 10px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: var(--bg3);
+  color: var(--muted);
+}
+.inline-bar {
+  display: inline-block;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--accent);
+  vertical-align: middle;
+  margin-left: 8px;
+  opacity: 0.7;
+}
+
+/* ── SORT TABS ──────────────────────────────────── */
+.tab-row { display: flex; gap: 6px; margin-bottom: 12px; }
+.tab-btn {
+  font-size: 11px;
+  font-family: var(--font-mono);
+  padding: 4px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all .15s;
+}
+.tab-btn.active { background: var(--accent); color: var(--bg); border-color: transparent; }
+
+/* ── HEATMAP ────────────────────────────────────── */
+.heatmap-grid {
+  display: grid;
+  grid-template-columns: 80px repeat(4, 1fr);
+  gap: 4px;
+  font-size: 12px;
+}
+.hm-head {
+  display: contents;
+}
+.hm-label {
+  display: flex; align-items: center;
+  font-size: 11px; color: var(--muted);
+  padding: 4px 0;
+}
+.hm-cell {
+  border-radius: 6px;
+  padding: 16px 8px;
+  text-align: center;
+  font-family: var(--font-head);
+  font-weight: 600;
+  font-size: 13px;
+  transition: transform .15s;
+  cursor: default;
+}
+.hm-cell:hover { transform: scale(1.04); }
+.hm-col-head {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  text-align: center;
+  padding: 6px 4px;
+}
+
+/* ── ANIMATIONS ─────────────────────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── SCROLLBAR ──────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--bg3); border-radius: 3px; }
+
+/* ── RESPONSIVE ─────────────────────────────────── */
+@media (max-width: 1100px) {
+  .shell { grid-template-columns: 1fr; }
+  .sidebar { display: none; }
+  .kpi-grid { grid-template-columns: repeat(3, 1fr); }
+  .row-3 { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 700px) {
+  .kpi-grid { grid-template-columns: 1fr 1fr; }
+  .row-2, .row-3 { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<div class="shell">
+
+  <!-- ── SIDEBAR ─────────────────────────── -->
+  <aside class="sidebar">
+    <div class="logo">
+      <div class="logo-dot">📊</div>
+      RetailIQ
+    </div>
+
+    <div class="nav-section">
+      <label>Analytics</label>
+      <button class="nav-link active"><span class="nav-icon">▦</span> Overview</button>
+      <button class="nav-link"><span class="nav-icon">↗</span> Revenue</button>
+      <button class="nav-link"><span class="nav-icon">◎</span> Customers</button>
+      <button class="nav-link"><span class="nav-icon">◈</span> Products</button>
+    </div>
+
+    <div class="nav-section">
+      <label>Insights</label>
+      <button class="nav-link"><span class="nav-icon">◷</span> Seasonal</button>
+      <button class="nav-link"><span class="nav-icon">⊞</span> Segments</button>
+    </div>
+
+    <div class="sidebar-footer">
+      <strong>Dataset info</strong>
+      3,900 transactions<br/>
+      18 features<br/>
+      4 categories<br/>
+      6 payment methods
+    </div>
+  </aside>
+
+  <!-- ── TOPBAR ──────────────────────────── -->
+  <header class="topbar">
+    <div class="topbar-title">Shopping <span>Behavior</span> Dashboard</div>
+    <div class="filters">
+      <select id="f-season">
+        <option value="all">All Seasons</option>
+        <option>Spring</option><option>Summer</option>
+        <option>Fall</option><option>Winter</option>
+      </select>
+      <select id="f-gender">
+        <option value="all">All Genders</option>
+        <option>Male</option><option>Female</option>
+      </select>
+      <select id="f-category">
+        <option value="all">All Categories</option>
+        <option>Clothing</option><option>Accessories</option>
+        <option>Footwear</option><option>Outerwear</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- ── MAIN ───────────────────────────── -->
+  <main class="main">
+
+    <!-- KPI CARDS -->
+    <div class="kpi-grid" id="kpi-grid"></div>
+
+    <!-- ROW 1: Category + Season -->
+    <div class="chart-row row-2">
+      <div class="card">
+        <div class="card-head">
+          <div class="card-title">Revenue by Category</div>
+          <div class="card-badge">Total</div>
+        </div>
+        <div style="height:220px"><canvas id="c-category"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <div class="card-title">Seasonal Revenue Trend</div>
+          <div class="card-badge">Annual</div>
+        </div>
+        <div style="height:220px"><canvas id="c-season"></canvas></div>
+      </div>
+    </div>
+
+    <!-- ROW 2: Age + Payment + Shipping -->
+    <div class="chart-row row-3">
+      <div class="card">
+        <div class="card-head">
+          <div class="card-title">Revenue by Age Group</div>
+          <div class="card-badge">5 groups</div>
+        </div>
+        <div style="height:220px"><canvas id="c-age"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <div class="card-title">Avg Spend by Payment</div>
+          <div class="card-badge">USD</div>
+        </div>
+        <div style="height:220px"><canvas id="c-payment"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <div class="card-title">Shipping → Satisfaction</div>
+          <div class="card-badge">Avg ★</div>
+        </div>
+        <div style="height:220px"><canvas id="c-shipping"></canvas></div>
+      </div>
+    </div>
+
+    <!-- ROW 3: Loyalty donut + Gender heatmap -->
+    <div class="chart-row row-2">
+      <div class="card">
+        <div class="card-head">
+          <div class="card-title">Loyalty Tier Distribution</div>
+          <div class="card-badge">4 tiers</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap">
+          <div style="height:200px;width:200px;flex-shrink:0"><canvas id="c-loyalty"></canvas></div>
+          <div id="loyalty-legend" style="display:flex;flex-direction:column;gap:10px;font-size:12px;"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <div class="card-title">Gender × Category Revenue</div>
+          <div class="card-badge">Matrix</div>
+        </div>
+        <div id="heatmap"></div>
+      </div>
+    </div>
+
+    <!-- ROW 4: Top products table -->
+    <div class="card">
+      <div class="card-head">
+        <div class="card-title">Top Products Performance</div>
+        <div class="card-badge">Top 10</div>
+      </div>
+      <div class="tab-row">
+        <button class="tab-btn active" data-sort="revenue">By Revenue</button>
+        <button class="tab-btn" data-sort="orders">By Orders</button>
+        <button class="tab-btn" data-sort="rating">By Rating</button>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th><th>Product</th><th>Category</th>
+              <th>Revenue</th><th>Orders</th><th>Avg Rating</th><th>Share</th>
+            </tr>
+          </thead>
+          <tbody id="prod-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<script>
+/* ── DATA ──────────────────────────────────────── */
+const D = {
+  category: {
+    Clothing:    { revenue:104264, orders:1737 },
+    Accessories: { revenue:74200,  orders:1240 },
+    Footwear:    { revenue:36093,  orders:599  },
+    Outerwear:   { revenue:18524,  orders:324  }
+  },
+  season: {
+    Spring: { revenue:58679, orders:999 },
+    Summer: { revenue:55777, orders:955 },
+    Fall:   { revenue:60018, orders:975 },
+    Winter: { revenue:58607, orders:971 }
+  },
+  age: {
+    '18-25': { revenue:34630, orders:571 },
+    '26-35': { revenue:44342, orders:742 },
+    '36-45': { revenue:43234, orders:729 },
+    '46-55': { revenue:45619, orders:753 },
+    '56-70': { revenue:65256, orders:1105 }
+  },
+  payment: {
+    'Debit Card':60.92,'Credit Card':60.07,
+    'Bank Transfer':59.71,'Cash':59.70,
+    'PayPal':59.25,'Venmo':58.95
+  },
+  shipping: {
+    'Standard':3.819,'Express':3.774,
+    '2-Day':3.766,'Next Day':3.720,
+    'Free Ship':3.716,'Pickup':3.707
+  },
+  loyalty: {
+    Champion:{ customers:765,  revenue:46590, avg:60.90 },
+    Loyal:   { customers:1170, revenue:69372, avg:59.29 },
+    Regular: { customers:1181, revenue:69555, avg:58.90 },
+    New:     { customers:784,  revenue:47564, avg:60.67 }
+  },
+  gender: {
+    Male:  { Clothing:70628, Accessories:50381, Footwear:24258, Outerwear:12623 },
+    Female:{ Clothing:33636, Accessories:23819, Footwear:11835, Outerwear:5901  }
+  },
+  products:[
+    {name:'Blouse',    cat:'Clothing',    revenue:10410,orders:174,rating:3.75},
+    {name:'Shirt',     cat:'Clothing',    revenue:10332,orders:175,rating:3.74},
+    {name:'Dress',     cat:'Clothing',    revenue:10320,orders:170,rating:3.76},
+    {name:'Pants',     cat:'Clothing',    revenue:10090,orders:168,rating:3.73},
+    {name:'Jewelry',   cat:'Accessories', revenue:10010,orders:167,rating:3.77},
+    {name:'Sunglasses',cat:'Accessories', revenue:9649, orders:162,rating:3.74},
+    {name:'Belt',      cat:'Accessories', revenue:9635, orders:161,rating:3.75},
+    {name:'Scarf',     cat:'Accessories', revenue:9561, orders:160,rating:3.76},
+    {name:'Sweater',   cat:'Clothing',    revenue:9462, orders:159,rating:3.72},
+    {name:'Shorts',    cat:'Clothing',    revenue:9433, orders:158,rating:3.75}
+  ]
+};
+
+/* ── PALETTE ───────────────────────────────────── */
+const P = ['#c8f060','#60c8f0','#f060a8','#f0a860','#a060f0','#60f0a8'];
+const gridColor  = 'rgba(255,255,255,0.06)';
+const tickColor  = '#6b6878';
+
+/* ── CHART DEFAULTS ────────────────────────────── */
+Chart.defaults.color = tickColor;
+Chart.defaults.font.family = "'DM Mono', monospace";
+Chart.defaults.font.size = 11;
+
+const baseOpts = (extra={}) => ({
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: { legend: { display: false }, tooltip: { ...tooltipStyle() } },
+  ...extra
+});
+
+function tooltipStyle() {
+  return {
+    backgroundColor:'#18181f',
+    borderColor:'rgba(255,255,255,0.1)',
+    borderWidth:1,
+    titleColor:'#f0ede8',
+    bodyColor:'#6b6878',
+    padding:10,
+    cornerRadius:8,
+    titleFont:{ family:"'Syne',sans-serif", weight:'600', size:12 },
+  };
+}
+
+const scaleOpts = (axis, extra={}) => ({
+  [axis]: { grid:{ color:gridColor }, ticks:{ color:tickColor }, ...extra }
+});
+
+/* ── HELPERS ───────────────────────────────────── */
+const fmtK = v => v >= 1000 ? '$' + (v/1000).toFixed(0) + 'k' : '$' + v;
+const fmtFull = v => '$' + Number(v).toLocaleString();
+
+/* ── KPI RENDER ────────────────────────────────── */
+function renderKPIs() {
+  const s = document.getElementById('f-season').value;
+  const g = document.getElementById('f-gender').value;
+  const c = document.getElementById('f-category').value;
+
+  let rev = 0, ord = 0;
+  Object.entries(D.category).forEach(([cat, d]) => {
+    if (c !== 'all' && cat !== c) return;
+    let r = d.revenue, o = d.orders;
+    if (s !== 'all') { const sf = D.season[s].orders / 3900; r = Math.round(r*sf); o = Math.round(o*sf); }
+    if (g === 'Male')   { r = Math.round(r*.72); o = Math.round(o*.72); }
+    if (g === 'Female') { r = Math.round(r*.28); o = Math.round(o*.28); }
+    rev += r; ord += o;
+  });
+
+  const kpis = [
+    { icon:'💰', label:'Total Revenue',   value: fmtFull(rev),           sub:'filtered',        color:'var(--accent)'  },
+    { icon:'🛒', label:'Total Orders',    value: ord.toLocaleString(),   sub:'transactions',    color:'var(--accent2)' },
+    { icon:'📋', label:'Avg Order Value', value: ord > 0 ? '$'+Math.round(rev/ord) : '—', sub:'per transaction', color:'var(--accent4)' },
+    { icon:'⭐', label:'Avg Rating',      value: '3.75',                 sub:'out of 5',        color:'var(--accent3)' },
+    { icon:'🔔', label:'Subscribers',     value: Math.round(1053*(ord/3900)).toLocaleString(), sub:'~27% of orders', color:'#a060f0' }
+  ];
+
+  document.getElementById('kpi-grid').innerHTML = kpis.map((k, i) => `
+    <div class="kpi" style="--kpi-color:${k.color};animation-delay:${i*0.07}s">
+      <div class="kpi-icon">${k.icon}</div>
+      <div class="kpi-label">${k.label}</div>
+      <div class="kpi-value">${k.value}</div>
+      <div class="kpi-sub">${k.sub}</div>
+    </div>`).join('');
+}
+
+/* ── CHARTS ────────────────────────────────────── */
+function buildCategory() {
+  const labels = Object.keys(D.category);
+  const vals   = labels.map(k => D.category[k].revenue);
+  new Chart(document.getElementById('c-category'), {
+    type: 'bar',
+    data: { labels, datasets: [{ data: vals, backgroundColor: P, borderRadius: 6, borderSkipped: false }] },
+    options: {
+      ...baseOpts(),
+      scales: {
+        x: { grid:{ display:false }, ticks:{ color:tickColor } },
+        y: { grid:{ color:gridColor }, ticks:{ color:tickColor, callback: fmtK } }
+      },
+      plugins: {
+        ...baseOpts().plugins,
+        tooltip: { ...tooltipStyle(), callbacks: { label: ctx => ' ' + fmtFull(ctx.raw) } }
+      }
+    }
+  });
+}
+
+function buildSeason() {
+  const labels = ['Spring','Summer','Fall','Winter'];
+  const vals   = labels.map(s => D.season[s].revenue);
+  new Chart(document.getElementById('c-season'), {
+    type: 'line',
+    data: { labels, datasets: [{
+      data: vals,
+      borderColor: P[0], backgroundColor: P[0]+'22',
+      fill: true, tension: 0.45,
+      pointRadius: 6, pointBackgroundColor: P[0],
+      pointBorderColor: '#09090c', pointBorderWidth: 2
+    }]},
+    options: {
+      ...baseOpts(),
+      scales: {
+        x: { grid:{ display:false }, ticks:{ color:tickColor } },
+        y: { grid:{ color:gridColor }, ticks:{ color:tickColor, callback: fmtK }, min:53000, max:63000 }
+      },
+      plugins: {
+        ...baseOpts().plugins,
+        tooltip: { ...tooltipStyle(), callbacks: { label: ctx => ' '+fmtFull(ctx.raw) } }
+      }
+    }
+  });
+}
+
+function buildAge() {
+  const labels = Object.keys(D.age);
+  const vals   = labels.map(k => D.age[k].revenue);
+  new Chart(document.getElementById('c-age'), {
+    type: 'bar',
+    data: { labels, datasets: [{ data: vals, backgroundColor: P, borderRadius: 5, borderSkipped: false }] },
+    options: {
+      ...baseOpts(),
+      scales: {
+        x: { grid:{ display:false }, ticks:{ color:tickColor } },
+        y: { grid:{ color:gridColor }, ticks:{ color:tickColor, callback: fmtK } }
+      },
+      plugins: {
+        ...baseOpts().plugins,
+        tooltip: { ...tooltipStyle(), callbacks: { label: ctx => ' '+fmtFull(ctx.raw) } }
+      }
+    }
+  });
+}
+
+function buildPayment() {
+  const labels = Object.keys(D.payment);
+  const vals   = labels.map(k => D.payment[k]);
+  new Chart(document.getElementById('c-payment'), {
+    type: 'bar',
+    data: { labels, datasets: [{ data: vals, backgroundColor: P.slice(0).reverse(), borderRadius: 5, borderSkipped: false }] },
+    options: {
+      ...baseOpts(),
+      indexAxis: 'y',
+      scales: {
+        x: { grid:{ color:gridColor }, ticks:{ color:tickColor }, min:58, max:62 },
+        y: { grid:{ display:false }, ticks:{ color:tickColor, font:{ size:10 } } }
+      },
+      plugins: {
+        ...baseOpts().plugins,
+        tooltip: { ...tooltipStyle(), callbacks: { label: ctx => ' $'+ctx.raw.toFixed(2) } }
+      }
+    }
+  });
+}
+
+function buildShipping() {
+  const labels = Object.keys(D.shipping);
+  const vals   = labels.map(k => D.shipping[k]);
+  const max    = Math.max(...vals);
+  const min    = Math.min(...vals);
+  new Chart(document.getElementById('c-shipping'), {
+    type: 'bar',
+    data: { labels, datasets: [{ data: vals, backgroundColor: vals.map(v => v===max ? P[0] : v===min ? P[2] : P[1]), borderRadius: 5, borderSkipped: false }] },
+    options: {
+      ...baseOpts(),
+      scales: {
+        x: { grid:{ display:false }, ticks:{ color:tickColor, font:{ size:9 }, maxRotation:35 } },
+        y: { grid:{ color:gridColor }, ticks:{ color:tickColor }, min:3.68, max:3.84 }
+      },
+      plugins: {
+        ...baseOpts().plugins,
+        tooltip: { ...tooltipStyle(), callbacks: { label: ctx => ' ★ '+ctx.raw } }
+      }
+    }
+  });
+}
+
+function buildLoyalty() {
+  const labels = Object.keys(D.loyalty);
+  const vals   = labels.map(k => D.loyalty[k].customers);
+  new Chart(document.getElementById('c-loyalty'), {
+    type: 'doughnut',
+    data: { labels, datasets: [{ data: vals, backgroundColor: P.slice(0,4), borderWidth: 0, hoverOffset: 8 }] },
+    options: {
+      ...baseOpts(),
+      cutout: '65%',
+      plugins: {
+        ...baseOpts().plugins,
+        tooltip: { ...tooltipStyle(), callbacks: { label: ctx => ` ${ctx.label}: ${ctx.raw} customers` } }
+      }
+    }
+  });
+  document.getElementById('loyalty-legend').innerHTML = labels.map((l,i) => `
+    <div style="display:flex;align-items:center;gap:8px;">
+      <span style="width:10px;height:10px;border-radius:2px;background:${P[i]};flex-shrink:0"></span>
+      <span style="color:var(--muted)">${l}</span>
+      <span style="margin-left:auto;color:var(--text);font-family:'Syne',sans-serif;font-weight:600">${D.loyalty[l].customers}</span>
+    </div>`).join('');
+}
+
+function buildHeatmap() {
+  const cats    = ['Clothing','Accessories','Footwear','Outerwear'];
+  const genders = ['Male','Female'];
+  const allVals = genders.flatMap(g => cats.map(c => D.gender[g][c]));
+  const maxVal  = Math.max(...allVals);
+
+  const grid = document.getElementById('heatmap');
+  grid.innerHTML = '';
+  grid.className = 'heatmap-grid';
+
+  // Header row
+  grid.innerHTML += `<div class="hm-col-head"></div>` + cats.map(c =>
+    `<div class="hm-col-head">${c}</div>`).join('');
+
+  genders.forEach((g, gi) => {
+    grid.innerHTML += `<div class="hm-label">${g}</div>`;
+    cats.forEach(c => {
+      const v   = D.gender[g][c];
+      const pct = v / maxVal;
+      const baseColor = gi === 0 ? [55,138,221] : [240,96,168];
+      const alpha     = 0.15 + pct * 0.75;
+      const bg  = `rgba(${baseColor.join(',')},${alpha.toFixed(2)})`;
+      const fg  = pct > 0.6 ? '#f0ede8' : '#6b6878';
+      grid.innerHTML += `<div class="hm-cell" style="background:${bg};color:${fg}" title="${g} · ${c}: ${fmtFull(v)}">${fmtK(v)}</div>`;
+    });
+  });
+}
+
+/* ── PRODUCTS TABLE ────────────────────────────── */
+let sortKey = 'revenue';
+function renderTable() {
+  const sorted = [...D.products].sort((a,b) => b[sortKey] - a[sortKey]);
+  const maxRev = Math.max(...sorted.map(p => p.revenue));
+  document.getElementById('prod-tbody').innerHTML = sorted.map((p,i) => `
+    <tr>
+      <td class="rank">${i+1}</td>
+      <td style="font-weight:500">${p.name}</td>
+      <td><span class="cat-tag">${p.cat}</span></td>
+      <td>${fmtFull(p.revenue)}</td>
+      <td>${p.orders}</td>
+      <td>${p.rating.toFixed(2)} ★</td>
+      <td>
+        <span class="inline-bar" style="width:${Math.round(p.revenue/maxRev*80)}px"></span>
+      </td>
+    </tr>`).join('');
+}
+
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    sortKey = btn.dataset.sort;
+    renderTable();
+  });
+});
+
+/* ── FILTERS ───────────────────────────────────── */
+['f-season','f-gender','f-category'].forEach(id =>
+  document.getElementById(id).addEventListener('change', renderKPIs));
+
+/* ── SIDEBAR NAV ───────────────────────────────── */
+document.querySelectorAll('.nav-link').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.nav-link').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  });
+});
+
+/* ── INIT ──────────────────────────────────────── */
+renderKPIs();
+buildCategory();
+buildSeason();
+buildAge();
+buildPayment();
+buildShipping();
+buildLoyalty();
+buildHeatmap();
+renderTable();
+</script>
+</body>
+</html>
