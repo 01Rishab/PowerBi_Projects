@@ -1,0 +1,1001 @@
+Order_ID,Order_Date,Month,Quarter,Product_ID,Product_Name,Category,City,Region,Sales_Channel,Customer_Segment,Payment_Method,Quantity,Unit_Price_INR,Discount_Percent,Total_Revenue_INR,Return_Flag,Customer_Rating
+ORD0001,2024-11-23,November,Q4,P002,Wireless Headphones,Electronics,Guwahati,Northeast,Corporate B2B,SME,UPI,4,3325.0,5,13300.0,No,5
+ORD0002,2024-02-14,February,Q1,P010,Whiteboard Marker Set,Stationery,Kolkata,East,Online,Individual,Credit Card,4,171.0,5,684.0,No,
+ORD0003,2024-04-11,April,Q2,P012,Monitor 24 inch,Electronics,Kolkata,East,Online,SME,EMI,5,18000.0,0,90000.0,No,
+ORD0004,2024-08-04,August,Q3,P006,USB-C Hub,Electronics,Hyderabad,South,Online,Individual,Net Banking,2,2200.0,0,4400.0,No,3
+ORD0005,2024-11-05,November,Q4,P005,LED Desk Lamp,Furniture,Guwahati,Northeast,Corporate B2B,SME,EMI,2,1530.0,15,3060.0,No,
+ORD0006,2024-11-17,November,Q4,P010,Whiteboard Marker Set,Stationery,Chennai,South,Corporate B2B,Individual,Credit Card,1,171.0,5,171.0,No,2
+ORD0007,2024-02-21,February,Q1,P007,Mechanical Keyboard,Electronics,Hyderabad,South,Retail Store,Enterprise,Net Banking,3,4050.0,10,12150.0,No,1
+ORD0008,2024-11-07,November,Q4,P011,Standing Desk,Furniture,Mumbai,West,Corporate B2B,Enterprise,UPI,3,18700.0,15,56100.0,No,5
+ORD0009,2024-04-22,April,Q2,P011,Standing Desk,Furniture,Chennai,South,Online,Individual,Credit Card,6,18700.0,15,112200.0,No,
+ORD0010,2024-10-17,October,Q4,P015,Webcam HD,Electronics,Chennai,South,Online,Enterprise,Cash,7,2720.0,15,19040.0,No,
+ORD0011,2024-10-14,October,Q4,P009,Ergonomic Mouse,Electronics,Hyderabad,South,Corporate B2B,Enterprise,Cash,10,1360.0,15,13600.0,No,2
+ORD0012,2024-09-17,September,Q3,P008,A4 Paper Ream,Stationery,Delhi,North,Online,Individual,UPI,3,340.0,15,1020.0,No,5
+ORD0013,2024-08-27,August,Q3,P009,Ergonomic Mouse,Electronics,Hyderabad,South,Corporate B2B,Individual,Credit Card,9,1440.0,10,12960.0,No,3
+ORD0014,2024-08-10,August,Q3,P003,Office Chair,Furniture,Pune,West,Online,Enterprise,Net Banking,9,11400.0,5,102600.0,No,
+ORD0015,2024-11-16,November,Q4,P005,LED Desk Lamp,Furniture,Bangalore,South,Online,SME,UPI,9,1440.0,20,12960.0,No,4
+ORD0016,2024-01-10,January,Q1,P002,Wireless Headphones,Electronics,Chennai,South,Retail Store,Individual,Credit Card,4,2800.0,20,11200.0,No,
+ORD0017,2024-09-05,September,Q3,P014,Filing Cabinet,Furniture,Delhi,North,Corporate B2B,Individual,UPI,8,6800.0,20,54400.0,No,5
+ORD0018,2024-08-04,August,Q3,P004,Notebook Set (5 pack),Stationery,Bangalore,South,Corporate B2B,SME,Cash,6,212.5,15,1275.0,No,2
+ORD0019,2024-04-25,April,Q2,P002,Wireless Headphones,Electronics,Chennai,South,Online,Enterprise,EMI,4,2800.0,20,11200.0,No,
+ORD0020,2024-11-19,November,Q4,P001,Laptop Pro 15,Electronics,Bangalore,South,Online,Individual,Net Banking,2,52000.0,20,104000.0,No,2
+ORD0021,2024-10-03,October,Q4,P003,Office Chair,Furniture,Pune,West,Online,SME,Cash,4,12000.0,0,48000.0,No,4
+ORD0022,2024-07-29,July,Q3,P008,A4 Paper Ream,Stationery,Guwahati,Northeast,Corporate B2B,Enterprise,Credit Card,1,340.0,15,340.0,No,1
+ORD0023,2024-05-07,May,Q2,P004,Notebook Set (5 pack),Stationery,Bangalore,South,Corporate B2B,SME,UPI,7,237.5,5,1662.5,No,
+ORD0024,2024-02-08,February,Q1,P008,A4 Paper Ream,Stationery,Delhi,North,Online,Enterprise,EMI,1,400.0,0,400.0,No,2
+ORD0025,2024-07-27,July,Q3,P008,A4 Paper Ream,Stationery,Pune,West,Online,SME,Credit Card,3,340.0,15,1020.0,Yes,4
+ORD0026,2024-05-26,May,Q2,P007,Mechanical Keyboard,Electronics,Pune,West,Online,Individual,Net Banking,4,4500.0,0,18000.0,No,3
+ORD0027,2024-01-30,January,Q1,P001,Laptop Pro 15,Electronics,Pune,West,Corporate B2B,Enterprise,UPI,1,52000.0,20,52000.0,No,
+ORD0028,2024-10-31,October,Q4,P002,Wireless Headphones,Electronics,Bangalore,South,Retail Store,Individual,EMI,4,2800.0,20,11200.0,No,4
+ORD0029,2024-12-02,December,Q4,P010,Whiteboard Marker Set,Stationery,Chennai,South,Retail Store,Individual,Net Banking,4,162.0,10,648.0,No,3
+ORD0030,2024-08-22,August,Q3,P006,USB-C Hub,Electronics,Delhi,North,Online,SME,EMI,10,2200.0,0,22000.0,No,
+ORD0031,2024-05-15,May,Q2,P003,Office Chair,Furniture,Chennai,South,Online,Individual,Net Banking,5,11400.0,5,57000.0,No,3
+ORD0032,2024-11-09,November,Q4,P013,Printer Ink Cartridge,Stationery,Guwahati,Northeast,Corporate B2B,Enterprise,Net Banking,2,902.5,5,1805.0,No,5
+ORD0033,2024-03-20,March,Q1,P005,LED Desk Lamp,Furniture,Hyderabad,South,Corporate B2B,Individual,Net Banking,4,1620.0,10,6480.0,No,
+ORD0034,2024-01-27,January,Q1,P002,Wireless Headphones,Electronics,Kolkata,East,Retail Store,Individual,Credit Card,6,3325.0,5,19950.0,No,
+ORD0035,2024-08-14,August,Q3,P009,Ergonomic Mouse,Electronics,Kolkata,East,Corporate B2B,Individual,Credit Card,2,1520.0,5,3040.0,No,5
+ORD0036,2024-10-09,October,Q4,P003,Office Chair,Furniture,Kolkata,East,Online,Individual,Net Banking,6,12000.0,0,72000.0,No,
+ORD0037,2024-05-07,May,Q2,P011,Standing Desk,Furniture,Delhi,North,Retail Store,Enterprise,Cash,10,20900.0,5,209000.0,No,
+ORD0038,2024-03-24,March,Q1,P013,Printer Ink Cartridge,Stationery,Mumbai,West,Retail Store,Individual,UPI,6,807.5,15,4845.0,No,2
+ORD0039,2024-05-16,May,Q2,P003,Office Chair,Furniture,Delhi,North,Retail Store,Individual,Cash,4,11400.0,5,45600.0,No,3
+ORD0040,2024-04-26,April,Q2,P004,Notebook Set (5 pack),Stationery,Guwahati,Northeast,Corporate B2B,Individual,Cash,6,225.0,10,1350.0,No,3
+ORD0041,2024-06-28,June,Q2,P011,Standing Desk,Furniture,Kolkata,East,Corporate B2B,Enterprise,Net Banking,1,22000.0,0,22000.0,No,
+ORD0042,2024-10-24,October,Q4,P005,LED Desk Lamp,Furniture,Guwahati,Northeast,Online,Enterprise,Cash,6,1620.0,10,9720.0,No,1
+ORD0043,2024-07-16,July,Q3,P015,Webcam HD,Electronics,Bangalore,South,Retail Store,Individual,Cash,1,2560.0,20,2560.0,No,2
+ORD0044,2024-07-05,July,Q3,P007,Mechanical Keyboard,Electronics,Delhi,North,Corporate B2B,SME,EMI,6,4500.0,0,27000.0,No,3
+ORD0045,2024-12-07,December,Q4,P007,Mechanical Keyboard,Electronics,Chennai,South,Retail Store,Enterprise,Net Banking,9,4275.0,5,38475.0,No,4
+ORD0046,2024-12-12,December,Q4,P012,Monitor 24 inch,Electronics,Mumbai,West,Corporate B2B,Enterprise,Net Banking,7,14400.0,20,100800.0,No,2
+ORD0047,2024-08-08,August,Q3,P013,Printer Ink Cartridge,Stationery,Chennai,South,Retail Store,SME,Cash,4,760.0,20,3040.0,No,2
+ORD0048,2024-12-03,December,Q4,P002,Wireless Headphones,Electronics,Hyderabad,South,Corporate B2B,Enterprise,EMI,6,3500.0,0,21000.0,No,3
+ORD0049,2024-04-25,April,Q2,P013,Printer Ink Cartridge,Stationery,Bangalore,South,Online,Individual,Credit Card,4,807.5,15,3230.0,No,4
+ORD0050,2024-07-31,July,Q3,P015,Webcam HD,Electronics,Bangalore,South,Corporate B2B,Enterprise,Cash,8,2720.0,15,21760.0,No,1
+ORD0051,2024-02-24,February,Q1,P013,Printer Ink Cartridge,Stationery,Kolkata,East,Online,Individual,EMI,8,950.0,0,7600.0,No,1
+ORD0052,2024-08-21,August,Q3,P003,Office Chair,Furniture,Pune,West,Corporate B2B,Enterprise,EMI,10,10800.0,10,108000.0,No,5
+ORD0053,2024-09-15,September,Q3,P007,Mechanical Keyboard,Electronics,Pune,West,Online,Enterprise,Cash,8,4050.0,10,32400.0,No,3
+ORD0054,2024-09-23,September,Q3,P008,A4 Paper Ream,Stationery,Bangalore,South,Retail Store,SME,Credit Card,5,380.0,5,1900.0,No,5
+ORD0055,2024-02-11,February,Q1,P003,Office Chair,Furniture,Mumbai,West,Online,SME,UPI,4,12000.0,0,48000.0,No,4
+ORD0056,2024-07-31,July,Q3,P001,Laptop Pro 15,Electronics,Bangalore,South,Retail Store,SME,EMI,1,52000.0,20,52000.0,No,
+ORD0057,2024-06-29,June,Q2,P005,LED Desk Lamp,Furniture,Kolkata,East,Retail Store,Enterprise,EMI,10,1710.0,5,17100.0,No,
+ORD0058,2024-09-05,September,Q3,P001,Laptop Pro 15,Electronics,Kolkata,East,Retail Store,Enterprise,Cash,3,55250.0,15,165750.0,No,5
+ORD0059,2024-01-14,January,Q1,P015,Webcam HD,Electronics,Kolkata,East,Corporate B2B,Enterprise,Credit Card,2,2720.0,15,5440.0,No,1
+ORD0060,2024-05-13,May,Q2,P007,Mechanical Keyboard,Electronics,Chennai,South,Online,SME,Net Banking,6,3825.0,15,22950.0,No,4
+ORD0061,2024-05-09,May,Q2,P014,Filing Cabinet,Furniture,Delhi,North,Retail Store,Individual,EMI,1,7650.0,10,7650.0,No,
+ORD0062,2024-11-29,November,Q4,P001,Laptop Pro 15,Electronics,Guwahati,Northeast,Online,Individual,Credit Card,10,61750.0,5,617500.0,No,1
+ORD0063,2024-10-15,October,Q4,P004,Notebook Set (5 pack),Stationery,Pune,West,Corporate B2B,SME,Net Banking,3,200.0,20,600.0,No,1
+ORD0064,2024-03-24,March,Q1,P005,LED Desk Lamp,Furniture,Delhi,North,Corporate B2B,Individual,Net Banking,10,1530.0,15,15300.0,No,1
+ORD0065,2024-10-30,October,Q4,P012,Monitor 24 inch,Electronics,Bangalore,South,Online,Enterprise,Net Banking,10,18000.0,0,180000.0,No,1
+ORD0066,2024-06-26,June,Q2,P009,Ergonomic Mouse,Electronics,Kolkata,East,Corporate B2B,SME,Credit Card,9,1440.0,10,12960.0,Yes,4
+ORD0067,2024-02-24,February,Q1,P007,Mechanical Keyboard,Electronics,Chennai,South,Corporate B2B,SME,UPI,7,4275.0,5,29925.0,No,3
+ORD0068,2024-11-11,November,Q4,P013,Printer Ink Cartridge,Stationery,Pune,West,Retail Store,SME,EMI,5,855.0,10,4275.0,No,1
+ORD0069,2024-05-22,May,Q2,P015,Webcam HD,Electronics,Pune,West,Online,SME,EMI,10,2720.0,15,27200.0,No,3
+ORD0070,2024-04-03,April,Q2,P008,A4 Paper Ream,Stationery,Bangalore,South,Retail Store,SME,Net Banking,5,320.0,20,1600.0,No,
+ORD0071,2024-01-06,January,Q1,P009,Ergonomic Mouse,Electronics,Bangalore,South,Online,Individual,Cash,8,1280.0,20,10240.0,No,4
+ORD0072,2024-08-17,August,Q3,P013,Printer Ink Cartridge,Stationery,Guwahati,Northeast,Online,SME,UPI,7,902.5,5,6317.5,No,4
+ORD0073,2024-10-10,October,Q4,P009,Ergonomic Mouse,Electronics,Chennai,South,Retail Store,Enterprise,EMI,6,1440.0,10,8640.0,No,
+ORD0074,2024-05-08,May,Q2,P004,Notebook Set (5 pack),Stationery,Delhi,North,Corporate B2B,Individual,Net Banking,2,200.0,20,400.0,No,2
+ORD0075,2024-04-20,April,Q2,P012,Monitor 24 inch,Electronics,Pune,West,Retail Store,Enterprise,EMI,9,14400.0,20,129600.0,No,
+ORD0076,2024-04-09,April,Q2,P005,LED Desk Lamp,Furniture,Bangalore,South,Retail Store,Individual,Net Banking,1,1440.0,20,1440.0,No,
+ORD0077,2024-01-28,January,Q1,P009,Ergonomic Mouse,Electronics,Hyderabad,South,Corporate B2B,Individual,Cash,2,1600.0,0,3200.0,No,4
+ORD0078,2024-06-23,June,Q2,P003,Office Chair,Furniture,Guwahati,Northeast,Retail Store,SME,Credit Card,2,10200.0,15,20400.0,No,1
+ORD0079,2024-03-18,March,Q1,P003,Office Chair,Furniture,Hyderabad,South,Online,Individual,Credit Card,9,10200.0,15,91800.0,No,2
+ORD0080,2024-09-24,September,Q3,P007,Mechanical Keyboard,Electronics,Pune,West,Retail Store,SME,EMI,7,4050.0,10,28350.0,No,
+ORD0081,2024-02-20,February,Q1,P013,Printer Ink Cartridge,Stationery,Bangalore,South,Corporate B2B,Individual,Net Banking,2,902.5,5,1805.0,No,2
+ORD0082,2024-01-02,January,Q1,P007,Mechanical Keyboard,Electronics,Pune,West,Corporate B2B,Enterprise,Cash,5,4500.0,0,22500.0,No,4
+ORD0083,2024-02-06,February,Q1,P011,Standing Desk,Furniture,Bangalore,South,Retail Store,Enterprise,EMI,4,18700.0,15,74800.0,No,
+ORD0084,2024-03-17,March,Q1,P015,Webcam HD,Electronics,Hyderabad,South,Online,Individual,Credit Card,3,2880.0,10,8640.0,No,3
+ORD0085,2024-08-12,August,Q3,P002,Wireless Headphones,Electronics,Pune,West,Corporate B2B,SME,Cash,5,2800.0,20,14000.0,No,5
+ORD0086,2024-01-21,January,Q1,P015,Webcam HD,Electronics,Kolkata,East,Corporate B2B,SME,EMI,5,3200.0,0,16000.0,No,5
+ORD0087,2024-10-27,October,Q4,P001,Laptop Pro 15,Electronics,Hyderabad,South,Corporate B2B,Individual,UPI,8,52000.0,20,416000.0,No,2
+ORD0088,2024-10-26,October,Q4,P007,Mechanical Keyboard,Electronics,Pune,West,Online,SME,Net Banking,7,4050.0,10,28350.0,No,
+ORD0089,2024-03-23,March,Q1,P006,USB-C Hub,Electronics,Kolkata,East,Corporate B2B,SME,Net Banking,7,1760.0,20,12320.0,Yes,
+ORD0090,2024-05-09,May,Q2,P006,USB-C Hub,Electronics,Delhi,North,Retail Store,Enterprise,Credit Card,9,1870.0,15,16830.0,No,
+ORD0091,2024-07-04,July,Q3,P010,Whiteboard Marker Set,Stationery,Pune,West,Corporate B2B,SME,Credit Card,4,162.0,10,648.0,No,4
+ORD0092,2024-12-23,December,Q4,P008,A4 Paper Ream,Stationery,Delhi,North,Online,Enterprise,EMI,4,380.0,5,1520.0,No,
+ORD0093,2024-07-27,July,Q3,P002,Wireless Headphones,Electronics,Bangalore,South,Online,SME,Credit Card,3,2975.0,15,8925.0,No,
+ORD0094,2024-12-27,December,Q4,P005,LED Desk Lamp,Furniture,Kolkata,East,Retail Store,SME,UPI,8,1440.0,20,11520.0,No,
+ORD0095,2024-11-02,November,Q4,P009,Ergonomic Mouse,Electronics,Mumbai,West,Online,SME,Cash,6,1280.0,20,7680.0,No,
+ORD0096,2024-06-01,June,Q2,P014,Filing Cabinet,Furniture,Pune,West,Online,SME,EMI,8,7650.0,10,61200.0,No,4
+ORD0097,2024-08-21,August,Q3,P015,Webcam HD,Electronics,Chennai,South,Online,Enterprise,UPI,10,2720.0,15,27200.0,No,1
+ORD0098,2024-06-11,June,Q2,P012,Monitor 24 inch,Electronics,Pune,West,Corporate B2B,SME,Cash,3,15300.0,15,45900.0,No,
+ORD0099,2024-10-29,October,Q4,P006,USB-C Hub,Electronics,Delhi,North,Retail Store,Individual,EMI,8,2200.0,0,17600.0,No,2
+ORD0100,2024-02-08,February,Q1,P008,A4 Paper Ream,Stationery,Hyderabad,South,Retail Store,Enterprise,Cash,2,360.0,10,720.0,No,4
+ORD0101,2024-06-11,June,Q2,P011,Standing Desk,Furniture,Pune,West,Corporate B2B,Individual,EMI,2,20900.0,5,41800.0,No,2
+ORD0102,2024-02-16,February,Q1,P007,Mechanical Keyboard,Electronics,Delhi,North,Corporate B2B,Enterprise,Credit Card,8,4275.0,5,34200.0,No,1
+ORD0103,2024-06-15,June,Q2,P013,Printer Ink Cartridge,Stationery,Guwahati,Northeast,Retail Store,SME,Net Banking,7,902.5,5,6317.5,No,2
+ORD0104,2024-03-28,March,Q1,P003,Office Chair,Furniture,Delhi,North,Corporate B2B,SME,EMI,4,10200.0,15,40800.0,No,
+ORD0105,2024-08-24,August,Q3,P011,Standing Desk,Furniture,Hyderabad,South,Retail Store,SME,Credit Card,8,19800.0,10,158400.0,No,
+ORD0106,2024-08-14,August,Q3,P006,USB-C Hub,Electronics,Hyderabad,South,Corporate B2B,SME,Net Banking,8,1980.0,10,15840.0,No,4
+ORD0107,2024-02-24,February,Q1,P004,Notebook Set (5 pack),Stationery,Kolkata,East,Corporate B2B,SME,EMI,5,225.0,10,1125.0,Yes,4
+ORD0108,2024-05-20,May,Q2,P001,Laptop Pro 15,Electronics,Guwahati,Northeast,Corporate B2B,Enterprise,Cash,5,61750.0,5,308750.0,No,2
+ORD0109,2024-11-13,November,Q4,P005,LED Desk Lamp,Furniture,Mumbai,West,Corporate B2B,Individual,Credit Card,5,1530.0,15,7650.0,Yes,2
+ORD0110,2024-02-16,February,Q1,P015,Webcam HD,Electronics,Hyderabad,South,Retail Store,Enterprise,Cash,3,3040.0,5,9120.0,No,3
+ORD0111,2024-09-28,September,Q3,P009,Ergonomic Mouse,Electronics,Hyderabad,South,Online,SME,Cash,5,1440.0,10,7200.0,No,1
+ORD0112,2024-03-13,March,Q1,P013,Printer Ink Cartridge,Stationery,Bangalore,South,Corporate B2B,Enterprise,Cash,9,855.0,10,7695.0,No,3
+ORD0113,2024-10-01,October,Q4,P002,Wireless Headphones,Electronics,Pune,West,Retail Store,Enterprise,Net Banking,10,2975.0,15,29750.0,No,1
+ORD0114,2024-12-11,December,Q4,P004,Notebook Set (5 pack),Stationery,Pune,West,Online,Enterprise,EMI,6,200.0,20,1200.0,No,
+ORD0115,2024-08-25,August,Q3,P015,Webcam HD,Electronics,Hyderabad,South,Corporate B2B,SME,Credit Card,3,3200.0,0,9600.0,No,4
+ORD0116,2024-02-29,February,Q1,P002,Wireless Headphones,Electronics,Bangalore,South,Corporate B2B,Individual,Cash,8,3150.0,10,25200.0,No,5
+ORD0117,2024-08-02,August,Q3,P010,Whiteboard Marker Set,Stationery,Mumbai,West,Retail Store,Enterprise,Credit Card,8,144.0,20,1152.0,No,1
+ORD0118,2024-12-19,December,Q4,P006,USB-C Hub,Electronics,Bangalore,South,Retail Store,SME,UPI,6,2200.0,0,13200.0,No,3
+ORD0119,2024-02-01,February,Q1,P007,Mechanical Keyboard,Electronics,Hyderabad,South,Online,Individual,Cash,2,4275.0,5,8550.0,No,1
+ORD0120,2024-01-26,January,Q1,P013,Printer Ink Cartridge,Stationery,Chennai,South,Online,Individual,EMI,4,950.0,0,3800.0,No,5
+ORD0121,2024-04-20,April,Q2,P014,Filing Cabinet,Furniture,Bangalore,South,Retail Store,Individual,EMI,1,7650.0,10,7650.0,No,
+ORD0122,2024-03-07,March,Q1,P009,Ergonomic Mouse,Electronics,Hyderabad,South,Online,Individual,Credit Card,3,1600.0,0,4800.0,No,5
+ORD0123,2024-06-14,June,Q2,P001,Laptop Pro 15,Electronics,Mumbai,West,Retail Store,Individual,UPI,7,52000.0,20,364000.0,No,
+ORD0124,2024-08-17,August,Q3,P013,Printer Ink Cartridge,Stationery,Chennai,South,Corporate B2B,Enterprise,Credit Card,8,760.0,20,6080.0,No,5
+ORD0125,2024-06-03,June,Q2,P008,A4 Paper Ream,Stationery,Guwahati,Northeast,Online,SME,Cash,7,400.0,0,2800.0,No,1
+ORD0126,2024-02-11,February,Q1,P006,USB-C Hub,Electronics,Mumbai,West,Online,Individual,Net Banking,10,1760.0,20,17600.0,No,5
+ORD0127,2024-09-28,September,Q3,P005,LED Desk Lamp,Furniture,Pune,West,Corporate B2B,Enterprise,Cash,2,1800.0,0,3600.0,No,5
+ORD0128,2024-04-20,April,Q2,P007,Mechanical Keyboard,Electronics,Pune,West,Online,SME,Net Banking,8,3825.0,15,30600.0,No,
+ORD0129,2024-08-06,August,Q3,P006,USB-C Hub,Electronics,Hyderabad,South,Retail Store,Individual,Cash,2,2200.0,0,4400.0,No,
+ORD0130,2024-02-19,February,Q1,P012,Monitor 24 inch,Electronics,Chennai,South,Online,Enterprise,Credit Card,10,14400.0,20,144000.0,No,4
+ORD0131,2024-06-30,June,Q2,P014,Filing Cabinet,Furniture,Kolkata,East,Corporate B2B,Individual,Net Banking,10,7650.0,10,76500.0,No,2
+ORD0132,2024-03-20,March,Q1,P011,Standing Desk,Furniture,Pune,West,Online,Individual,Net Banking,9,19800.0,10,178200.0,No,
+ORD0133,2024-04-25,April,Q2,P013,Printer Ink Cartridge,Stationery,Kolkata,East,Corporate B2B,Enterprise,EMI,9,950.0,0,8550.0,No,3
+ORD0134,2024-01-15,January,Q1,P003,Office Chair,Furniture,Hyderabad,South,Corporate B2B,SME,Net Banking,6,12000.0,0,72000.0,No,
+ORD0135,2024-12-02,December,Q4,P007,Mechanical Keyboard,Electronics,Delhi,North,Online,Enterprise,Credit Card,2,3600.0,20,7200.0,No,3
+ORD0136,2024-03-21,March,Q1,P006,USB-C Hub,Electronics,Hyderabad,South,Corporate B2B,SME,EMI,10,2200.0,0,22000.0,No,
+ORD0137,2024-11-12,November,Q4,P001,Laptop Pro 15,Electronics,Delhi,North,Retail Store,SME,Cash,8,52000.0,20,416000.0,No,
+ORD0138,2024-09-19,September,Q3,P002,Wireless Headphones,Electronics,Chennai,South,Retail Store,Individual,Net Banking,10,2975.0,15,29750.0,No,2
+ORD0139,2024-07-21,July,Q3,P010,Whiteboard Marker Set,Stationery,Guwahati,Northeast,Online,Individual,Net Banking,4,171.0,5,684.0,No,
+ORD0140,2024-03-02,March,Q1,P001,Laptop Pro 15,Electronics,Pune,West,Corporate B2B,SME,UPI,3,55250.0,15,165750.0,No,
+ORD0141,2024-10-13,October,Q4,P014,Filing Cabinet,Furniture,Chennai,South,Online,SME,Credit Card,7,8500.0,0,59500.0,No,
+ORD0142,2024-06-09,June,Q2,P010,Whiteboard Marker Set,Stationery,Kolkata,East,Corporate B2B,SME,Cash,5,180.0,0,900.0,No,2
+ORD0143,2024-11-12,November,Q4,P008,A4 Paper Ream,Stationery,Chennai,South,Online,SME,Credit Card,4,340.0,15,1360.0,No,4
+ORD0144,2024-06-07,June,Q2,P012,Monitor 24 inch,Electronics,Chennai,South,Online,SME,UPI,2,14400.0,20,28800.0,No,2
+ORD0145,2024-06-27,June,Q2,P006,USB-C Hub,Electronics,Mumbai,West,Online,Individual,UPI,5,2090.0,5,10450.0,No,
+ORD0146,2024-12-01,December,Q4,P002,Wireless Headphones,Electronics,Mumbai,West,Corporate B2B,SME,Cash,10,2800.0,20,28000.0,No,5
+ORD0147,2024-11-25,November,Q4,P011,Standing Desk,Furniture,Chennai,South,Corporate B2B,SME,UPI,8,22000.0,0,176000.0,No,3
+ORD0148,2024-10-29,October,Q4,P001,Laptop Pro 15,Electronics,Chennai,South,Corporate B2B,Individual,Net Banking,8,55250.0,15,442000.0,Yes,3
+ORD0149,2024-02-09,February,Q1,P011,Standing Desk,Furniture,Delhi,North,Corporate B2B,Enterprise,EMI,7,18700.0,15,130900.0,No,1
+ORD0150,2024-08-18,August,Q3,P015,Webcam HD,Electronics,Bangalore,South,Retail Store,Enterprise,Cash,9,3040.0,5,27360.0,No,3
+ORD0151,2024-02-13,February,Q1,P009,Ergonomic Mouse,Electronics,Mumbai,West,Online,Individual,Cash,8,1280.0,20,10240.0,No,
+ORD0152,2024-07-09,July,Q3,P015,Webcam HD,Electronics,Hyderabad,South,Retail Store,SME,Net Banking,10,3200.0,0,32000.0,No,1
+ORD0153,2024-06-17,June,Q2,P002,Wireless Headphones,Electronics,Kolkata,East,Retail Store,SME,EMI,3,3150.0,10,9450.0,No,3
+ORD0154,2024-06-07,June,Q2,P011,Standing Desk,Furniture,Kolkata,East,Online,Enterprise,Credit Card,5,17600.0,20,88000.0,No,2
+ORD0155,2024-12-09,December,Q4,P012,Monitor 24 inch,Electronics,Delhi,North,Corporate B2B,Enterprise,Cash,9,16200.0,10,145800.0,Yes,2
+ORD0156,2024-06-23,June,Q2,P013,Printer Ink Cartridge,Stationery,Pune,West,Online,Individual,UPI,3,950.0,0,2850.0,No,5
+ORD0157,2024-10-03,October,Q4,P014,Filing Cabinet,Furniture,Guwahati,Northeast,Corporate B2B,SME,EMI,3,6800.0,20,20400.0,No,
+ORD0158,2024-12-20,December,Q4,P013,Printer Ink Cartridge,Stationery,Mumbai,West,Corporate B2B,SME,Credit Card,7,855.0,10,5985.0,No,
+ORD0159,2024-08-15,August,Q3,P010,Whiteboard Marker Set,Stationery,Hyderabad,South,Corporate B2B,SME,UPI,9,171.0,5,1539.0,No,4
+ORD0160,2024-04-09,April,Q2,P006,USB-C Hub,Electronics,Pune,West,Retail Store,SME,Cash,9,1760.0,20,15840.0,No,
+ORD0161,2024-04-12,April,Q2,P013,Printer Ink Cartridge,Stationery,Mumbai,West,Retail Store,Individual,Cash,6,760.0,20,4560.0,No,5
+ORD0162,2024-03-04,March,Q1,P005,LED Desk Lamp,Furniture,Delhi,North,Online,SME,Cash,9,1710.0,5,15390.0,No,
+ORD0163,2024-04-23,April,Q2,P014,Filing Cabinet,Furniture,Pune,West,Retail Store,Individual,Cash,1,7225.0,15,7225.0,No,
+ORD0164,2024-02-11,February,Q1,P006,USB-C Hub,Electronics,Bangalore,South,Online,SME,Credit Card,6,2090.0,5,12540.0,No,
+ORD0165,2024-08-29,August,Q3,P012,Monitor 24 inch,Electronics,Mumbai,West,Corporate B2B,SME,Cash,10,18000.0,0,180000.0,No,
+ORD0166,2024-04-20,April,Q2,P014,Filing Cabinet,Furniture,Mumbai,West,Corporate B2B,Enterprise,EMI,9,7225.0,15,65025.0,No,
+ORD0167,2024-06-03,June,Q2,P002,Wireless Headphones,Electronics,Guwahati,Northeast,Online,SME,EMI,8,3500.0,0,28000.0,No,5
+ORD0168,2024-10-01,October,Q4,P001,Laptop Pro 15,Electronics,Bangalore,South,Corporate B2B,Individual,Net Banking,7,65000.0,0,455000.0,No,
+ORD0169,2024-08-01,August,Q3,P003,Office Chair,Furniture,Delhi,North,Corporate B2B,SME,Credit Card,9,9600.0,20,86400.0,No,5
+ORD0170,2024-01-11,January,Q1,P007,Mechanical Keyboard,Electronics,Pune,West,Online,Enterprise,Cash,6,4050.0,10,24300.0,No,1
+ORD0171,2024-06-25,June,Q2,P004,Notebook Set (5 pack),Stationery,Delhi,North,Corporate B2B,Enterprise,Net Banking,3,250.0,0,750.0,No,2
+ORD0172,2024-12-16,December,Q4,P008,A4 Paper Ream,Stationery,Pune,West,Corporate B2B,Individual,UPI,2,340.0,15,680.0,Yes,
+ORD0173,2024-04-12,April,Q2,P015,Webcam HD,Electronics,Guwahati,Northeast,Retail Store,SME,EMI,7,2560.0,20,17920.0,No,
+ORD0174,2024-11-27,November,Q4,P004,Notebook Set (5 pack),Stationery,Hyderabad,South,Retail Store,Individual,Net Banking,5,250.0,0,1250.0,No,4
+ORD0175,2024-08-13,August,Q3,P015,Webcam HD,Electronics,Kolkata,East,Retail Store,Individual,Cash,8,2880.0,10,23040.0,No,1
+ORD0176,2024-08-05,August,Q3,P002,Wireless Headphones,Electronics,Kolkata,East,Corporate B2B,Individual,EMI,5,3150.0,10,15750.0,No,3
+ORD0177,2024-06-05,June,Q2,P008,A4 Paper Ream,Stationery,Kolkata,East,Online,Enterprise,Cash,6,340.0,15,2040.0,Yes,3
+ORD0178,2024-11-10,November,Q4,P007,Mechanical Keyboard,Electronics,Hyderabad,South,Corporate B2B,Individual,Credit Card,7,4050.0,10,28350.0,No,2
+ORD0179,2024-01-16,January,Q1,P003,Office Chair,Furniture,Pune,West,Online,Individual,Credit Card,4,10800.0,10,43200.0,No,1
+ORD0180,2024-11-05,November,Q4,P003,Office Chair,Furniture,Pune,West,Retail Store,SME,Cash,2,9600.0,20,19200.0,No,3
+ORD0181,2024-11-28,November,Q4,P005,LED Desk Lamp,Furniture,Bangalore,South,Online,Individual,UPI,8,1440.0,20,11520.0,No,3
+ORD0182,2024-05-13,May,Q2,P012,Monitor 24 inch,Electronics,Pune,West,Online,Enterprise,Net Banking,8,17100.0,5,136800.0,No,4
+ORD0183,2024-03-29,March,Q1,P015,Webcam HD,Electronics,Pune,West,Online,Enterprise,Net Banking,6,3200.0,0,19200.0,No,
+ORD0184,2024-06-02,June,Q2,P014,Filing Cabinet,Furniture,Mumbai,West,Corporate B2B,Enterprise,UPI,6,6800.0,20,40800.0,No,2
+ORD0185,2024-05-01,May,Q2,P013,Printer Ink Cartridge,Stationery,Pune,West,Online,SME,EMI,10,855.0,10,8550.0,No,2
+ORD0186,2024-11-09,November,Q4,P015,Webcam HD,Electronics,Delhi,North,Online,SME,Cash,8,2560.0,20,20480.0,No,5
+ORD0187,2024-02-07,February,Q1,P003,Office Chair,Furniture,Chennai,South,Corporate B2B,Individual,Cash,8,9600.0,20,76800.0,No,5
+ORD0188,2024-11-23,November,Q4,P010,Whiteboard Marker Set,Stationery,Mumbai,West,Online,SME,EMI,1,180.0,0,180.0,No,2
+ORD0189,2024-06-14,June,Q2,P015,Webcam HD,Electronics,Bangalore,South,Retail Store,Enterprise,Net Banking,2,2880.0,10,5760.0,No,3
+ORD0190,2024-03-05,March,Q1,P011,Standing Desk,Furniture,Hyderabad,South,Corporate B2B,Enterprise,Credit Card,9,20900.0,5,188100.0,No,2
+ORD0191,2024-12-03,December,Q4,P010,Whiteboard Marker Set,Stationery,Chennai,South,Corporate B2B,Individual,Credit Card,2,180.0,0,360.0,No,3
+ORD0192,2024-11-29,November,Q4,P004,Notebook Set (5 pack),Stationery,Kolkata,East,Corporate B2B,Enterprise,Credit Card,8,200.0,20,1600.0,No,4
+ORD0193,2024-05-05,May,Q2,P013,Printer Ink Cartridge,Stationery,Kolkata,East,Retail Store,SME,Credit Card,1,902.5,5,902.5,No,2
+ORD0194,2024-06-23,June,Q2,P010,Whiteboard Marker Set,Stationery,Mumbai,West,Retail Store,Enterprise,Net Banking,6,153.0,15,918.0,No,5
+ORD0195,2024-02-24,February,Q1,P006,USB-C Hub,Electronics,Bangalore,South,Retail Store,Individual,Net Banking,8,2090.0,5,16720.0,No,
+ORD0196,2024-07-15,July,Q3,P014,Filing Cabinet,Furniture,Kolkata,East,Online,Individual,Net Banking,10,7650.0,10,76500.0,No,
+ORD0197,2024-09-20,September,Q3,P008,A4 Paper Ream,Stationery,Pune,West,Retail Store,SME,Credit Card,2,340.0,15,680.0,No,2
+ORD0198,2024-10-25,October,Q4,P006,USB-C Hub,Electronics,Guwahati,Northeast,Online,SME,Cash,10,1870.0,15,18700.0,No,
+ORD0199,2024-02-25,February,Q1,P007,Mechanical Keyboard,Electronics,Mumbai,West,Retail Store,Enterprise,Net Banking,7,4050.0,10,28350.0,Yes,
+ORD0200,2024-10-14,October,Q4,P004,Notebook Set (5 pack),Stationery,Chennai,South,Corporate B2B,SME,Credit Card,7,200.0,20,1400.0,No,5
+ORD0201,2024-12-14,December,Q4,P010,Whiteboard Marker Set,Stationery,Delhi,North,Online,Individual,Cash,6,162.0,10,972.0,No,2
+ORD0202,2024-04-11,April,Q2,P010,Whiteboard Marker Set,Stationery,Kolkata,East,Corporate B2B,Individual,Credit Card,1,171.0,5,171.0,No,5
+ORD0203,2024-08-21,August,Q3,P003,Office Chair,Furniture,Mumbai,West,Retail Store,Enterprise,Net Banking,3,10200.0,15,30600.0,No,3
+ORD0204,2024-10-30,October,Q4,P006,USB-C Hub,Electronics,Pune,West,Corporate B2B,Enterprise,Net Banking,8,2200.0,0,17600.0,No,4
+ORD0205,2024-10-25,October,Q4,P005,LED Desk Lamp,Furniture,Guwahati,Northeast,Corporate B2B,SME,Net Banking,10,1440.0,20,14400.0,No,
+ORD0206,2024-09-02,September,Q3,P003,Office Chair,Furniture,Kolkata,East,Online,Enterprise,UPI,1,9600.0,20,9600.0,No,
+ORD0207,2024-01-10,January,Q1,P008,A4 Paper Ream,Stationery,Chennai,South,Retail Store,Individual,Cash,4,340.0,15,1360.0,No,4
+ORD0208,2024-02-01,February,Q1,P012,Monitor 24 inch,Electronics,Mumbai,West,Corporate B2B,Individual,EMI,6,15300.0,15,91800.0,No,2
+ORD0209,2024-08-23,August,Q3,P015,Webcam HD,Electronics,Chennai,South,Corporate B2B,SME,Net Banking,10,2720.0,15,27200.0,No,
+ORD0210,2024-10-12,October,Q4,P005,LED Desk Lamp,Furniture,Bangalore,South,Retail Store,SME,UPI,8,1620.0,10,12960.0,No,3
+ORD0211,2024-05-27,May,Q2,P002,Wireless Headphones,Electronics,Kolkata,East,Retail Store,SME,UPI,5,3500.0,0,17500.0,No,3
+ORD0212,2024-08-14,August,Q3,P011,Standing Desk,Furniture,Hyderabad,South,Corporate B2B,SME,UPI,4,17600.0,20,70400.0,No,3
+ORD0213,2024-03-11,March,Q1,P002,Wireless Headphones,Electronics,Bangalore,South,Online,Individual,EMI,4,3325.0,5,13300.0,Yes,4
+ORD0214,2024-02-21,February,Q1,P011,Standing Desk,Furniture,Mumbai,West,Online,Enterprise,UPI,7,18700.0,15,130900.0,No,
+ORD0215,2024-05-27,May,Q2,P006,USB-C Hub,Electronics,Hyderabad,South,Corporate B2B,Individual,Credit Card,10,2090.0,5,20900.0,No,1
+ORD0216,2024-03-30,March,Q1,P007,Mechanical Keyboard,Electronics,Mumbai,West,Online,SME,Cash,3,4050.0,10,12150.0,No,
+ORD0217,2024-10-17,October,Q4,P010,Whiteboard Marker Set,Stationery,Delhi,North,Retail Store,SME,Cash,9,144.0,20,1296.0,No,5
+ORD0218,2024-08-27,August,Q3,P005,LED Desk Lamp,Furniture,Bangalore,South,Online,SME,UPI,8,1620.0,10,12960.0,No,
+ORD0219,2024-06-21,June,Q2,P013,Printer Ink Cartridge,Stationery,Hyderabad,South,Corporate B2B,Enterprise,UPI,3,760.0,20,2280.0,No,4
+ORD0220,2024-09-20,September,Q3,P006,USB-C Hub,Electronics,Delhi,North,Retail Store,Enterprise,Credit Card,3,2090.0,5,6270.0,No,1
+ORD0221,2024-05-13,May,Q2,P007,Mechanical Keyboard,Electronics,Bangalore,South,Retail Store,SME,Net Banking,5,3600.0,20,18000.0,No,
+ORD0222,2024-11-30,November,Q4,P006,USB-C Hub,Electronics,Bangalore,South,Online,Enterprise,Credit Card,8,1980.0,10,15840.0,No,3
+ORD0223,2024-12-19,December,Q4,P002,Wireless Headphones,Electronics,Hyderabad,South,Retail Store,Enterprise,UPI,4,3325.0,5,13300.0,No,5
+ORD0224,2024-07-10,July,Q3,P007,Mechanical Keyboard,Electronics,Pune,West,Corporate B2B,Enterprise,UPI,4,3600.0,20,14400.0,No,
+ORD0225,2024-08-16,August,Q3,P009,Ergonomic Mouse,Electronics,Chennai,South,Online,Enterprise,Credit Card,1,1280.0,20,1280.0,No,
+ORD0226,2024-10-01,October,Q4,P003,Office Chair,Furniture,Mumbai,West,Retail Store,Enterprise,Cash,2,11400.0,5,22800.0,No,5
+ORD0227,2024-08-16,August,Q3,P013,Printer Ink Cartridge,Stationery,Guwahati,Northeast,Retail Store,Individual,EMI,7,807.5,15,5652.5,No,3
+ORD0228,2024-01-12,January,Q1,P007,Mechanical Keyboard,Electronics,Hyderabad,South,Online,Enterprise,UPI,10,4500.0,0,45000.0,Yes,1
+ORD0229,2024-10-04,October,Q4,P001,Laptop Pro 15,Electronics,Delhi,North,Retail Store,Individual,Net Banking,7,61750.0,5,432250.0,No,4
+ORD0230,2024-07-10,July,Q3,P015,Webcam HD,Electronics,Kolkata,East,Retail Store,SME,Cash,2,2560.0,20,5120.0,No,1
+ORD0231,2024-04-01,April,Q2,P009,Ergonomic Mouse,Electronics,Kolkata,East,Corporate B2B,Individual,UPI,1,1600.0,0,1600.0,No,5
+ORD0232,2024-08-05,August,Q3,P009,Ergonomic Mouse,Electronics,Kolkata,East,Online,Individual,Cash,6,1520.0,5,9120.0,No,1
+ORD0233,2024-01-17,January,Q1,P013,Printer Ink Cartridge,Stationery,Kolkata,East,Corporate B2B,Individual,UPI,4,950.0,0,3800.0,No,
+ORD0234,2024-11-02,November,Q4,P011,Standing Desk,Furniture,Guwahati,Northeast,Online,Enterprise,Credit Card,7,18700.0,15,130900.0,No,
+ORD0235,2024-01-29,January,Q1,P003,Office Chair,Furniture,Hyderabad,South,Online,Enterprise,EMI,6,9600.0,20,57600.0,No,3
+ORD0236,2024-05-01,May,Q2,P005,LED Desk Lamp,Furniture,Mumbai,West,Corporate B2B,Enterprise,UPI,7,1620.0,10,11340.0,No,5
+ORD0237,2024-03-30,March,Q1,P011,Standing Desk,Furniture,Kolkata,East,Corporate B2B,SME,Credit Card,6,18700.0,15,112200.0,No,4
+ORD0238,2024-07-28,July,Q3,P003,Office Chair,Furniture,Hyderabad,South,Retail Store,Individual,EMI,8,11400.0,5,91200.0,No,2
+ORD0239,2024-08-25,August,Q3,P015,Webcam HD,Electronics,Guwahati,Northeast,Corporate B2B,SME,Cash,9,2560.0,20,23040.0,No,
+ORD0240,2024-04-14,April,Q2,P006,USB-C Hub,Electronics,Delhi,North,Retail Store,SME,Credit Card,9,2090.0,5,18810.0,Yes,5
+ORD0241,2024-11-04,November,Q4,P001,Laptop Pro 15,Electronics,Delhi,North,Online,Enterprise,EMI,4,55250.0,15,221000.0,No,3
+ORD0242,2024-01-08,January,Q1,P004,Notebook Set (5 pack),Stationery,Bangalore,South,Corporate B2B,Individual,Cash,4,200.0,20,800.0,No,2
+ORD0243,2024-10-09,October,Q4,P006,USB-C Hub,Electronics,Hyderabad,South,Retail Store,SME,EMI,6,1980.0,10,11880.0,No,4
+ORD0244,2024-08-26,August,Q3,P002,Wireless Headphones,Electronics,Pune,West,Retail Store,Individual,Net Banking,6,2975.0,15,17850.0,Yes,2
+ORD0245,2024-01-09,January,Q1,P005,LED Desk Lamp,Furniture,Kolkata,East,Retail Store,Individual,UPI,6,1710.0,5,10260.0,No,4
+ORD0246,2024-10-08,October,Q4,P011,Standing Desk,Furniture,Chennai,South,Retail Store,SME,Cash,8,20900.0,5,167200.0,No,2
+ORD0247,2024-10-06,October,Q4,P008,A4 Paper Ream,Stationery,Mumbai,West,Corporate B2B,Enterprise,Credit Card,9,400.0,0,3600.0,No,
+ORD0248,2024-12-08,December,Q4,P001,Laptop Pro 15,Electronics,Guwahati,Northeast,Retail Store,Individual,UPI,2,61750.0,5,123500.0,Yes,3
+ORD0249,2024-01-31,January,Q1,P010,Whiteboard Marker Set,Stationery,Pune,West,Corporate B2B,SME,Credit Card,1,144.0,20,144.0,No,
+ORD0250,2024-09-28,September,Q3,P012,Monitor 24 inch,Electronics,Hyderabad,South,Corporate B2B,SME,Credit Card,9,15300.0,15,137700.0,No,1
+ORD0251,2024-02-19,February,Q1,P009,Ergonomic Mouse,Electronics,Mumbai,West,Online,Individual,EMI,9,1440.0,10,12960.0,No,
+ORD0252,2024-07-22,July,Q3,P002,Wireless Headphones,Electronics,Chennai,South,Retail Store,SME,EMI,4,3325.0,5,13300.0,No,1
+ORD0253,2024-11-30,November,Q4,P014,Filing Cabinet,Furniture,Guwahati,Northeast,Online,SME,Cash,7,6800.0,20,47600.0,No,2
+ORD0254,2024-02-12,February,Q1,P008,A4 Paper Ream,Stationery,Kolkata,East,Corporate B2B,SME,EMI,2,320.0,20,640.0,No,
+ORD0255,2024-12-20,December,Q4,P015,Webcam HD,Electronics,Pune,West,Retail Store,Individual,Credit Card,5,2560.0,20,12800.0,No,
+ORD0256,2024-06-10,June,Q2,P001,Laptop Pro 15,Electronics,Bangalore,South,Corporate B2B,Individual,Cash,2,58500.0,10,117000.0,No,
+ORD0257,2024-07-18,July,Q3,P011,Standing Desk,Furniture,Chennai,South,Retail Store,Enterprise,UPI,2,17600.0,20,35200.0,No,1
+ORD0258,2024-08-11,August,Q3,P004,Notebook Set (5 pack),Stationery,Delhi,North,Retail Store,Enterprise,EMI,10,212.5,15,2125.0,No,3
+ORD0259,2024-08-18,August,Q3,P008,A4 Paper Ream,Stationery,Bangalore,South,Retail Store,Enterprise,Cash,7,380.0,5,2660.0,No,1
+ORD0260,2024-11-12,November,Q4,P005,LED Desk Lamp,Furniture,Bangalore,South,Corporate B2B,Individual,Credit Card,5,1710.0,5,8550.0,No,2
+ORD0261,2024-07-18,July,Q3,P006,USB-C Hub,Electronics,Chennai,South,Online,Individual,Credit Card,5,1870.0,15,9350.0,No,
+ORD0262,2024-03-08,March,Q1,P002,Wireless Headphones,Electronics,Mumbai,West,Retail Store,SME,EMI,9,2800.0,20,25200.0,No,
+ORD0263,2024-06-30,June,Q2,P009,Ergonomic Mouse,Electronics,Delhi,North,Corporate B2B,Enterprise,Net Banking,7,1600.0,0,11200.0,No,1
+ORD0264,2024-10-13,October,Q4,P015,Webcam HD,Electronics,Bangalore,South,Corporate B2B,Enterprise,UPI,7,3040.0,5,21280.0,No,4
+ORD0265,2024-03-15,March,Q1,P002,Wireless Headphones,Electronics,Mumbai,West,Retail Store,SME,Cash,5,2975.0,15,14875.0,No,2
+ORD0266,2024-11-16,November,Q4,P008,A4 Paper Ream,Stationery,Bangalore,South,Retail Store,Individual,UPI,5,400.0,0,2000.0,No,5
+ORD0267,2024-07-13,July,Q3,P013,Printer Ink Cartridge,Stationery,Chennai,South,Retail Store,SME,Cash,10,902.5,5,9025.0,No,2
+ORD0268,2024-09-02,September,Q3,P006,USB-C Hub,Electronics,Mumbai,West,Retail Store,SME,Net Banking,8,1760.0,20,14080.0,No,3
+ORD0269,2024-07-20,July,Q3,P006,USB-C Hub,Electronics,Delhi,North,Corporate B2B,Individual,EMI,9,2090.0,5,18810.0,No,4
+ORD0270,2024-12-28,December,Q4,P004,Notebook Set (5 pack),Stationery,Pune,West,Retail Store,Enterprise,Credit Card,7,212.5,15,1487.5,No,3
+ORD0271,2024-12-03,December,Q4,P003,Office Chair,Furniture,Kolkata,East,Retail Store,Individual,Cash,10,10200.0,15,102000.0,No,4
+ORD0272,2024-10-05,October,Q4,P001,Laptop Pro 15,Electronics,Chennai,South,Corporate B2B,Enterprise,EMI,2,65000.0,0,130000.0,No,3
+ORD0273,2024-03-26,March,Q1,P011,Standing Desk,Furniture,Guwahati,Northeast,Corporate B2B,Enterprise,Cash,6,18700.0,15,112200.0,No,
+ORD0274,2024-04-23,April,Q2,P009,Ergonomic Mouse,Electronics,Bangalore,South,Retail Store,SME,Cash,8,1280.0,20,10240.0,No,
+ORD0275,2024-01-13,January,Q1,P008,A4 Paper Ream,Stationery,Delhi,North,Retail Store,SME,Credit Card,2,380.0,5,760.0,No,2
+ORD0276,2024-09-23,September,Q3,P008,A4 Paper Ream,Stationery,Chennai,South,Retail Store,Individual,Cash,8,360.0,10,2880.0,Yes,
+ORD0277,2024-12-29,December,Q4,P002,Wireless Headphones,Electronics,Guwahati,Northeast,Retail Store,Enterprise,Credit Card,3,3325.0,5,9975.0,No,3
+ORD0278,2024-10-13,October,Q4,P007,Mechanical Keyboard,Electronics,Pune,West,Online,SME,UPI,3,3825.0,15,11475.0,No,2
+ORD0279,2024-08-18,August,Q3,P010,Whiteboard Marker Set,Stationery,Kolkata,East,Retail Store,Individual,UPI,4,162.0,10,648.0,No,1
+ORD0280,2024-10-22,October,Q4,P002,Wireless Headphones,Electronics,Mumbai,West,Retail Store,SME,UPI,8,3500.0,0,28000.0,No,5
+ORD0281,2024-11-23,November,Q4,P006,USB-C Hub,Electronics,Kolkata,East,Corporate B2B,SME,EMI,2,1980.0,10,3960.0,No,2
+ORD0282,2024-12-10,December,Q4,P012,Monitor 24 inch,Electronics,Hyderabad,South,Corporate B2B,Enterprise,Credit Card,3,16200.0,10,48600.0,No,2
+ORD0283,2024-07-10,July,Q3,P012,Monitor 24 inch,Electronics,Mumbai,West,Corporate B2B,SME,Cash,10,17100.0,5,171000.0,No,4
+ORD0284,2024-11-21,November,Q4,P009,Ergonomic Mouse,Electronics,Mumbai,West,Corporate B2B,Individual,Cash,5,1520.0,5,7600.0,No,5
+ORD0285,2024-01-28,January,Q1,P014,Filing Cabinet,Furniture,Chennai,South,Online,SME,UPI,4,7225.0,15,28900.0,No,4
+ORD0286,2024-07-28,July,Q3,P011,Standing Desk,Furniture,Pune,West,Retail Store,Enterprise,Cash,8,20900.0,5,167200.0,No,
+ORD0287,2024-04-22,April,Q2,P005,LED Desk Lamp,Furniture,Guwahati,Northeast,Retail Store,Individual,EMI,5,1710.0,5,8550.0,No,4
+ORD0288,2024-10-08,October,Q4,P009,Ergonomic Mouse,Electronics,Delhi,North,Corporate B2B,Individual,Net Banking,9,1440.0,10,12960.0,No,4
+ORD0289,2024-10-06,October,Q4,P004,Notebook Set (5 pack),Stationery,Kolkata,East,Online,Enterprise,UPI,5,250.0,0,1250.0,No,1
+ORD0290,2024-08-12,August,Q3,P014,Filing Cabinet,Furniture,Delhi,North,Online,Individual,EMI,6,6800.0,20,40800.0,No,
+ORD0291,2024-03-12,March,Q1,P013,Printer Ink Cartridge,Stationery,Bangalore,South,Online,Individual,EMI,6,760.0,20,4560.0,No,3
+ORD0292,2024-12-26,December,Q4,P005,LED Desk Lamp,Furniture,Hyderabad,South,Corporate B2B,SME,EMI,2,1710.0,5,3420.0,No,1
+ORD0293,2024-05-21,May,Q2,P014,Filing Cabinet,Furniture,Mumbai,West,Corporate B2B,Individual,UPI,3,7650.0,10,22950.0,No,4
+ORD0294,2024-09-07,September,Q3,P003,Office Chair,Furniture,Hyderabad,South,Corporate B2B,SME,Cash,8,12000.0,0,96000.0,No,1
+ORD0295,2024-07-25,July,Q3,P009,Ergonomic Mouse,Electronics,Hyderabad,South,Corporate B2B,SME,Cash,8,1440.0,10,11520.0,No,1
+ORD0296,2024-08-22,August,Q3,P011,Standing Desk,Furniture,Chennai,South,Online,Enterprise,Cash,4,18700.0,15,74800.0,No,3
+ORD0297,2024-05-25,May,Q2,P006,USB-C Hub,Electronics,Mumbai,West,Corporate B2B,SME,Net Banking,1,2200.0,0,2200.0,No,4
+ORD0298,2024-01-09,January,Q1,P002,Wireless Headphones,Electronics,Mumbai,West,Retail Store,SME,Credit Card,7,3325.0,5,23275.0,No,3
+ORD0299,2024-03-22,March,Q1,P014,Filing Cabinet,Furniture,Hyderabad,South,Online,Enterprise,Net Banking,5,8500.0,0,42500.0,No,2
+ORD0300,2024-01-27,January,Q1,P007,Mechanical Keyboard,Electronics,Hyderabad,South,Corporate B2B,Enterprise,UPI,7,4500.0,0,31500.0,No,
+ORD0301,2024-09-01,September,Q3,P002,Wireless Headphones,Electronics,Mumbai,West,Corporate B2B,Individual,EMI,8,3500.0,0,28000.0,Yes,1
+ORD0302,2024-08-04,August,Q3,P012,Monitor 24 inch,Electronics,Mumbai,West,Retail Store,Individual,UPI,7,18000.0,0,126000.0,No,
+ORD0303,2024-06-09,June,Q2,P006,USB-C Hub,Electronics,Hyderabad,South,Online,SME,UPI,3,2200.0,0,6600.0,No,
+ORD0304,2024-11-28,November,Q4,P003,Office Chair,Furniture,Pune,West,Retail Store,Enterprise,UPI,3,10200.0,15,30600.0,No,2
+ORD0305,2024-02-14,February,Q1,P015,Webcam HD,Electronics,Delhi,North,Online,Individual,EMI,7,2880.0,10,20160.0,No,2
+ORD0306,2024-05-06,May,Q2,P005,LED Desk Lamp,Furniture,Delhi,North,Online,Enterprise,EMI,10,1440.0,20,14400.0,No,1
+ORD0307,2024-12-03,December,Q4,P015,Webcam HD,Electronics,Hyderabad,South,Online,Enterprise,EMI,9,3040.0,5,27360.0,No,
+ORD0308,2024-01-28,January,Q1,P013,Printer Ink Cartridge,Stationery,Bangalore,South,Retail Store,SME,Credit Card,4,807.5,15,3230.0,No,
+ORD0309,2024-01-07,January,Q1,P006,USB-C Hub,Electronics,Chennai,South,Online,SME,EMI,7,1980.0,10,13860.0,No,
+ORD0310,2024-08-29,August,Q3,P013,Printer Ink Cartridge,Stationery,Delhi,North,Online,Enterprise,Credit Card,1,855.0,10,855.0,No,4
+ORD0311,2024-09-16,September,Q3,P005,LED Desk Lamp,Furniture,Kolkata,East,Retail Store,Enterprise,Cash,2,1440.0,20,2880.0,No,
+ORD0312,2024-02-12,February,Q1,P005,LED Desk Lamp,Furniture,Delhi,North,Corporate B2B,Individual,UPI,9,1620.0,10,14580.0,No,1
+ORD0313,2024-06-07,June,Q2,P012,Monitor 24 inch,Electronics,Kolkata,East,Corporate B2B,Individual,Credit Card,4,18000.0,0,72000.0,No,
+ORD0314,2024-11-09,November,Q4,P010,Whiteboard Marker Set,Stationery,Guwahati,Northeast,Retail Store,Enterprise,UPI,2,180.0,0,360.0,No,2
+ORD0315,2024-09-11,September,Q3,P006,USB-C Hub,Electronics,Hyderabad,South,Online,SME,UPI,5,2200.0,0,11000.0,No,
+ORD0316,2024-08-07,August,Q3,P005,LED Desk Lamp,Furniture,Delhi,North,Retail Store,Enterprise,EMI,2,1530.0,15,3060.0,No,4
+ORD0317,2024-10-17,October,Q4,P003,Office Chair,Furniture,Chennai,South,Online,SME,Credit Card,10,12000.0,0,120000.0,No,1
+ORD0318,2024-01-07,January,Q1,P004,Notebook Set (5 pack),Stationery,Guwahati,Northeast,Retail Store,SME,Cash,3,237.5,5,712.5,No,5
+ORD0319,2024-12-01,December,Q4,P007,Mechanical Keyboard,Electronics,Bangalore,South,Retail Store,Individual,Cash,6,4050.0,10,24300.0,No,1
+ORD0320,2024-09-14,September,Q3,P011,Standing Desk,Furniture,Guwahati,Northeast,Online,Individual,EMI,1,18700.0,15,18700.0,Yes,3
+ORD0321,2024-06-08,June,Q2,P006,USB-C Hub,Electronics,Delhi,North,Corporate B2B,SME,Credit Card,6,2090.0,5,12540.0,No,5
+ORD0322,2024-05-04,May,Q2,P008,A4 Paper Ream,Stationery,Chennai,South,Corporate B2B,SME,UPI,9,380.0,5,3420.0,No,1
+ORD0323,2024-04-29,April,Q2,P009,Ergonomic Mouse,Electronics,Chennai,South,Corporate B2B,Enterprise,Credit Card,6,1600.0,0,9600.0,No,3
+ORD0324,2024-02-23,February,Q1,P004,Notebook Set (5 pack),Stationery,Bangalore,South,Retail Store,SME,Credit Card,3,225.0,10,675.0,No,5
+ORD0325,2024-07-30,July,Q3,P012,Monitor 24 inch,Electronics,Chennai,South,Retail Store,Enterprise,Credit Card,10,18000.0,0,180000.0,No,4
+ORD0326,2024-02-08,February,Q1,P010,Whiteboard Marker Set,Stationery,Guwahati,Northeast,Retail Store,Enterprise,UPI,4,162.0,10,648.0,No,4
+ORD0327,2024-12-24,December,Q4,P014,Filing Cabinet,Furniture,Chennai,South,Retail Store,SME,Net Banking,4,8500.0,0,34000.0,No,
+ORD0328,2024-10-26,October,Q4,P002,Wireless Headphones,Electronics,Mumbai,West,Online,Individual,Cash,8,3150.0,10,25200.0,No,2
+ORD0329,2024-08-19,August,Q3,P005,LED Desk Lamp,Furniture,Pune,West,Retail Store,Individual,Credit Card,3,1620.0,10,4860.0,No,1
+ORD0330,2024-04-20,April,Q2,P014,Filing Cabinet,Furniture,Chennai,South,Online,Individual,UPI,6,7225.0,15,43350.0,No,3
+ORD0331,2024-03-30,March,Q1,P001,Laptop Pro 15,Electronics,Kolkata,East,Retail Store,Enterprise,EMI,4,65000.0,0,260000.0,No,2
+ORD0332,2024-03-03,March,Q1,P001,Laptop Pro 15,Electronics,Guwahati,Northeast,Online,Individual,UPI,7,58500.0,10,409500.0,No,1
+ORD0333,2024-10-25,October,Q4,P010,Whiteboard Marker Set,Stationery,Hyderabad,South,Online,Individual,Credit Card,4,153.0,15,612.0,No,
+ORD0334,2024-06-18,June,Q2,P002,Wireless Headphones,Electronics,Guwahati,Northeast,Retail Store,Individual,UPI,10,2975.0,15,29750.0,No,1
+ORD0335,2024-07-14,July,Q3,P011,Standing Desk,Furniture,Kolkata,East,Online,SME,UPI,3,19800.0,10,59400.0,No,1
+ORD0336,2024-11-10,November,Q4,P010,Whiteboard Marker Set,Stationery,Bangalore,South,Corporate B2B,SME,Cash,7,144.0,20,1008.0,No,
+ORD0337,2024-07-15,July,Q3,P003,Office Chair,Furniture,Kolkata,East,Online,Enterprise,EMI,4,9600.0,20,38400.0,No,3
+ORD0338,2024-09-02,September,Q3,P009,Ergonomic Mouse,Electronics,Pune,West,Retail Store,Enterprise,EMI,6,1360.0,15,8160.0,No,
+ORD0339,2024-11-01,November,Q4,P004,Notebook Set (5 pack),Stationery,Guwahati,Northeast,Retail Store,Individual,Cash,9,225.0,10,2025.0,No,2
+ORD0340,2024-02-21,February,Q1,P004,Notebook Set (5 pack),Stationery,Bangalore,South,Retail Store,Enterprise,Credit Card,4,200.0,20,800.0,No,3
+ORD0341,2024-03-29,March,Q1,P003,Office Chair,Furniture,Bangalore,South,Corporate B2B,SME,Net Banking,10,12000.0,0,120000.0,No,5
+ORD0342,2024-10-15,October,Q4,P003,Office Chair,Furniture,Bangalore,South,Retail Store,Enterprise,Net Banking,3,10200.0,15,30600.0,Yes,
+ORD0343,2024-11-04,November,Q4,P004,Notebook Set (5 pack),Stationery,Guwahati,Northeast,Corporate B2B,SME,Credit Card,6,200.0,20,1200.0,No,
+ORD0344,2024-03-31,March,Q1,P015,Webcam HD,Electronics,Chennai,South,Online,Individual,UPI,10,3040.0,5,30400.0,No,3
+ORD0345,2024-02-07,February,Q1,P006,USB-C Hub,Electronics,Kolkata,East,Corporate B2B,Individual,Net Banking,5,1980.0,10,9900.0,No,
+ORD0346,2024-08-11,August,Q3,P013,Printer Ink Cartridge,Stationery,Pune,West,Corporate B2B,SME,UPI,9,760.0,20,6840.0,No,
+ORD0347,2024-10-28,October,Q4,P014,Filing Cabinet,Furniture,Mumbai,West,Retail Store,SME,Net Banking,3,8075.0,5,24225.0,No,5
+ORD0348,2024-07-19,July,Q3,P014,Filing Cabinet,Furniture,Guwahati,Northeast,Online,Enterprise,Net Banking,10,8075.0,5,80750.0,No,
+ORD0349,2024-09-11,September,Q3,P003,Office Chair,Furniture,Chennai,South,Corporate B2B,Individual,UPI,6,10800.0,10,64800.0,No,1
+ORD0350,2024-12-28,December,Q4,P011,Standing Desk,Furniture,Chennai,South,Retail Store,Individual,Net Banking,4,20900.0,5,83600.0,No,1
+ORD0351,2024-01-01,January,Q1,P001,Laptop Pro 15,Electronics,Kolkata,East,Retail Store,Enterprise,Cash,3,55250.0,15,165750.0,No,5
+ORD0352,2024-07-11,July,Q3,P002,Wireless Headphones,Electronics,Pune,West,Corporate B2B,Enterprise,UPI,3,2975.0,15,8925.0,No,3
+ORD0353,2024-01-11,January,Q1,P006,USB-C Hub,Electronics,Hyderabad,South,Online,Individual,Net Banking,3,1870.0,15,5610.0,No,
+ORD0354,2024-02-17,February,Q1,P006,USB-C Hub,Electronics,Pune,West,Corporate B2B,Individual,Cash,3,1760.0,20,5280.0,No,
+ORD0355,2024-02-21,February,Q1,P006,USB-C Hub,Electronics,Bangalore,South,Online,SME,EMI,9,1980.0,10,17820.0,No,
+ORD0356,2024-02-19,February,Q1,P001,Laptop Pro 15,Electronics,Kolkata,East,Corporate B2B,Enterprise,Cash,3,65000.0,0,195000.0,No,3
+ORD0357,2024-12-04,December,Q4,P011,Standing Desk,Furniture,Pune,West,Online,Individual,Credit Card,4,20900.0,5,83600.0,No,4
+ORD0358,2024-02-29,February,Q1,P005,LED Desk Lamp,Furniture,Kolkata,East,Retail Store,SME,Net Banking,2,1440.0,20,2880.0,No,4
+ORD0359,2024-07-08,July,Q3,P003,Office Chair,Furniture,Pune,West,Online,SME,Cash,8,10800.0,10,86400.0,No,
+ORD0360,2024-02-01,February,Q1,P003,Office Chair,Furniture,Delhi,North,Online,Enterprise,Net Banking,9,10200.0,15,91800.0,No,5
+ORD0361,2024-02-01,February,Q1,P014,Filing Cabinet,Furniture,Kolkata,East,Corporate B2B,SME,EMI,8,6800.0,20,54400.0,No,1
+ORD0362,2024-07-21,July,Q3,P015,Webcam HD,Electronics,Guwahati,Northeast,Corporate B2B,Enterprise,EMI,10,2560.0,20,25600.0,No,4
+ORD0363,2024-03-29,March,Q1,P003,Office Chair,Furniture,Bangalore,South,Online,Individual,Credit Card,7,12000.0,0,84000.0,No,2
+ORD0364,2024-10-31,October,Q4,P005,LED Desk Lamp,Furniture,Chennai,South,Corporate B2B,Individual,Credit Card,7,1440.0,20,10080.0,No,3
+ORD0365,2024-09-23,September,Q3,P008,A4 Paper Ream,Stationery,Guwahati,Northeast,Corporate B2B,Enterprise,EMI,9,340.0,15,3060.0,No,
+ORD0366,2024-10-17,October,Q4,P010,Whiteboard Marker Set,Stationery,Delhi,North,Online,Enterprise,Credit Card,5,144.0,20,720.0,No,3
+ORD0367,2024-07-15,July,Q3,P011,Standing Desk,Furniture,Pune,West,Corporate B2B,Enterprise,Cash,1,20900.0,5,20900.0,No,
+ORD0368,2024-11-07,November,Q4,P011,Standing Desk,Furniture,Kolkata,East,Online,SME,Net Banking,4,22000.0,0,88000.0,No,3
+ORD0369,2024-01-11,January,Q1,P006,USB-C Hub,Electronics,Hyderabad,South,Retail Store,SME,Cash,2,2090.0,5,4180.0,No,4
+ORD0370,2024-06-13,June,Q2,P005,LED Desk Lamp,Furniture,Kolkata,East,Corporate B2B,Enterprise,Credit Card,4,1530.0,15,6120.0,No,4
+ORD0371,2024-09-21,September,Q3,P014,Filing Cabinet,Furniture,Chennai,South,Online,Enterprise,UPI,2,7650.0,10,15300.0,No,5
+ORD0372,2024-10-18,October,Q4,P001,Laptop Pro 15,Electronics,Mumbai,West,Online,Individual,Credit Card,4,65000.0,0,260000.0,No,2
+ORD0373,2024-05-20,May,Q2,P006,USB-C Hub,Electronics,Pune,West,Corporate B2B,SME,Credit Card,1,2090.0,5,2090.0,No,2
+ORD0374,2024-08-30,August,Q3,P010,Whiteboard Marker Set,Stationery,Chennai,South,Retail Store,Individual,Net Banking,2,162.0,10,324.0,Yes,
+ORD0375,2024-10-19,October,Q4,P013,Printer Ink Cartridge,Stationery,Bangalore,South,Online,Enterprise,UPI,4,855.0,10,3420.0,No,1
+ORD0376,2024-08-30,August,Q3,P015,Webcam HD,Electronics,Mumbai,West,Corporate B2B,Individual,EMI,1,3040.0,5,3040.0,No,3
+ORD0377,2024-12-30,December,Q4,P012,Monitor 24 inch,Electronics,Hyderabad,South,Retail Store,SME,Net Banking,8,16200.0,10,129600.0,No,5
+ORD0378,2024-11-15,November,Q4,P007,Mechanical Keyboard,Electronics,Delhi,North,Online,Enterprise,Net Banking,9,3600.0,20,32400.0,No,
+ORD0379,2024-02-25,February,Q1,P008,A4 Paper Ream,Stationery,Delhi,North,Retail Store,SME,Net Banking,5,360.0,10,1800.0,No,3
+ORD0380,2024-04-06,April,Q2,P003,Office Chair,Furniture,Bangalore,South,Online,Enterprise,Cash,6,11400.0,5,68400.0,No,3
+ORD0381,2024-05-12,May,Q2,P015,Webcam HD,Electronics,Kolkata,East,Retail Store,SME,Credit Card,10,2560.0,20,25600.0,No,2
+ORD0382,2024-12-17,December,Q4,P009,Ergonomic Mouse,Electronics,Pune,West,Corporate B2B,SME,EMI,5,1520.0,5,7600.0,No,2
+ORD0383,2024-05-30,May,Q2,P002,Wireless Headphones,Electronics,Pune,West,Online,Enterprise,Net Banking,9,3325.0,5,29925.0,No,1
+ORD0384,2024-04-23,April,Q2,P006,USB-C Hub,Electronics,Bangalore,South,Corporate B2B,SME,Cash,6,1980.0,10,11880.0,No,
+ORD0385,2024-03-01,March,Q1,P008,A4 Paper Ream,Stationery,Guwahati,Northeast,Corporate B2B,Enterprise,EMI,10,400.0,0,4000.0,No,
+ORD0386,2024-03-02,March,Q1,P014,Filing Cabinet,Furniture,Kolkata,East,Corporate B2B,SME,Cash,1,8075.0,5,8075.0,No,
+ORD0387,2024-07-28,July,Q3,P010,Whiteboard Marker Set,Stationery,Pune,West,Online,SME,UPI,2,153.0,15,306.0,No,3
+ORD0388,2024-11-20,November,Q4,P001,Laptop Pro 15,Electronics,Guwahati,Northeast,Retail Store,SME,UPI,3,52000.0,20,156000.0,No,1
+ORD0389,2024-03-07,March,Q1,P010,Whiteboard Marker Set,Stationery,Kolkata,East,Corporate B2B,SME,Cash,7,153.0,15,1071.0,No,
+ORD0390,2024-04-12,April,Q2,P012,Monitor 24 inch,Electronics,Chennai,South,Online,SME,EMI,4,18000.0,0,72000.0,No,2
+ORD0391,2024-04-25,April,Q2,P012,Monitor 24 inch,Electronics,Chennai,South,Retail Store,Individual,Credit Card,7,14400.0,20,100800.0,No,
+ORD0392,2024-01-24,January,Q1,P005,LED Desk Lamp,Furniture,Hyderabad,South,Retail Store,Enterprise,EMI,10,1440.0,20,14400.0,No,2
+ORD0393,2024-06-24,June,Q2,P015,Webcam HD,Electronics,Pune,West,Retail Store,Individual,UPI,7,3200.0,0,22400.0,No,2
+ORD0394,2024-04-18,April,Q2,P012,Monitor 24 inch,Electronics,Guwahati,Northeast,Corporate B2B,Enterprise,UPI,2,16200.0,10,32400.0,No,4
+ORD0395,2024-11-23,November,Q4,P005,LED Desk Lamp,Furniture,Guwahati,Northeast,Corporate B2B,Individual,Credit Card,1,1800.0,0,1800.0,No,4
+ORD0396,2024-03-04,March,Q1,P009,Ergonomic Mouse,Electronics,Hyderabad,South,Retail Store,Enterprise,UPI,4,1600.0,0,6400.0,No,5
+ORD0397,2024-05-18,May,Q2,P010,Whiteboard Marker Set,Stationery,Mumbai,West,Retail Store,Individual,EMI,10,180.0,0,1800.0,No,4
+ORD0398,2024-04-11,April,Q2,P010,Whiteboard Marker Set,Stationery,Bangalore,South,Retail Store,Enterprise,UPI,6,153.0,15,918.0,No,
+ORD0399,2024-09-11,September,Q3,P015,Webcam HD,Electronics,Bangalore,South,Corporate B2B,SME,Net Banking,4,3200.0,0,12800.0,Yes,
+ORD0400,2024-02-26,February,Q1,P014,Filing Cabinet,Furniture,Pune,West,Online,Individual,EMI,2,8500.0,0,17000.0,No,4
+ORD0401,2024-05-31,May,Q2,P005,LED Desk Lamp,Furniture,Pune,West,Online,Individual,UPI,1,1620.0,10,1620.0,No,4
+ORD0402,2024-02-29,February,Q1,P002,Wireless Headphones,Electronics,Guwahati,Northeast,Online,Individual,UPI,6,3150.0,10,18900.0,No,3
+ORD0403,2024-02-17,February,Q1,P006,USB-C Hub,Electronics,Chennai,South,Online,Individual,Cash,7,1870.0,15,13090.0,No,4
+ORD0404,2024-08-03,August,Q3,P011,Standing Desk,Furniture,Mumbai,West,Online,Individual,Credit Card,3,22000.0,0,66000.0,No,5
+ORD0405,2024-12-13,December,Q4,P008,A4 Paper Ream,Stationery,Mumbai,West,Corporate B2B,SME,Net Banking,10,400.0,0,4000.0,No,2
+ORD0406,2024-09-04,September,Q3,P015,Webcam HD,Electronics,Pune,West,Online,SME,Cash,1,3200.0,0,3200.0,No,5
+ORD0407,2024-10-22,October,Q4,P012,Monitor 24 inch,Electronics,Bangalore,South,Corporate B2B,SME,EMI,9,14400.0,20,129600.0,No,2
+ORD0408,2024-09-03,September,Q3,P006,USB-C Hub,Electronics,Kolkata,East,Online,Enterprise,EMI,1,2200.0,0,2200.0,No,
+ORD0409,2024-08-28,August,Q3,P014,Filing Cabinet,Furniture,Pune,West,Online,Individual,Cash,6,8075.0,5,48450.0,No,
+ORD0410,2024-09-16,September,Q3,P004,Notebook Set (5 pack),Stationery,Kolkata,East,Retail Store,Individual,Credit Card,8,212.5,15,1700.0,No,4
+ORD0411,2024-08-16,August,Q3,P006,USB-C Hub,Electronics,Delhi,North,Retail Store,Enterprise,Credit Card,2,1870.0,15,3740.0,No,1
+ORD0412,2024-02-16,February,Q1,P013,Printer Ink Cartridge,Stationery,Hyderabad,South,Corporate B2B,Enterprise,UPI,8,855.0,10,6840.0,No,
+ORD0413,2024-04-24,April,Q2,P014,Filing Cabinet,Furniture,Pune,West,Retail Store,Enterprise,EMI,10,7225.0,15,72250.0,No,4
+ORD0414,2024-02-28,February,Q1,P002,Wireless Headphones,Electronics,Bangalore,South,Online,SME,Net Banking,5,2800.0,20,14000.0,No,1
+ORD0415,2024-03-25,March,Q1,P008,A4 Paper Ream,Stationery,Mumbai,West,Corporate B2B,Enterprise,Cash,2,360.0,10,720.0,No,
+ORD0416,2024-07-20,July,Q3,P004,Notebook Set (5 pack),Stationery,Pune,West,Online,Enterprise,Net Banking,2,212.5,15,425.0,Yes,5
+ORD0417,2024-03-04,March,Q1,P013,Printer Ink Cartridge,Stationery,Pune,West,Retail Store,Enterprise,EMI,9,902.5,5,8122.5,No,
+ORD0418,2024-01-25,January,Q1,P009,Ergonomic Mouse,Electronics,Kolkata,East,Corporate B2B,SME,EMI,3,1280.0,20,3840.0,No,1
+ORD0419,2024-07-17,July,Q3,P011,Standing Desk,Furniture,Chennai,South,Corporate B2B,SME,Cash,10,20900.0,5,209000.0,No,3
+ORD0420,2024-08-19,August,Q3,P013,Printer Ink Cartridge,Stationery,Mumbai,West,Online,SME,EMI,9,855.0,10,7695.0,No,3
+ORD0421,2024-12-30,December,Q4,P012,Monitor 24 inch,Electronics,Bangalore,South,Online,Individual,EMI,5,16200.0,10,81000.0,No,
+ORD0422,2024-12-29,December,Q4,P011,Standing Desk,Furniture,Mumbai,West,Corporate B2B,Enterprise,Net Banking,2,19800.0,10,39600.0,No,4
+ORD0423,2024-12-11,December,Q4,P012,Monitor 24 inch,Electronics,Hyderabad,South,Retail Store,Individual,EMI,2,18000.0,0,36000.0,No,
+ORD0424,2024-01-29,January,Q1,P004,Notebook Set (5 pack),Stationery,Hyderabad,South,Online,SME,Net Banking,3,250.0,0,750.0,No,
+ORD0425,2024-10-04,October,Q4,P001,Laptop Pro 15,Electronics,Chennai,South,Retail Store,Individual,EMI,9,61750.0,5,555750.0,No,2
+ORD0426,2024-09-18,September,Q3,P013,Printer Ink Cartridge,Stationery,Hyderabad,South,Corporate B2B,Enterprise,Credit Card,7,807.5,15,5652.5,No,3
+ORD0427,2024-10-09,October,Q4,P001,Laptop Pro 15,Electronics,Guwahati,Northeast,Corporate B2B,SME,UPI,10,55250.0,15,552500.0,No,3
+ORD0428,2024-10-28,October,Q4,P009,Ergonomic Mouse,Electronics,Bangalore,South,Corporate B2B,Individual,Net Banking,8,1520.0,5,12160.0,No,
+ORD0429,2024-03-29,March,Q1,P012,Monitor 24 inch,Electronics,Delhi,North,Retail Store,Individual,Cash,5,14400.0,20,72000.0,No,
+ORD0430,2024-05-10,May,Q2,P001,Laptop Pro 15,Electronics,Chennai,South,Retail Store,Enterprise,UPI,1,61750.0,5,61750.0,No,5
+ORD0431,2024-12-04,December,Q4,P005,LED Desk Lamp,Furniture,Pune,West,Corporate B2B,Enterprise,Net Banking,2,1620.0,10,3240.0,No,5
+ORD0432,2024-02-04,February,Q1,P013,Printer Ink Cartridge,Stationery,Mumbai,West,Retail Store,Enterprise,EMI,7,950.0,0,6650.0,No,3
+ORD0433,2024-06-18,June,Q2,P006,USB-C Hub,Electronics,Hyderabad,South,Online,Enterprise,EMI,8,1760.0,20,14080.0,No,1
+ORD0434,2024-02-28,February,Q1,P011,Standing Desk,Furniture,Chennai,South,Retail Store,Individual,EMI,10,20900.0,5,209000.0,No,3
+ORD0435,2024-07-14,July,Q3,P015,Webcam HD,Electronics,Delhi,North,Retail Store,SME,EMI,5,3200.0,0,16000.0,No,3
+ORD0436,2024-09-20,September,Q3,P013,Printer Ink Cartridge,Stationery,Pune,West,Retail Store,Individual,Net Banking,4,855.0,10,3420.0,No,2
+ORD0437,2024-10-02,October,Q4,P009,Ergonomic Mouse,Electronics,Guwahati,Northeast,Corporate B2B,Individual,UPI,4,1360.0,15,5440.0,No,
+ORD0438,2024-12-25,December,Q4,P015,Webcam HD,Electronics,Kolkata,East,Corporate B2B,Individual,UPI,1,2720.0,15,2720.0,No,
+ORD0439,2024-02-07,February,Q1,P001,Laptop Pro 15,Electronics,Mumbai,West,Retail Store,Enterprise,Credit Card,10,61750.0,5,617500.0,No,4
+ORD0440,2024-11-18,November,Q4,P007,Mechanical Keyboard,Electronics,Kolkata,East,Retail Store,Individual,Cash,2,3600.0,20,7200.0,Yes,1
+ORD0441,2024-10-26,October,Q4,P001,Laptop Pro 15,Electronics,Delhi,North,Retail Store,Enterprise,Credit Card,5,58500.0,10,292500.0,No,
+ORD0442,2024-08-12,August,Q3,P007,Mechanical Keyboard,Electronics,Kolkata,East,Corporate B2B,Individual,Cash,3,3600.0,20,10800.0,No,5
+ORD0443,2024-05-31,May,Q2,P011,Standing Desk,Furniture,Mumbai,West,Retail Store,Enterprise,Net Banking,1,17600.0,20,17600.0,No,
+ORD0444,2024-01-22,January,Q1,P001,Laptop Pro 15,Electronics,Kolkata,East,Corporate B2B,Enterprise,Credit Card,5,61750.0,5,308750.0,No,3
+ORD0445,2024-04-18,April,Q2,P007,Mechanical Keyboard,Electronics,Mumbai,West,Online,Individual,UPI,10,4050.0,10,40500.0,No,
+ORD0446,2024-10-17,October,Q4,P014,Filing Cabinet,Furniture,Guwahati,Northeast,Corporate B2B,SME,EMI,2,7650.0,10,15300.0,No,
+ORD0447,2024-04-11,April,Q2,P012,Monitor 24 inch,Electronics,Pune,West,Retail Store,SME,UPI,4,18000.0,0,72000.0,No,
+ORD0448,2024-04-09,April,Q2,P006,USB-C Hub,Electronics,Pune,West,Retail Store,SME,EMI,5,1760.0,20,8800.0,No,3
+ORD0449,2024-08-07,August,Q3,P003,Office Chair,Furniture,Guwahati,Northeast,Retail Store,Individual,UPI,7,10800.0,10,75600.0,No,
+ORD0450,2024-06-18,June,Q2,P015,Webcam HD,Electronics,Pune,West,Retail Store,SME,Net Banking,5,2720.0,15,13600.0,No,
+ORD0451,2024-11-06,November,Q4,P002,Wireless Headphones,Electronics,Hyderabad,South,Online,Enterprise,UPI,5,3500.0,0,17500.0,No,5
+ORD0452,2024-11-19,November,Q4,P001,Laptop Pro 15,Electronics,Kolkata,East,Corporate B2B,Individual,Credit Card,9,58500.0,10,526500.0,No,4
+ORD0453,2024-11-30,November,Q4,P013,Printer Ink Cartridge,Stationery,Mumbai,West,Retail Store,SME,UPI,10,855.0,10,8550.0,No,1
+ORD0454,2024-07-22,July,Q3,P006,USB-C Hub,Electronics,Guwahati,Northeast,Corporate B2B,Individual,EMI,3,1760.0,20,5280.0,No,
+ORD0455,2024-10-16,October,Q4,P010,Whiteboard Marker Set,Stationery,Mumbai,West,Corporate B2B,Enterprise,Cash,6,180.0,0,1080.0,No,1
+ORD0456,2024-05-15,May,Q2,P006,USB-C Hub,Electronics,Bangalore,South,Online,Enterprise,UPI,9,1980.0,10,17820.0,No,1
+ORD0457,2024-01-21,January,Q1,P011,Standing Desk,Furniture,Chennai,South,Online,Enterprise,EMI,5,19800.0,10,99000.0,No,4
+ORD0458,2024-11-30,November,Q4,P007,Mechanical Keyboard,Electronics,Chennai,South,Corporate B2B,Enterprise,Credit Card,9,4050.0,10,36450.0,No,5
+ORD0459,2024-07-26,July,Q3,P006,USB-C Hub,Electronics,Chennai,South,Retail Store,SME,EMI,1,1760.0,20,1760.0,No,2
+ORD0460,2024-02-09,February,Q1,P009,Ergonomic Mouse,Electronics,Hyderabad,South,Online,Individual,UPI,3,1440.0,10,4320.0,No,2
+ORD0461,2024-07-31,July,Q3,P013,Printer Ink Cartridge,Stationery,Chennai,South,Corporate B2B,Individual,Cash,8,807.5,15,6460.0,No,
+ORD0462,2024-07-29,July,Q3,P001,Laptop Pro 15,Electronics,Bangalore,South,Online,Individual,EMI,10,61750.0,5,617500.0,No,5
+ORD0463,2024-03-16,March,Q1,P001,Laptop Pro 15,Electronics,Mumbai,West,Retail Store,Individual,EMI,7,52000.0,20,364000.0,No,3
+ORD0464,2024-02-13,February,Q1,P004,Notebook Set (5 pack),Stationery,Pune,West,Corporate B2B,SME,Cash,3,237.5,5,712.5,No,5
+ORD0465,2024-04-03,April,Q2,P010,Whiteboard Marker Set,Stationery,Hyderabad,South,Online,Enterprise,Net Banking,8,144.0,20,1152.0,No,
+ORD0466,2024-07-16,July,Q3,P003,Office Chair,Furniture,Delhi,North,Online,Individual,EMI,9,10200.0,15,91800.0,No,2
+ORD0467,2024-08-31,August,Q3,P015,Webcam HD,Electronics,Guwahati,Northeast,Corporate B2B,Enterprise,Credit Card,2,2720.0,15,5440.0,No,5
+ORD0468,2024-01-01,January,Q1,P015,Webcam HD,Electronics,Kolkata,East,Corporate B2B,SME,Net Banking,1,2560.0,20,2560.0,No,4
+ORD0469,2024-07-14,July,Q3,P006,USB-C Hub,Electronics,Delhi,North,Retail Store,Individual,Net Banking,8,2090.0,5,16720.0,No,
+ORD0470,2024-11-02,November,Q4,P015,Webcam HD,Electronics,Kolkata,East,Retail Store,Individual,Credit Card,1,2560.0,20,2560.0,No,4
+ORD0471,2024-12-01,December,Q4,P004,Notebook Set (5 pack),Stationery,Chennai,South,Retail Store,SME,Credit Card,3,212.5,15,637.5,No,
+ORD0472,2024-10-01,October,Q4,P007,Mechanical Keyboard,Electronics,Chennai,South,Corporate B2B,SME,Cash,4,3825.0,15,15300.0,No,2
+ORD0473,2024-07-08,July,Q3,P009,Ergonomic Mouse,Electronics,Pune,West,Retail Store,SME,EMI,6,1360.0,15,8160.0,No,1
+ORD0474,2024-04-27,April,Q2,P008,A4 Paper Ream,Stationery,Mumbai,West,Online,Individual,EMI,7,360.0,10,2520.0,No,1
+ORD0475,2024-03-23,March,Q1,P007,Mechanical Keyboard,Electronics,Guwahati,Northeast,Online,Individual,Cash,10,3825.0,15,38250.0,No,
+ORD0476,2024-07-08,July,Q3,P002,Wireless Headphones,Electronics,Guwahati,Northeast,Corporate B2B,SME,Cash,10,2800.0,20,28000.0,No,1
+ORD0477,2024-03-30,March,Q1,P011,Standing Desk,Furniture,Pune,West,Retail Store,Individual,UPI,9,19800.0,10,178200.0,No,5
+ORD0478,2024-09-21,September,Q3,P012,Monitor 24 inch,Electronics,Bangalore,South,Corporate B2B,Individual,Credit Card,6,17100.0,5,102600.0,No,1
+ORD0479,2024-05-21,May,Q2,P013,Printer Ink Cartridge,Stationery,Kolkata,East,Retail Store,Enterprise,Cash,7,760.0,20,5320.0,No,
+ORD0480,2024-12-26,December,Q4,P002,Wireless Headphones,Electronics,Delhi,North,Corporate B2B,SME,EMI,10,3150.0,10,31500.0,No,2
+ORD0481,2024-11-06,November,Q4,P004,Notebook Set (5 pack),Stationery,Pune,West,Retail Store,Enterprise,Credit Card,5,237.5,5,1187.5,No,
+ORD0482,2024-02-07,February,Q1,P009,Ergonomic Mouse,Electronics,Hyderabad,South,Retail Store,Individual,EMI,5,1280.0,20,6400.0,No,4
+ORD0483,2024-07-12,July,Q3,P010,Whiteboard Marker Set,Stationery,Pune,West,Online,SME,Cash,8,144.0,20,1152.0,No,3
+ORD0484,2024-02-04,February,Q1,P007,Mechanical Keyboard,Electronics,Bangalore,South,Corporate B2B,Enterprise,UPI,6,3825.0,15,22950.0,No,1
+ORD0485,2024-12-24,December,Q4,P014,Filing Cabinet,Furniture,Hyderabad,South,Online,SME,Credit Card,7,7650.0,10,53550.0,No,4
+ORD0486,2024-06-09,June,Q2,P006,USB-C Hub,Electronics,Bangalore,South,Corporate B2B,SME,UPI,4,1870.0,15,7480.0,No,
+ORD0487,2024-05-03,May,Q2,P014,Filing Cabinet,Furniture,Hyderabad,South,Online,Individual,UPI,4,6800.0,20,27200.0,No,1
+ORD0488,2024-02-10,February,Q1,P011,Standing Desk,Furniture,Pune,West,Corporate B2B,Individual,EMI,1,18700.0,15,18700.0,No,5
+ORD0489,2024-05-20,May,Q2,P008,A4 Paper Ream,Stationery,Mumbai,West,Corporate B2B,SME,Cash,4,320.0,20,1280.0,No,4
+ORD0490,2024-09-01,September,Q3,P009,Ergonomic Mouse,Electronics,Guwahati,Northeast,Corporate B2B,SME,Cash,3,1360.0,15,4080.0,No,4
+ORD0491,2024-06-10,June,Q2,P012,Monitor 24 inch,Electronics,Guwahati,Northeast,Online,Enterprise,UPI,7,14400.0,20,100800.0,No,3
+ORD0492,2024-04-05,April,Q2,P009,Ergonomic Mouse,Electronics,Hyderabad,South,Online,SME,Cash,10,1440.0,10,14400.0,No,2
+ORD0493,2024-08-02,August,Q3,P012,Monitor 24 inch,Electronics,Chennai,South,Retail Store,SME,Net Banking,8,17100.0,5,136800.0,No,2
+ORD0494,2024-02-21,February,Q1,P012,Monitor 24 inch,Electronics,Hyderabad,South,Online,Enterprise,Cash,7,17100.0,5,119700.0,No,2
+ORD0495,2024-08-30,August,Q3,P013,Printer Ink Cartridge,Stationery,Guwahati,Northeast,Online,SME,Cash,3,760.0,20,2280.0,No,4
+ORD0496,2024-06-02,June,Q2,P005,LED Desk Lamp,Furniture,Guwahati,Northeast,Retail Store,Individual,UPI,1,1710.0,5,1710.0,No,1
+ORD0497,2024-08-18,August,Q3,P012,Monitor 24 inch,Electronics,Chennai,South,Retail Store,SME,Net Banking,9,14400.0,20,129600.0,No,
+ORD0498,2024-01-11,January,Q1,P007,Mechanical Keyboard,Electronics,Delhi,North,Retail Store,Enterprise,EMI,4,3600.0,20,14400.0,No,2
+ORD0499,2024-05-25,May,Q2,P006,USB-C Hub,Electronics,Chennai,South,Corporate B2B,Enterprise,Cash,8,2200.0,0,17600.0,No,
+ORD0500,2024-11-19,November,Q4,P003,Office Chair,Furniture,Mumbai,West,Corporate B2B,SME,Cash,10,9600.0,20,96000.0,No,1
+ORD0501,2024-03-23,March,Q1,P006,USB-C Hub,Electronics,Bangalore,South,Retail Store,SME,Net Banking,5,1760.0,20,8800.0,No,
+ORD0502,2024-08-15,August,Q3,P013,Printer Ink Cartridge,Stationery,Chennai,South,Corporate B2B,Enterprise,EMI,8,807.5,15,6460.0,No,2
+ORD0503,2024-04-30,April,Q2,P011,Standing Desk,Furniture,Hyderabad,South,Corporate B2B,Enterprise,Credit Card,4,20900.0,5,83600.0,No,
+ORD0504,2024-08-30,August,Q3,P009,Ergonomic Mouse,Electronics,Guwahati,Northeast,Online,SME,EMI,2,1600.0,0,3200.0,No,
+ORD0505,2024-12-01,December,Q4,P015,Webcam HD,Electronics,Kolkata,East,Retail Store,Individual,UPI,5,2720.0,15,13600.0,No,
+ORD0506,2024-03-28,March,Q1,P001,Laptop Pro 15,Electronics,Guwahati,Northeast,Corporate B2B,SME,Net Banking,8,55250.0,15,442000.0,No,3
+ORD0507,2024-10-07,October,Q4,P008,A4 Paper Ream,Stationery,Mumbai,West,Corporate B2B,Enterprise,UPI,10,320.0,20,3200.0,No,5
+ORD0508,2024-08-10,August,Q3,P009,Ergonomic Mouse,Electronics,Hyderabad,South,Retail Store,SME,EMI,4,1600.0,0,6400.0,No,3
+ORD0509,2024-03-20,March,Q1,P005,LED Desk Lamp,Furniture,Guwahati,Northeast,Online,Enterprise,UPI,6,1620.0,10,9720.0,No,
+ORD0510,2024-09-08,September,Q3,P013,Printer Ink Cartridge,Stationery,Pune,West,Retail Store,Individual,Cash,5,760.0,20,3800.0,No,
+ORD0511,2024-07-10,July,Q3,P004,Notebook Set (5 pack),Stationery,Kolkata,East,Corporate B2B,SME,Cash,4,237.5,5,950.0,No,4
+ORD0512,2024-04-22,April,Q2,P005,LED Desk Lamp,Furniture,Delhi,North,Retail Store,Enterprise,UPI,9,1440.0,20,12960.0,No,3
+ORD0513,2024-11-28,November,Q4,P012,Monitor 24 inch,Electronics,Hyderabad,South,Retail Store,Individual,Credit Card,3,17100.0,5,51300.0,No,5
+ORD0514,2024-08-19,August,Q3,P005,LED Desk Lamp,Furniture,Pune,West,Online,SME,Credit Card,3,1800.0,0,5400.0,No,
+ORD0515,2024-02-22,February,Q1,P005,LED Desk Lamp,Furniture,Hyderabad,South,Online,Enterprise,Cash,1,1710.0,5,1710.0,No,
+ORD0516,2024-04-21,April,Q2,P006,USB-C Hub,Electronics,Kolkata,East,Retail Store,SME,Net Banking,8,2200.0,0,17600.0,No,2
+ORD0517,2024-01-29,January,Q1,P005,LED Desk Lamp,Furniture,Kolkata,East,Online,Enterprise,Cash,3,1710.0,5,5130.0,No,
+ORD0518,2024-07-14,July,Q3,P014,Filing Cabinet,Furniture,Guwahati,Northeast,Online,Enterprise,UPI,7,7225.0,15,50575.0,No,2
+ORD0519,2024-08-23,August,Q3,P012,Monitor 24 inch,Electronics,Delhi,North,Corporate B2B,Enterprise,UPI,8,15300.0,15,122400.0,No,3
+ORD0520,2024-03-22,March,Q1,P011,Standing Desk,Furniture,Guwahati,Northeast,Corporate B2B,Enterprise,EMI,2,19800.0,10,39600.0,No,
+ORD0521,2024-07-03,July,Q3,P015,Webcam HD,Electronics,Guwahati,Northeast,Corporate B2B,Individual,Credit Card,4,2720.0,15,10880.0,No,
+ORD0522,2024-05-21,May,Q2,P010,Whiteboard Marker Set,Stationery,Delhi,North,Retail Store,Individual,Credit Card,1,144.0,20,144.0,No,5
+ORD0523,2024-03-20,March,Q1,P006,USB-C Hub,Electronics,Delhi,North,Online,Individual,Cash,2,1760.0,20,3520.0,No,1
+ORD0524,2024-01-31,January,Q1,P006,USB-C Hub,Electronics,Mumbai,West,Corporate B2B,Enterprise,Credit Card,3,1870.0,15,5610.0,No,3
+ORD0525,2024-08-12,August,Q3,P012,Monitor 24 inch,Electronics,Bangalore,South,Online,Enterprise,Cash,6,17100.0,5,102600.0,No,
+ORD0526,2024-12-27,December,Q4,P008,A4 Paper Ream,Stationery,Hyderabad,South,Corporate B2B,Enterprise,Cash,4,320.0,20,1280.0,No,4
+ORD0527,2024-05-20,May,Q2,P014,Filing Cabinet,Furniture,Mumbai,West,Online,Enterprise,UPI,8,7650.0,10,61200.0,No,4
+ORD0528,2024-01-01,January,Q1,P013,Printer Ink Cartridge,Stationery,Kolkata,East,Corporate B2B,Individual,Credit Card,10,855.0,10,8550.0,No,
+ORD0529,2024-02-02,February,Q1,P011,Standing Desk,Furniture,Kolkata,East,Online,Enterprise,Cash,9,20900.0,5,188100.0,No,3
+ORD0530,2024-02-26,February,Q1,P002,Wireless Headphones,Electronics,Delhi,North,Online,Individual,UPI,1,3325.0,5,3325.0,No,
+ORD0531,2024-01-17,January,Q1,P010,Whiteboard Marker Set,Stationery,Kolkata,East,Corporate B2B,SME,EMI,10,144.0,20,1440.0,No,5
+ORD0532,2024-02-06,February,Q1,P001,Laptop Pro 15,Electronics,Bangalore,South,Corporate B2B,SME,Credit Card,8,65000.0,0,520000.0,No,4
+ORD0533,2024-07-07,July,Q3,P013,Printer Ink Cartridge,Stationery,Guwahati,Northeast,Corporate B2B,SME,EMI,1,950.0,0,950.0,No,
+ORD0534,2024-04-20,April,Q2,P009,Ergonomic Mouse,Electronics,Delhi,North,Online,Enterprise,UPI,9,1360.0,15,12240.0,No,2
+ORD0535,2024-10-18,October,Q4,P011,Standing Desk,Furniture,Mumbai,West,Corporate B2B,Enterprise,EMI,7,22000.0,0,154000.0,No,4
+ORD0536,2024-12-25,December,Q4,P011,Standing Desk,Furniture,Kolkata,East,Online,Individual,UPI,9,18700.0,15,168300.0,No,5
+ORD0537,2024-11-03,November,Q4,P008,A4 Paper Ream,Stationery,Chennai,South,Retail Store,Enterprise,Net Banking,6,340.0,15,2040.0,No,3
+ORD0538,2024-11-07,November,Q4,P004,Notebook Set (5 pack),Stationery,Bangalore,South,Retail Store,Enterprise,Net Banking,6,212.5,15,1275.0,No,1
+ORD0539,2024-05-25,May,Q2,P010,Whiteboard Marker Set,Stationery,Guwahati,Northeast,Corporate B2B,Individual,Net Banking,1,162.0,10,162.0,No,
+ORD0540,2024-06-10,June,Q2,P001,Laptop Pro 15,Electronics,Hyderabad,South,Corporate B2B,Enterprise,EMI,10,52000.0,20,520000.0,No,
+ORD0541,2024-07-01,July,Q3,P003,Office Chair,Furniture,Mumbai,West,Retail Store,SME,EMI,4,11400.0,5,45600.0,No,5
+ORD0542,2024-07-23,July,Q3,P010,Whiteboard Marker Set,Stationery,Bangalore,South,Corporate B2B,Individual,Net Banking,8,171.0,5,1368.0,No,5
+ORD0543,2024-02-18,February,Q1,P010,Whiteboard Marker Set,Stationery,Hyderabad,South,Online,Enterprise,EMI,7,180.0,0,1260.0,No,3
+ORD0544,2024-06-27,June,Q2,P015,Webcam HD,Electronics,Kolkata,East,Retail Store,Individual,UPI,10,3200.0,0,32000.0,No,1
+ORD0545,2024-06-05,June,Q2,P009,Ergonomic Mouse,Electronics,Guwahati,Northeast,Retail Store,Enterprise,EMI,3,1440.0,10,4320.0,No,
+ORD0546,2024-01-26,January,Q1,P011,Standing Desk,Furniture,Kolkata,East,Retail Store,Enterprise,EMI,9,22000.0,0,198000.0,No,
+ORD0547,2024-07-20,July,Q3,P003,Office Chair,Furniture,Mumbai,West,Retail Store,Individual,Cash,10,12000.0,0,120000.0,No,
+ORD0548,2024-07-23,July,Q3,P009,Ergonomic Mouse,Electronics,Kolkata,East,Corporate B2B,Individual,UPI,8,1280.0,20,10240.0,No,5
+ORD0549,2024-04-10,April,Q2,P009,Ergonomic Mouse,Electronics,Bangalore,South,Online,Individual,Net Banking,7,1440.0,10,10080.0,No,1
+ORD0550,2024-12-09,December,Q4,P007,Mechanical Keyboard,Electronics,Kolkata,East,Retail Store,SME,UPI,6,4050.0,10,24300.0,No,
+ORD0551,2024-06-05,June,Q2,P003,Office Chair,Furniture,Chennai,South,Corporate B2B,SME,EMI,3,10200.0,15,30600.0,Yes,2
+ORD0552,2024-12-16,December,Q4,P006,USB-C Hub,Electronics,Mumbai,West,Corporate B2B,Individual,Credit Card,1,2090.0,5,2090.0,No,3
+ORD0553,2024-01-08,January,Q1,P006,USB-C Hub,Electronics,Delhi,North,Retail Store,SME,Cash,1,1980.0,10,1980.0,No,2
+ORD0554,2024-10-06,October,Q4,P009,Ergonomic Mouse,Electronics,Hyderabad,South,Corporate B2B,SME,EMI,3,1600.0,0,4800.0,No,5
+ORD0555,2024-01-23,January,Q1,P005,LED Desk Lamp,Furniture,Mumbai,West,Online,SME,UPI,10,1620.0,10,16200.0,Yes,1
+ORD0556,2024-02-04,February,Q1,P007,Mechanical Keyboard,Electronics,Hyderabad,South,Corporate B2B,Enterprise,Net Banking,2,4500.0,0,9000.0,No,4
+ORD0557,2024-04-28,April,Q2,P007,Mechanical Keyboard,Electronics,Delhi,North,Retail Store,SME,EMI,9,4500.0,0,40500.0,No,4
+ORD0558,2024-10-14,October,Q4,P015,Webcam HD,Electronics,Guwahati,Northeast,Online,Individual,EMI,5,2880.0,10,14400.0,No,1
+ORD0559,2024-06-26,June,Q2,P011,Standing Desk,Furniture,Chennai,South,Retail Store,Enterprise,Net Banking,4,17600.0,20,70400.0,No,
+ORD0560,2024-05-11,May,Q2,P015,Webcam HD,Electronics,Kolkata,East,Online,Enterprise,Net Banking,4,3040.0,5,12160.0,No,2
+ORD0561,2024-02-14,February,Q1,P012,Monitor 24 inch,Electronics,Kolkata,East,Corporate B2B,Enterprise,EMI,4,15300.0,15,61200.0,No,
+ORD0562,2024-06-08,June,Q2,P015,Webcam HD,Electronics,Chennai,South,Retail Store,Enterprise,UPI,4,3040.0,5,12160.0,No,2
+ORD0563,2024-03-11,March,Q1,P005,LED Desk Lamp,Furniture,Mumbai,West,Retail Store,Individual,EMI,3,1620.0,10,4860.0,Yes,1
+ORD0564,2024-04-04,April,Q2,P006,USB-C Hub,Electronics,Mumbai,West,Corporate B2B,Individual,Net Banking,7,1870.0,15,13090.0,No,3
+ORD0565,2024-03-18,March,Q1,P013,Printer Ink Cartridge,Stationery,Bangalore,South,Online,Individual,UPI,1,760.0,20,760.0,No,5
+ORD0566,2024-04-28,April,Q2,P010,Whiteboard Marker Set,Stationery,Bangalore,South,Online,Enterprise,Credit Card,6,180.0,0,1080.0,No,5
+ORD0567,2024-11-05,November,Q4,P008,A4 Paper Ream,Stationery,Chennai,South,Online,SME,Cash,8,380.0,5,3040.0,No,
+ORD0568,2024-07-28,July,Q3,P013,Printer Ink Cartridge,Stationery,Guwahati,Northeast,Retail Store,SME,UPI,4,902.5,5,3610.0,Yes,4
+ORD0569,2024-11-11,November,Q4,P008,A4 Paper Ream,Stationery,Chennai,South,Retail Store,Individual,Cash,7,400.0,0,2800.0,No,3
+ORD0570,2024-07-20,July,Q3,P010,Whiteboard Marker Set,Stationery,Guwahati,Northeast,Corporate B2B,Individual,Cash,8,180.0,0,1440.0,No,
+ORD0571,2024-10-02,October,Q4,P007,Mechanical Keyboard,Electronics,Guwahati,Northeast,Corporate B2B,SME,EMI,1,4275.0,5,4275.0,No,3
+ORD0572,2024-05-26,May,Q2,P008,A4 Paper Ream,Stationery,Mumbai,West,Retail Store,SME,EMI,1,320.0,20,320.0,No,4
+ORD0573,2024-02-16,February,Q1,P012,Monitor 24 inch,Electronics,Delhi,North,Online,Enterprise,EMI,3,15300.0,15,45900.0,No,2
+ORD0574,2024-08-20,August,Q3,P010,Whiteboard Marker Set,Stationery,Bangalore,South,Retail Store,Individual,Net Banking,6,171.0,5,1026.0,No,
+ORD0575,2024-02-28,February,Q1,P012,Monitor 24 inch,Electronics,Pune,West,Corporate B2B,SME,Credit Card,9,15300.0,15,137700.0,No,5
+ORD0576,2024-03-22,March,Q1,P007,Mechanical Keyboard,Electronics,Kolkata,East,Online,Individual,Net Banking,10,4275.0,5,42750.0,No,
+ORD0577,2024-12-30,December,Q4,P001,Laptop Pro 15,Electronics,Kolkata,East,Retail Store,SME,Cash,5,61750.0,5,308750.0,No,
+ORD0578,2024-04-13,April,Q2,P001,Laptop Pro 15,Electronics,Hyderabad,South,Online,SME,Cash,8,52000.0,20,416000.0,No,4
+ORD0579,2024-05-01,May,Q2,P004,Notebook Set (5 pack),Stationery,Pune,West,Retail Store,SME,Cash,2,200.0,20,400.0,No,
+ORD0580,2024-10-07,October,Q4,P005,LED Desk Lamp,Furniture,Bangalore,South,Online,Individual,UPI,1,1620.0,10,1620.0,Yes,5
+ORD0581,2024-11-04,November,Q4,P005,LED Desk Lamp,Furniture,Chennai,South,Online,Individual,Credit Card,7,1710.0,5,11970.0,No,
+ORD0582,2024-12-04,December,Q4,P012,Monitor 24 inch,Electronics,Mumbai,West,Retail Store,Enterprise,EMI,6,18000.0,0,108000.0,No,
+ORD0583,2024-07-07,July,Q3,P015,Webcam HD,Electronics,Kolkata,East,Online,SME,EMI,2,2880.0,10,5760.0,No,
+ORD0584,2024-05-20,May,Q2,P006,USB-C Hub,Electronics,Kolkata,East,Corporate B2B,Individual,UPI,10,2200.0,0,22000.0,No,5
+ORD0585,2024-02-14,February,Q1,P008,A4 Paper Ream,Stationery,Hyderabad,South,Retail Store,Enterprise,Net Banking,5,320.0,20,1600.0,No,2
+ORD0586,2024-11-10,November,Q4,P010,Whiteboard Marker Set,Stationery,Pune,West,Corporate B2B,Enterprise,Cash,8,171.0,5,1368.0,No,
+ORD0587,2024-05-28,May,Q2,P004,Notebook Set (5 pack),Stationery,Guwahati,Northeast,Online,Individual,Cash,2,237.5,5,475.0,No,4
+ORD0588,2024-01-24,January,Q1,P006,USB-C Hub,Electronics,Chennai,South,Corporate B2B,Enterprise,UPI,1,2090.0,5,2090.0,No,
+ORD0589,2024-02-04,February,Q1,P005,LED Desk Lamp,Furniture,Hyderabad,South,Corporate B2B,Enterprise,Net Banking,1,1800.0,0,1800.0,No,5
+ORD0590,2024-11-11,November,Q4,P001,Laptop Pro 15,Electronics,Mumbai,West,Online,SME,Net Banking,8,55250.0,15,442000.0,No,4
+ORD0591,2024-03-20,March,Q1,P011,Standing Desk,Furniture,Pune,West,Corporate B2B,SME,Cash,7,22000.0,0,154000.0,No,
+ORD0592,2024-12-13,December,Q4,P006,USB-C Hub,Electronics,Guwahati,Northeast,Online,Enterprise,Net Banking,6,2200.0,0,13200.0,No,
+ORD0593,2024-01-16,January,Q1,P006,USB-C Hub,Electronics,Kolkata,East,Corporate B2B,Enterprise,UPI,10,1760.0,20,17600.0,No,3
+ORD0594,2024-12-27,December,Q4,P014,Filing Cabinet,Furniture,Chennai,South,Corporate B2B,Individual,Net Banking,7,8500.0,0,59500.0,No,
+ORD0595,2024-08-19,August,Q3,P014,Filing Cabinet,Furniture,Hyderabad,South,Online,Enterprise,Net Banking,3,8500.0,0,25500.0,No,
+ORD0596,2024-04-13,April,Q2,P015,Webcam HD,Electronics,Delhi,North,Retail Store,Enterprise,Credit Card,8,2560.0,20,20480.0,No,4
+ORD0597,2024-09-25,September,Q3,P005,LED Desk Lamp,Furniture,Chennai,South,Online,Individual,EMI,3,1710.0,5,5130.0,No,5
+ORD0598,2024-02-29,February,Q1,P001,Laptop Pro 15,Electronics,Hyderabad,South,Online,Enterprise,EMI,2,58500.0,10,117000.0,No,
+ORD0599,2024-09-23,September,Q3,P013,Printer Ink Cartridge,Stationery,Hyderabad,South,Online,Enterprise,Net Banking,4,855.0,10,3420.0,No,
+ORD0600,2024-09-29,September,Q3,P006,USB-C Hub,Electronics,Pune,West,Corporate B2B,Individual,Net Banking,3,2090.0,5,6270.0,No,
+ORD0601,2024-11-14,November,Q4,P009,Ergonomic Mouse,Electronics,Delhi,North,Online,Enterprise,Net Banking,9,1440.0,10,12960.0,No,3
+ORD0602,2024-10-20,October,Q4,P004,Notebook Set (5 pack),Stationery,Mumbai,West,Online,SME,EMI,6,200.0,20,1200.0,No,
+ORD0603,2024-08-29,August,Q3,P015,Webcam HD,Electronics,Guwahati,Northeast,Online,SME,Credit Card,2,2720.0,15,5440.0,No,5
+ORD0604,2024-11-18,November,Q4,P014,Filing Cabinet,Furniture,Pune,West,Corporate B2B,SME,Net Banking,6,8075.0,5,48450.0,No,5
+ORD0605,2024-02-10,February,Q1,P015,Webcam HD,Electronics,Pune,West,Corporate B2B,Individual,Credit Card,8,3200.0,0,25600.0,No,4
+ORD0606,2024-08-28,August,Q3,P004,Notebook Set (5 pack),Stationery,Bangalore,South,Online,Enterprise,Net Banking,6,212.5,15,1275.0,No,3
+ORD0607,2024-06-15,June,Q2,P008,A4 Paper Ream,Stationery,Pune,West,Online,Individual,Cash,2,360.0,10,720.0,No,3
+ORD0608,2024-06-27,June,Q2,P010,Whiteboard Marker Set,Stationery,Mumbai,West,Corporate B2B,Individual,Cash,2,162.0,10,324.0,No,
+ORD0609,2024-06-03,June,Q2,P009,Ergonomic Mouse,Electronics,Pune,West,Retail Store,Enterprise,Cash,4,1280.0,20,5120.0,No,
+ORD0610,2024-09-03,September,Q3,P007,Mechanical Keyboard,Electronics,Delhi,North,Retail Store,Individual,EMI,7,3825.0,15,26775.0,No,2
+ORD0611,2024-03-29,March,Q1,P011,Standing Desk,Furniture,Delhi,North,Corporate B2B,Enterprise,EMI,8,22000.0,0,176000.0,No,5
+ORD0612,2024-02-19,February,Q1,P014,Filing Cabinet,Furniture,Pune,West,Online,SME,Cash,2,6800.0,20,13600.0,No,4
+ORD0613,2024-06-16,June,Q2,P008,A4 Paper Ream,Stationery,Guwahati,Northeast,Online,Individual,UPI,10,400.0,0,4000.0,No,4
+ORD0614,2024-09-29,September,Q3,P005,LED Desk Lamp,Furniture,Kolkata,East,Corporate B2B,Enterprise,Cash,4,1710.0,5,6840.0,No,5
+ORD0615,2024-12-13,December,Q4,P005,LED Desk Lamp,Furniture,Kolkata,East,Corporate B2B,SME,Credit Card,10,1800.0,0,18000.0,No,2
+ORD0616,2024-05-30,May,Q2,P001,Laptop Pro 15,Electronics,Chennai,South,Corporate B2B,Individual,Credit Card,9,58500.0,10,526500.0,No,
+ORD0617,2024-01-16,January,Q1,P004,Notebook Set (5 pack),Stationery,Kolkata,East,Corporate B2B,Enterprise,Cash,6,212.5,15,1275.0,No,2
+ORD0618,2024-12-05,December,Q4,P003,Office Chair,Furniture,Pune,West,Online,Individual,EMI,7,10800.0,10,75600.0,No,
+ORD0619,2024-12-09,December,Q4,P003,Office Chair,Furniture,Mumbai,West,Online,Individual,Credit Card,3,10200.0,15,30600.0,No,2
+ORD0620,2024-02-13,February,Q1,P003,Office Chair,Furniture,Kolkata,East,Retail Store,Enterprise,EMI,7,9600.0,20,67200.0,No,5
+ORD0621,2024-08-18,August,Q3,P007,Mechanical Keyboard,Electronics,Chennai,South,Online,Individual,Cash,10,4500.0,0,45000.0,No,2
+ORD0622,2024-12-30,December,Q4,P009,Ergonomic Mouse,Electronics,Hyderabad,South,Retail Store,Enterprise,EMI,6,1600.0,0,9600.0,No,3
+ORD0623,2024-02-27,February,Q1,P010,Whiteboard Marker Set,Stationery,Pune,West,Corporate B2B,Individual,UPI,9,162.0,10,1458.0,No,
+ORD0624,2024-11-08,November,Q4,P002,Wireless Headphones,Electronics,Bangalore,South,Retail Store,Enterprise,Credit Card,9,2800.0,20,25200.0,No,
+ORD0625,2024-06-24,June,Q2,P009,Ergonomic Mouse,Electronics,Guwahati,Northeast,Retail Store,SME,EMI,8,1280.0,20,10240.0,No,3
+ORD0626,2024-05-28,May,Q2,P003,Office Chair,Furniture,Guwahati,Northeast,Corporate B2B,Enterprise,Net Banking,10,10800.0,10,108000.0,Yes,2
+ORD0627,2024-10-20,October,Q4,P001,Laptop Pro 15,Electronics,Hyderabad,South,Corporate B2B,Enterprise,Credit Card,5,55250.0,15,276250.0,No,3
+ORD0628,2024-05-09,May,Q2,P003,Office Chair,Furniture,Hyderabad,South,Retail Store,SME,Credit Card,2,9600.0,20,19200.0,No,2
+ORD0629,2024-12-03,December,Q4,P008,A4 Paper Ream,Stationery,Chennai,South,Online,SME,UPI,8,380.0,5,3040.0,No,3
+ORD0630,2024-02-13,February,Q1,P003,Office Chair,Furniture,Mumbai,West,Retail Store,SME,Cash,4,10200.0,15,40800.0,No,
+ORD0631,2024-10-22,October,Q4,P012,Monitor 24 inch,Electronics,Chennai,South,Online,Enterprise,Net Banking,2,18000.0,0,36000.0,No,3
+ORD0632,2024-08-31,August,Q3,P012,Monitor 24 inch,Electronics,Bangalore,South,Retail Store,Enterprise,Cash,8,16200.0,10,129600.0,No,1
+ORD0633,2024-05-27,May,Q2,P015,Webcam HD,Electronics,Pune,West,Retail Store,Enterprise,Net Banking,9,3200.0,0,28800.0,No,3
+ORD0634,2024-08-09,August,Q3,P010,Whiteboard Marker Set,Stationery,Hyderabad,South,Retail Store,SME,Net Banking,2,162.0,10,324.0,No,2
+ORD0635,2024-12-10,December,Q4,P010,Whiteboard Marker Set,Stationery,Bangalore,South,Corporate B2B,SME,UPI,6,144.0,20,864.0,Yes,
+ORD0636,2024-02-04,February,Q1,P001,Laptop Pro 15,Electronics,Kolkata,East,Online,Enterprise,Credit Card,8,58500.0,10,468000.0,No,
+ORD0637,2024-04-08,April,Q2,P001,Laptop Pro 15,Electronics,Guwahati,Northeast,Corporate B2B,Individual,Credit Card,10,61750.0,5,617500.0,No,1
+ORD0638,2024-02-14,February,Q1,P014,Filing Cabinet,Furniture,Mumbai,West,Retail Store,Enterprise,EMI,3,8500.0,0,25500.0,No,
+ORD0639,2024-08-27,August,Q3,P011,Standing Desk,Furniture,Delhi,North,Corporate B2B,SME,Net Banking,7,19800.0,10,138600.0,No,3
+ORD0640,2024-02-01,February,Q1,P007,Mechanical Keyboard,Electronics,Kolkata,East,Retail Store,Individual,Net Banking,5,4275.0,5,21375.0,No,2
+ORD0641,2024-11-08,November,Q4,P007,Mechanical Keyboard,Electronics,Mumbai,West,Corporate B2B,SME,Credit Card,3,3600.0,20,10800.0,No,
+ORD0642,2024-11-25,November,Q4,P002,Wireless Headphones,Electronics,Pune,West,Corporate B2B,SME,Credit Card,1,3500.0,0,3500.0,No,4
+ORD0643,2024-01-10,January,Q1,P015,Webcam HD,Electronics,Pune,West,Online,Enterprise,Credit Card,1,2720.0,15,2720.0,No,4
+ORD0644,2024-10-21,October,Q4,P001,Laptop Pro 15,Electronics,Pune,West,Retail Store,SME,Cash,2,52000.0,20,104000.0,No,4
+ORD0645,2024-03-03,March,Q1,P010,Whiteboard Marker Set,Stationery,Chennai,South,Retail Store,Enterprise,Net Banking,7,180.0,0,1260.0,No,1
+ORD0646,2024-07-06,July,Q3,P009,Ergonomic Mouse,Electronics,Chennai,South,Online,SME,Net Banking,4,1520.0,5,6080.0,No,2
+ORD0647,2024-06-02,June,Q2,P012,Monitor 24 inch,Electronics,Kolkata,East,Online,Enterprise,Net Banking,8,18000.0,0,144000.0,No,2
+ORD0648,2024-03-12,March,Q1,P001,Laptop Pro 15,Electronics,Bangalore,South,Online,Enterprise,EMI,4,55250.0,15,221000.0,No,3
+ORD0649,2024-09-12,September,Q3,P009,Ergonomic Mouse,Electronics,Pune,West,Online,Individual,Net Banking,1,1440.0,10,1440.0,No,
+ORD0650,2024-03-01,March,Q1,P004,Notebook Set (5 pack),Stationery,Pune,West,Corporate B2B,Enterprise,UPI,10,237.5,5,2375.0,No,
+ORD0651,2024-03-13,March,Q1,P008,A4 Paper Ream,Stationery,Guwahati,Northeast,Retail Store,Enterprise,Credit Card,4,380.0,5,1520.0,Yes,3
+ORD0652,2024-02-19,February,Q1,P008,A4 Paper Ream,Stationery,Mumbai,West,Corporate B2B,Individual,Credit Card,2,340.0,15,680.0,No,1
+ORD0653,2024-04-13,April,Q2,P007,Mechanical Keyboard,Electronics,Chennai,South,Corporate B2B,Enterprise,Cash,6,4500.0,0,27000.0,No,2
+ORD0654,2024-06-13,June,Q2,P014,Filing Cabinet,Furniture,Bangalore,South,Online,Enterprise,UPI,6,8500.0,0,51000.0,No,
+ORD0655,2024-07-31,July,Q3,P003,Office Chair,Furniture,Chennai,South,Corporate B2B,Individual,Cash,4,9600.0,20,38400.0,Yes,
+ORD0656,2024-11-19,November,Q4,P010,Whiteboard Marker Set,Stationery,Kolkata,East,Online,Individual,Cash,2,180.0,0,360.0,Yes,5
+ORD0657,2024-05-25,May,Q2,P007,Mechanical Keyboard,Electronics,Pune,West,Corporate B2B,Individual,UPI,3,4050.0,10,12150.0,No,2
+ORD0658,2024-11-08,November,Q4,P012,Monitor 24 inch,Electronics,Guwahati,Northeast,Corporate B2B,Individual,Cash,10,18000.0,0,180000.0,No,3
+ORD0659,2024-08-02,August,Q3,P001,Laptop Pro 15,Electronics,Bangalore,South,Online,Individual,EMI,2,52000.0,20,104000.0,No,5
+ORD0660,2024-09-16,September,Q3,P004,Notebook Set (5 pack),Stationery,Pune,West,Corporate B2B,Enterprise,UPI,5,250.0,0,1250.0,No,4
+ORD0661,2024-09-11,September,Q3,P003,Office Chair,Furniture,Mumbai,West,Corporate B2B,Individual,Credit Card,6,10800.0,10,64800.0,No,
+ORD0662,2024-11-11,November,Q4,P013,Printer Ink Cartridge,Stationery,Pune,West,Online,Individual,Credit Card,9,902.5,5,8122.5,No,
+ORD0663,2024-09-20,September,Q3,P002,Wireless Headphones,Electronics,Delhi,North,Online,Enterprise,Cash,10,2800.0,20,28000.0,No,
+ORD0664,2024-12-12,December,Q4,P015,Webcam HD,Electronics,Chennai,South,Online,Individual,Net Banking,4,3200.0,0,12800.0,No,2
+ORD0665,2024-07-11,July,Q3,P015,Webcam HD,Electronics,Bangalore,South,Online,SME,EMI,8,3200.0,0,25600.0,No,
+ORD0666,2024-11-08,November,Q4,P008,A4 Paper Ream,Stationery,Mumbai,West,Retail Store,SME,UPI,8,380.0,5,3040.0,No,2
+ORD0667,2024-06-20,June,Q2,P003,Office Chair,Furniture,Guwahati,Northeast,Corporate B2B,Enterprise,Credit Card,5,11400.0,5,57000.0,No,4
+ORD0668,2024-03-28,March,Q1,P013,Printer Ink Cartridge,Stationery,Chennai,South,Online,SME,EMI,3,760.0,20,2280.0,No,5
+ORD0669,2024-04-27,April,Q2,P002,Wireless Headphones,Electronics,Kolkata,East,Corporate B2B,SME,UPI,10,2975.0,15,29750.0,No,
+ORD0670,2024-08-07,August,Q3,P012,Monitor 24 inch,Electronics,Bangalore,South,Online,SME,Cash,10,17100.0,5,171000.0,No,2
+ORD0671,2024-10-20,October,Q4,P015,Webcam HD,Electronics,Guwahati,Northeast,Retail Store,Individual,Credit Card,8,2560.0,20,20480.0,Yes,4
+ORD0672,2024-12-22,December,Q4,P014,Filing Cabinet,Furniture,Delhi,North,Retail Store,SME,UPI,2,6800.0,20,13600.0,No,4
+ORD0673,2024-04-21,April,Q2,P003,Office Chair,Furniture,Chennai,South,Retail Store,Individual,Credit Card,1,10200.0,15,10200.0,No,
+ORD0674,2024-08-23,August,Q3,P014,Filing Cabinet,Furniture,Guwahati,Northeast,Retail Store,SME,UPI,7,8075.0,5,56525.0,No,4
+ORD0675,2024-12-26,December,Q4,P011,Standing Desk,Furniture,Guwahati,Northeast,Corporate B2B,Individual,Cash,6,17600.0,20,105600.0,Yes,3
+ORD0676,2024-12-23,December,Q4,P010,Whiteboard Marker Set,Stationery,Bangalore,South,Corporate B2B,Individual,EMI,6,180.0,0,1080.0,No,3
+ORD0677,2024-01-27,January,Q1,P002,Wireless Headphones,Electronics,Kolkata,East,Retail Store,SME,EMI,1,3150.0,10,3150.0,No,1
+ORD0678,2024-10-14,October,Q4,P012,Monitor 24 inch,Electronics,Bangalore,South,Online,SME,UPI,9,18000.0,0,162000.0,No,5
+ORD0679,2024-12-25,December,Q4,P004,Notebook Set (5 pack),Stationery,Bangalore,South,Retail Store,SME,Net Banking,9,212.5,15,1912.5,No,
+ORD0680,2024-06-25,June,Q2,P008,A4 Paper Ream,Stationery,Pune,West,Corporate B2B,Enterprise,Credit Card,8,320.0,20,2560.0,No,3
+ORD0681,2024-08-19,August,Q3,P010,Whiteboard Marker Set,Stationery,Chennai,South,Corporate B2B,Enterprise,Credit Card,4,153.0,15,612.0,No,2
+ORD0682,2024-05-27,May,Q2,P002,Wireless Headphones,Electronics,Delhi,North,Online,SME,Credit Card,3,2975.0,15,8925.0,No,
+ORD0683,2024-11-17,November,Q4,P001,Laptop Pro 15,Electronics,Hyderabad,South,Retail Store,Enterprise,EMI,3,55250.0,15,165750.0,No,1
+ORD0684,2024-05-29,May,Q2,P004,Notebook Set (5 pack),Stationery,Delhi,North,Online,Individual,EMI,6,212.5,15,1275.0,No,3
+ORD0685,2024-09-05,September,Q3,P010,Whiteboard Marker Set,Stationery,Pune,West,Retail Store,SME,EMI,3,162.0,10,486.0,No,
+ORD0686,2024-09-04,September,Q3,P006,USB-C Hub,Electronics,Hyderabad,South,Online,Individual,Net Banking,5,1870.0,15,9350.0,No,2
+ORD0687,2024-12-30,December,Q4,P009,Ergonomic Mouse,Electronics,Hyderabad,South,Online,Individual,UPI,3,1520.0,5,4560.0,No,5
+ORD0688,2024-03-05,March,Q1,P008,A4 Paper Ream,Stationery,Hyderabad,South,Retail Store,Individual,UPI,9,400.0,0,3600.0,No,2
+ORD0689,2024-07-09,July,Q3,P008,A4 Paper Ream,Stationery,Mumbai,West,Corporate B2B,SME,Credit Card,1,340.0,15,340.0,No,4
+ORD0690,2024-06-12,June,Q2,P003,Office Chair,Furniture,Guwahati,Northeast,Corporate B2B,Enterprise,EMI,6,10800.0,10,64800.0,No,
+ORD0691,2024-10-20,October,Q4,P011,Standing Desk,Furniture,Mumbai,West,Corporate B2B,Enterprise,Cash,6,22000.0,0,132000.0,No,2
+ORD0692,2024-12-13,December,Q4,P009,Ergonomic Mouse,Electronics,Delhi,North,Retail Store,Individual,Cash,10,1520.0,5,15200.0,No,
+ORD0693,2024-01-29,January,Q1,P010,Whiteboard Marker Set,Stationery,Bangalore,South,Corporate B2B,Enterprise,UPI,5,171.0,5,855.0,Yes,4
+ORD0694,2024-12-12,December,Q4,P011,Standing Desk,Furniture,Delhi,North,Corporate B2B,SME,UPI,8,19800.0,10,158400.0,No,1
+ORD0695,2024-12-07,December,Q4,P006,USB-C Hub,Electronics,Kolkata,East,Online,Enterprise,Cash,6,1870.0,15,11220.0,No,
+ORD0696,2024-06-28,June,Q2,P005,LED Desk Lamp,Furniture,Pune,West,Corporate B2B,Individual,UPI,8,1530.0,15,12240.0,No,
+ORD0697,2024-08-05,August,Q3,P012,Monitor 24 inch,Electronics,Kolkata,East,Online,Enterprise,EMI,2,17100.0,5,34200.0,No,5
+ORD0698,2024-06-20,June,Q2,P002,Wireless Headphones,Electronics,Kolkata,East,Online,Individual,Cash,5,2975.0,15,14875.0,No,5
+ORD0699,2024-03-11,March,Q1,P004,Notebook Set (5 pack),Stationery,Mumbai,West,Retail Store,SME,EMI,8,250.0,0,2000.0,No,5
+ORD0700,2024-06-04,June,Q2,P008,A4 Paper Ream,Stationery,Pune,West,Online,Individual,Credit Card,3,360.0,10,1080.0,No,4
+ORD0701,2024-03-04,March,Q1,P011,Standing Desk,Furniture,Hyderabad,South,Retail Store,Individual,Cash,4,22000.0,0,88000.0,No,
+ORD0702,2024-02-04,February,Q1,P010,Whiteboard Marker Set,Stationery,Chennai,South,Corporate B2B,SME,EMI,7,162.0,10,1134.0,No,1
+ORD0703,2024-07-10,July,Q3,P009,Ergonomic Mouse,Electronics,Guwahati,Northeast,Retail Store,Individual,EMI,1,1520.0,5,1520.0,No,2
+ORD0704,2024-07-01,July,Q3,P003,Office Chair,Furniture,Guwahati,Northeast,Retail Store,SME,Cash,6,12000.0,0,72000.0,No,1
+ORD0705,2024-09-20,September,Q3,P004,Notebook Set (5 pack),Stationery,Mumbai,West,Online,Enterprise,UPI,9,225.0,10,2025.0,No,3
+ORD0706,2024-05-18,May,Q2,P011,Standing Desk,Furniture,Chennai,South,Online,Enterprise,EMI,6,20900.0,5,125400.0,Yes,3
+ORD0707,2024-09-05,September,Q3,P007,Mechanical Keyboard,Electronics,Chennai,South,Online,Individual,UPI,3,3600.0,20,10800.0,No,
+ORD0708,2024-10-13,October,Q4,P010,Whiteboard Marker Set,Stationery,Delhi,North,Retail Store,SME,Credit Card,2,171.0,5,342.0,No,3
+ORD0709,2024-12-19,December,Q4,P006,USB-C Hub,Electronics,Mumbai,West,Retail Store,Enterprise,EMI,6,2090.0,5,12540.0,No,
+ORD0710,2024-03-01,March,Q1,P004,Notebook Set (5 pack),Stationery,Mumbai,West,Corporate B2B,Individual,UPI,5,237.5,5,1187.5,No,4
+ORD0711,2024-12-19,December,Q4,P013,Printer Ink Cartridge,Stationery,Delhi,North,Online,Individual,Cash,7,950.0,0,6650.0,No,
+ORD0712,2024-12-03,December,Q4,P009,Ergonomic Mouse,Electronics,Guwahati,Northeast,Retail Store,Individual,Net Banking,1,1600.0,0,1600.0,No,
+ORD0713,2024-02-19,February,Q1,P013,Printer Ink Cartridge,Stationery,Delhi,North,Corporate B2B,Individual,EMI,4,902.5,5,3610.0,No,
+ORD0714,2024-03-15,March,Q1,P014,Filing Cabinet,Furniture,Hyderabad,South,Corporate B2B,SME,Net Banking,3,6800.0,20,20400.0,No,5
+ORD0715,2024-10-18,October,Q4,P002,Wireless Headphones,Electronics,Delhi,North,Corporate B2B,Individual,EMI,4,3325.0,5,13300.0,No,
+ORD0716,2024-10-02,October,Q4,P001,Laptop Pro 15,Electronics,Delhi,North,Online,Enterprise,Cash,6,52000.0,20,312000.0,No,1
+ORD0717,2024-04-02,April,Q2,P014,Filing Cabinet,Furniture,Chennai,South,Retail Store,SME,UPI,9,8075.0,5,72675.0,No,3
+ORD0718,2024-03-04,March,Q1,P008,A4 Paper Ream,Stationery,Delhi,North,Corporate B2B,Individual,Cash,6,360.0,10,2160.0,No,
+ORD0719,2024-06-16,June,Q2,P008,A4 Paper Ream,Stationery,Delhi,North,Retail Store,SME,Cash,10,360.0,10,3600.0,No,2
+ORD0720,2024-10-10,October,Q4,P007,Mechanical Keyboard,Electronics,Hyderabad,South,Retail Store,Individual,Credit Card,8,4050.0,10,32400.0,No,4
+ORD0721,2024-12-10,December,Q4,P002,Wireless Headphones,Electronics,Kolkata,East,Retail Store,Enterprise,Credit Card,2,3325.0,5,6650.0,No,1
+ORD0722,2024-03-27,March,Q1,P002,Wireless Headphones,Electronics,Chennai,South,Online,SME,UPI,10,2975.0,15,29750.0,No,4
+ORD0723,2024-05-22,May,Q2,P013,Printer Ink Cartridge,Stationery,Hyderabad,South,Corporate B2B,SME,Net Banking,8,760.0,20,6080.0,No,5
+ORD0724,2024-05-22,May,Q2,P003,Office Chair,Furniture,Pune,West,Online,Individual,Net Banking,8,10200.0,15,81600.0,No,1
+ORD0725,2024-02-20,February,Q1,P012,Monitor 24 inch,Electronics,Guwahati,Northeast,Online,SME,Credit Card,3,15300.0,15,45900.0,No,3
+ORD0726,2024-11-14,November,Q4,P010,Whiteboard Marker Set,Stationery,Delhi,North,Online,Enterprise,EMI,8,153.0,15,1224.0,No,4
+ORD0727,2024-09-15,September,Q3,P005,LED Desk Lamp,Furniture,Chennai,South,Corporate B2B,Enterprise,Credit Card,1,1530.0,15,1530.0,No,
+ORD0728,2024-08-18,August,Q3,P006,USB-C Hub,Electronics,Kolkata,East,Retail Store,SME,Credit Card,1,2090.0,5,2090.0,No,3
+ORD0729,2024-12-27,December,Q4,P003,Office Chair,Furniture,Pune,West,Retail Store,Individual,Net Banking,7,10200.0,15,71400.0,No,4
+ORD0730,2024-12-03,December,Q4,P009,Ergonomic Mouse,Electronics,Pune,West,Retail Store,Enterprise,UPI,9,1600.0,0,14400.0,No,4
+ORD0731,2024-11-11,November,Q4,P011,Standing Desk,Furniture,Chennai,South,Retail Store,SME,Credit Card,1,17600.0,20,17600.0,Yes,3
+ORD0732,2024-10-25,October,Q4,P001,Laptop Pro 15,Electronics,Chennai,South,Retail Store,Individual,Cash,6,58500.0,10,351000.0,No,
+ORD0733,2024-05-05,May,Q2,P004,Notebook Set (5 pack),Stationery,Bangalore,South,Corporate B2B,SME,EMI,2,250.0,0,500.0,No,
+ORD0734,2024-03-27,March,Q1,P001,Laptop Pro 15,Electronics,Chennai,South,Online,SME,Cash,10,52000.0,20,520000.0,No,
+ORD0735,2024-12-22,December,Q4,P008,A4 Paper Ream,Stationery,Guwahati,Northeast,Retail Store,SME,EMI,7,360.0,10,2520.0,No,1
+ORD0736,2024-12-19,December,Q4,P011,Standing Desk,Furniture,Bangalore,South,Retail Store,SME,EMI,6,20900.0,5,125400.0,No,4
+ORD0737,2024-04-13,April,Q2,P008,A4 Paper Ream,Stationery,Delhi,North,Corporate B2B,Individual,Net Banking,5,400.0,0,2000.0,No,2
+ORD0738,2024-11-15,November,Q4,P012,Monitor 24 inch,Electronics,Delhi,North,Corporate B2B,Enterprise,Credit Card,10,16200.0,10,162000.0,No,5
+ORD0739,2024-08-31,August,Q3,P007,Mechanical Keyboard,Electronics,Bangalore,South,Retail Store,Individual,Net Banking,9,4050.0,10,36450.0,No,2
+ORD0740,2024-07-31,July,Q3,P007,Mechanical Keyboard,Electronics,Hyderabad,South,Corporate B2B,Enterprise,Cash,9,4275.0,5,38475.0,No,5
+ORD0741,2024-04-05,April,Q2,P010,Whiteboard Marker Set,Stationery,Pune,West,Online,Enterprise,Cash,5,144.0,20,720.0,No,4
+ORD0742,2024-10-16,October,Q4,P012,Monitor 24 inch,Electronics,Guwahati,Northeast,Corporate B2B,Individual,Net Banking,8,17100.0,5,136800.0,No,3
+ORD0743,2024-08-10,August,Q3,P007,Mechanical Keyboard,Electronics,Chennai,South,Online,Enterprise,UPI,7,4050.0,10,28350.0,No,3
+ORD0744,2024-12-17,December,Q4,P010,Whiteboard Marker Set,Stationery,Bangalore,South,Retail Store,Individual,Credit Card,3,171.0,5,513.0,Yes,3
+ORD0745,2024-08-25,August,Q3,P008,A4 Paper Ream,Stationery,Kolkata,East,Retail Store,Enterprise,Credit Card,4,380.0,5,1520.0,No,
+ORD0746,2024-05-22,May,Q2,P011,Standing Desk,Furniture,Mumbai,West,Corporate B2B,Individual,Cash,1,22000.0,0,22000.0,No,
+ORD0747,2024-11-04,November,Q4,P005,LED Desk Lamp,Furniture,Delhi,North,Retail Store,SME,Credit Card,7,1710.0,5,11970.0,No,5
+ORD0748,2024-03-02,March,Q1,P009,Ergonomic Mouse,Electronics,Hyderabad,South,Retail Store,Individual,UPI,10,1600.0,0,16000.0,No,5
+ORD0749,2024-07-18,July,Q3,P013,Printer Ink Cartridge,Stationery,Bangalore,South,Retail Store,Individual,UPI,2,902.5,5,1805.0,No,
+ORD0750,2024-07-28,July,Q3,P005,LED Desk Lamp,Furniture,Guwahati,Northeast,Retail Store,Enterprise,Net Banking,2,1620.0,10,3240.0,No,2
+ORD0751,2024-05-22,May,Q2,P015,Webcam HD,Electronics,Mumbai,West,Retail Store,SME,Net Banking,5,3200.0,0,16000.0,No,1
+ORD0752,2024-12-05,December,Q4,P013,Printer Ink Cartridge,Stationery,Guwahati,Northeast,Corporate B2B,Enterprise,UPI,5,760.0,20,3800.0,No,3
+ORD0753,2024-12-16,December,Q4,P002,Wireless Headphones,Electronics,Bangalore,South,Retail Store,SME,Credit Card,7,3150.0,10,22050.0,No,2
+ORD0754,2024-06-01,June,Q2,P004,Notebook Set (5 pack),Stationery,Mumbai,West,Retail Store,Enterprise,Net Banking,7,250.0,0,1750.0,No,
+ORD0755,2024-09-08,September,Q3,P008,A4 Paper Ream,Stationery,Kolkata,East,Retail Store,Enterprise,Cash,2,380.0,5,760.0,No,3
+ORD0756,2024-08-03,August,Q3,P010,Whiteboard Marker Set,Stationery,Chennai,South,Retail Store,Enterprise,Credit Card,1,171.0,5,171.0,No,2
+ORD0757,2024-01-02,January,Q1,P007,Mechanical Keyboard,Electronics,Bangalore,South,Corporate B2B,SME,Net Banking,10,4500.0,0,45000.0,No,
+ORD0758,2024-11-28,November,Q4,P013,Printer Ink Cartridge,Stationery,Mumbai,West,Corporate B2B,Enterprise,Cash,6,807.5,15,4845.0,No,3
+ORD0759,2024-03-29,March,Q1,P011,Standing Desk,Furniture,Chennai,South,Retail Store,Individual,Credit Card,7,19800.0,10,138600.0,No,5
+ORD0760,2024-04-24,April,Q2,P001,Laptop Pro 15,Electronics,Guwahati,Northeast,Corporate B2B,Enterprise,EMI,4,65000.0,0,260000.0,No,
+ORD0761,2024-12-25,December,Q4,P014,Filing Cabinet,Furniture,Mumbai,West,Online,SME,EMI,7,6800.0,20,47600.0,No,
+ORD0762,2024-07-07,July,Q3,P003,Office Chair,Furniture,Delhi,North,Online,Enterprise,EMI,7,10200.0,15,71400.0,No,2
+ORD0763,2024-04-14,April,Q2,P004,Notebook Set (5 pack),Stationery,Hyderabad,South,Retail Store,Enterprise,Cash,7,237.5,5,1662.5,No,
+ORD0764,2024-04-20,April,Q2,P014,Filing Cabinet,Furniture,Hyderabad,South,Corporate B2B,Enterprise,UPI,7,8075.0,5,56525.0,No,
+ORD0765,2024-05-28,May,Q2,P005,LED Desk Lamp,Furniture,Bangalore,South,Corporate B2B,SME,UPI,6,1440.0,20,8640.0,No,1
+ORD0766,2024-08-28,August,Q3,P003,Office Chair,Furniture,Chennai,South,Corporate B2B,SME,UPI,7,10200.0,15,71400.0,No,
+ORD0767,2024-02-18,February,Q1,P009,Ergonomic Mouse,Electronics,Guwahati,Northeast,Online,SME,UPI,8,1440.0,10,11520.0,No,5
+ORD0768,2024-12-29,December,Q4,P012,Monitor 24 inch,Electronics,Guwahati,Northeast,Online,SME,EMI,10,15300.0,15,153000.0,No,3
+ORD0769,2024-03-08,March,Q1,P015,Webcam HD,Electronics,Guwahati,Northeast,Corporate B2B,Individual,Net Banking,3,2560.0,20,7680.0,No,4
+ORD0770,2024-03-08,March,Q1,P002,Wireless Headphones,Electronics,Chennai,South,Corporate B2B,Enterprise,Cash,3,3150.0,10,9450.0,No,
+ORD0771,2024-03-06,March,Q1,P008,A4 Paper Ream,Stationery,Hyderabad,South,Corporate B2B,SME,Cash,5,360.0,10,1800.0,No,3
+ORD0772,2024-09-21,September,Q3,P006,USB-C Hub,Electronics,Kolkata,East,Online,SME,Cash,3,1760.0,20,5280.0,No,4
+ORD0773,2024-01-28,January,Q1,P004,Notebook Set (5 pack),Stationery,Mumbai,West,Online,Individual,UPI,1,212.5,15,212.5,No,4
+ORD0774,2024-02-29,February,Q1,P015,Webcam HD,Electronics,Pune,West,Online,SME,Net Banking,9,2720.0,15,24480.0,No,
+ORD0775,2024-03-16,March,Q1,P002,Wireless Headphones,Electronics,Chennai,South,Online,Individual,Net Banking,3,3325.0,5,9975.0,No,5
+ORD0776,2024-12-05,December,Q4,P010,Whiteboard Marker Set,Stationery,Bangalore,South,Corporate B2B,Individual,EMI,10,171.0,5,1710.0,No,
+ORD0777,2024-09-12,September,Q3,P011,Standing Desk,Furniture,Delhi,North,Retail Store,Individual,Net Banking,2,18700.0,15,37400.0,No,1
+ORD0778,2024-06-14,June,Q2,P003,Office Chair,Furniture,Guwahati,Northeast,Online,SME,Cash,8,10800.0,10,86400.0,No,
+ORD0779,2024-01-23,January,Q1,P011,Standing Desk,Furniture,Pune,West,Retail Store,Enterprise,EMI,3,20900.0,5,62700.0,No,3
+ORD0780,2024-06-14,June,Q2,P013,Printer Ink Cartridge,Stationery,Guwahati,Northeast,Corporate B2B,Individual,EMI,10,807.5,15,8075.0,No,
+ORD0781,2024-05-02,May,Q2,P013,Printer Ink Cartridge,Stationery,Kolkata,East,Online,Individual,UPI,3,807.5,15,2422.5,No,
+ORD0782,2024-11-30,November,Q4,P003,Office Chair,Furniture,Delhi,North,Retail Store,SME,Cash,5,9600.0,20,48000.0,No,3
+ORD0783,2024-09-19,September,Q3,P004,Notebook Set (5 pack),Stationery,Pune,West,Retail Store,SME,Cash,5,200.0,20,1000.0,No,
+ORD0784,2024-08-04,August,Q3,P013,Printer Ink Cartridge,Stationery,Chennai,South,Corporate B2B,Individual,Cash,7,950.0,0,6650.0,Yes,4
+ORD0785,2024-12-12,December,Q4,P004,Notebook Set (5 pack),Stationery,Mumbai,West,Retail Store,Enterprise,EMI,2,225.0,10,450.0,No,
+ORD0786,2024-09-01,September,Q3,P005,LED Desk Lamp,Furniture,Mumbai,West,Online,Enterprise,Net Banking,4,1440.0,20,5760.0,No,5
+ORD0787,2024-02-09,February,Q1,P015,Webcam HD,Electronics,Guwahati,Northeast,Corporate B2B,Individual,EMI,7,2720.0,15,19040.0,No,5
+ORD0788,2024-05-09,May,Q2,P006,USB-C Hub,Electronics,Hyderabad,South,Corporate B2B,Individual,EMI,1,2200.0,0,2200.0,No,2
+ORD0789,2024-07-20,July,Q3,P001,Laptop Pro 15,Electronics,Delhi,North,Retail Store,Enterprise,Net Banking,6,52000.0,20,312000.0,No,4
+ORD0790,2024-11-15,November,Q4,P013,Printer Ink Cartridge,Stationery,Hyderabad,South,Retail Store,Individual,UPI,3,950.0,0,2850.0,No,1
+ORD0791,2024-08-10,August,Q3,P009,Ergonomic Mouse,Electronics,Guwahati,Northeast,Online,SME,Credit Card,1,1520.0,5,1520.0,No,4
+ORD0792,2024-12-02,December,Q4,P012,Monitor 24 inch,Electronics,Pune,West,Retail Store,Enterprise,EMI,6,15300.0,15,91800.0,No,
+ORD0793,2024-03-10,March,Q1,P001,Laptop Pro 15,Electronics,Bangalore,South,Online,Individual,UPI,1,61750.0,5,61750.0,No,
+ORD0794,2024-05-03,May,Q2,P007,Mechanical Keyboard,Electronics,Bangalore,South,Online,SME,Cash,3,3825.0,15,11475.0,No,
+ORD0795,2024-03-19,March,Q1,P012,Monitor 24 inch,Electronics,Pune,West,Retail Store,SME,Credit Card,8,14400.0,20,115200.0,No,
+ORD0796,2024-07-19,July,Q3,P001,Laptop Pro 15,Electronics,Chennai,South,Online,Individual,Cash,7,55250.0,15,386750.0,No,5
+ORD0797,2024-05-28,May,Q2,P001,Laptop Pro 15,Electronics,Pune,West,Retail Store,SME,EMI,10,52000.0,20,520000.0,No,4
+ORD0798,2024-04-28,April,Q2,P012,Monitor 24 inch,Electronics,Guwahati,Northeast,Corporate B2B,Individual,Cash,10,16200.0,10,162000.0,No,
+ORD0799,2024-11-27,November,Q4,P007,Mechanical Keyboard,Electronics,Pune,West,Online,SME,EMI,6,3825.0,15,22950.0,No,
+ORD0800,2024-05-27,May,Q2,P012,Monitor 24 inch,Electronics,Bangalore,South,Retail Store,SME,Cash,4,14400.0,20,57600.0,No,3
+ORD0801,2024-11-04,November,Q4,P014,Filing Cabinet,Furniture,Pune,West,Online,SME,Cash,7,7650.0,10,53550.0,No,2
+ORD0802,2024-11-14,November,Q4,P004,Notebook Set (5 pack),Stationery,Hyderabad,South,Corporate B2B,Enterprise,Credit Card,8,237.5,5,1900.0,No,
+ORD0803,2024-09-08,September,Q3,P002,Wireless Headphones,Electronics,Kolkata,East,Retail Store,SME,UPI,4,2800.0,20,11200.0,Yes,
+ORD0804,2024-05-13,May,Q2,P006,USB-C Hub,Electronics,Mumbai,West,Online,Enterprise,Credit Card,2,1980.0,10,3960.0,No,1
+ORD0805,2024-10-14,October,Q4,P004,Notebook Set (5 pack),Stationery,Pune,West,Retail Store,SME,Net Banking,1,200.0,20,200.0,No,
+ORD0806,2024-12-19,December,Q4,P014,Filing Cabinet,Furniture,Delhi,North,Corporate B2B,Individual,Cash,8,8500.0,0,68000.0,No,5
+ORD0807,2024-02-22,February,Q1,P014,Filing Cabinet,Furniture,Guwahati,Northeast,Corporate B2B,Individual,UPI,2,8075.0,5,16150.0,No,
+ORD0808,2024-05-29,May,Q2,P012,Monitor 24 inch,Electronics,Pune,West,Corporate B2B,SME,Credit Card,3,16200.0,10,48600.0,No,
+ORD0809,2024-04-13,April,Q2,P008,A4 Paper Ream,Stationery,Kolkata,East,Online,Individual,Cash,6,360.0,10,2160.0,No,
+ORD0810,2024-07-09,July,Q3,P012,Monitor 24 inch,Electronics,Kolkata,East,Retail Store,Enterprise,UPI,3,14400.0,20,43200.0,No,
+ORD0811,2024-08-07,August,Q3,P007,Mechanical Keyboard,Electronics,Kolkata,East,Retail Store,Enterprise,Net Banking,1,3825.0,15,3825.0,No,
+ORD0812,2024-09-21,September,Q3,P002,Wireless Headphones,Electronics,Delhi,North,Retail Store,SME,Cash,3,2975.0,15,8925.0,Yes,2
+ORD0813,2024-10-21,October,Q4,P001,Laptop Pro 15,Electronics,Hyderabad,South,Retail Store,SME,EMI,5,58500.0,10,292500.0,No,
+ORD0814,2024-05-23,May,Q2,P015,Webcam HD,Electronics,Mumbai,West,Corporate B2B,SME,Cash,4,2560.0,20,10240.0,No,4
+ORD0815,2024-12-23,December,Q4,P006,USB-C Hub,Electronics,Kolkata,East,Online,SME,Credit Card,1,1760.0,20,1760.0,No,2
+ORD0816,2024-09-23,September,Q3,P009,Ergonomic Mouse,Electronics,Hyderabad,South,Online,Individual,EMI,9,1440.0,10,12960.0,No,2
+ORD0817,2024-01-12,January,Q1,P001,Laptop Pro 15,Electronics,Hyderabad,South,Online,SME,Cash,9,65000.0,0,585000.0,No,3
+ORD0818,2024-11-17,November,Q4,P009,Ergonomic Mouse,Electronics,Chennai,South,Online,Individual,Credit Card,8,1440.0,10,11520.0,No,
+ORD0819,2024-06-22,June,Q2,P004,Notebook Set (5 pack),Stationery,Bangalore,South,Retail Store,SME,Net Banking,10,237.5,5,2375.0,No,2
+ORD0820,2024-02-23,February,Q1,P006,USB-C Hub,Electronics,Bangalore,South,Retail Store,SME,Credit Card,3,1870.0,15,5610.0,No,
+ORD0821,2024-02-01,February,Q1,P007,Mechanical Keyboard,Electronics,Mumbai,West,Retail Store,Individual,Cash,2,4050.0,10,8100.0,No,5
+ORD0822,2024-09-22,September,Q3,P013,Printer Ink Cartridge,Stationery,Kolkata,East,Retail Store,Enterprise,Cash,7,807.5,15,5652.5,No,4
+ORD0823,2024-03-24,March,Q1,P003,Office Chair,Furniture,Mumbai,West,Retail Store,Enterprise,Cash,3,9600.0,20,28800.0,No,
+ORD0824,2024-04-18,April,Q2,P008,A4 Paper Ream,Stationery,Pune,West,Online,Enterprise,UPI,9,360.0,10,3240.0,No,
+ORD0825,2024-07-28,July,Q3,P002,Wireless Headphones,Electronics,Delhi,North,Retail Store,Enterprise,Net Banking,1,2800.0,20,2800.0,No,3
+ORD0826,2024-06-04,June,Q2,P005,LED Desk Lamp,Furniture,Pune,West,Online,Individual,UPI,10,1530.0,15,15300.0,Yes,3
+ORD0827,2024-04-20,April,Q2,P003,Office Chair,Furniture,Pune,West,Online,Individual,EMI,6,12000.0,0,72000.0,No,5
+ORD0828,2024-06-07,June,Q2,P010,Whiteboard Marker Set,Stationery,Pune,West,Retail Store,SME,Cash,10,171.0,5,1710.0,No,4
+ORD0829,2024-08-18,August,Q3,P011,Standing Desk,Furniture,Pune,West,Online,Enterprise,Net Banking,2,17600.0,20,35200.0,No,2
+ORD0830,2024-07-21,July,Q3,P006,USB-C Hub,Electronics,Guwahati,Northeast,Corporate B2B,SME,Net Banking,2,2090.0,5,4180.0,No,3
+ORD0831,2024-10-14,October,Q4,P011,Standing Desk,Furniture,Delhi,North,Corporate B2B,Enterprise,Credit Card,4,17600.0,20,70400.0,No,5
+ORD0832,2024-09-24,September,Q3,P004,Notebook Set (5 pack),Stationery,Pune,West,Corporate B2B,Individual,Credit Card,9,237.5,5,2137.5,No,
+ORD0833,2024-04-15,April,Q2,P004,Notebook Set (5 pack),Stationery,Pune,West,Online,Enterprise,EMI,6,212.5,15,1275.0,No,1
+ORD0834,2024-06-23,June,Q2,P007,Mechanical Keyboard,Electronics,Mumbai,West,Retail Store,Individual,EMI,6,3825.0,15,22950.0,No,
+ORD0835,2024-02-20,February,Q1,P009,Ergonomic Mouse,Electronics,Mumbai,West,Retail Store,Individual,UPI,5,1600.0,0,8000.0,No,2
+ORD0836,2024-01-31,January,Q1,P010,Whiteboard Marker Set,Stationery,Chennai,South,Online,Individual,Credit Card,5,153.0,15,765.0,No,
+ORD0837,2024-06-14,June,Q2,P005,LED Desk Lamp,Furniture,Kolkata,East,Online,Individual,UPI,4,1440.0,20,5760.0,No,5
+ORD0838,2024-07-16,July,Q3,P002,Wireless Headphones,Electronics,Hyderabad,South,Online,SME,Cash,9,2975.0,15,26775.0,Yes,
+ORD0839,2024-11-20,November,Q4,P004,Notebook Set (5 pack),Stationery,Guwahati,Northeast,Retail Store,Enterprise,EMI,2,237.5,5,475.0,No,2
+ORD0840,2024-06-04,June,Q2,P010,Whiteboard Marker Set,Stationery,Kolkata,East,Retail Store,Individual,EMI,4,171.0,5,684.0,No,2
+ORD0841,2024-10-02,October,Q4,P007,Mechanical Keyboard,Electronics,Pune,West,Online,Individual,Cash,10,4050.0,10,40500.0,No,
+ORD0842,2024-01-31,January,Q1,P015,Webcam HD,Electronics,Pune,West,Retail Store,Enterprise,Net Banking,7,2880.0,10,20160.0,No,
+ORD0843,2024-09-18,September,Q3,P005,LED Desk Lamp,Furniture,Guwahati,Northeast,Online,Enterprise,EMI,10,1800.0,0,18000.0,No,1
+ORD0844,2024-03-12,March,Q1,P012,Monitor 24 inch,Electronics,Hyderabad,South,Retail Store,Individual,EMI,9,16200.0,10,145800.0,No,3
+ORD0845,2024-12-28,December,Q4,P008,A4 Paper Ream,Stationery,Hyderabad,South,Online,Enterprise,Net Banking,6,380.0,5,2280.0,No,1
+ORD0846,2024-12-20,December,Q4,P003,Office Chair,Furniture,Guwahati,Northeast,Corporate B2B,SME,Credit Card,1,11400.0,5,11400.0,No,4
+ORD0847,2024-07-20,July,Q3,P009,Ergonomic Mouse,Electronics,Delhi,North,Corporate B2B,Enterprise,Credit Card,9,1600.0,0,14400.0,No,4
+ORD0848,2024-12-10,December,Q4,P002,Wireless Headphones,Electronics,Chennai,South,Retail Store,Enterprise,Net Banking,7,3325.0,5,23275.0,No,1
+ORD0849,2024-03-04,March,Q1,P008,A4 Paper Ream,Stationery,Chennai,South,Online,SME,Credit Card,4,400.0,0,1600.0,No,3
+ORD0850,2024-04-08,April,Q2,P002,Wireless Headphones,Electronics,Hyderabad,South,Corporate B2B,Individual,UPI,8,3150.0,10,25200.0,Yes,5
+ORD0851,2024-04-17,April,Q2,P001,Laptop Pro 15,Electronics,Bangalore,South,Corporate B2B,SME,Credit Card,5,52000.0,20,260000.0,No,
+ORD0852,2024-04-09,April,Q2,P011,Standing Desk,Furniture,Mumbai,West,Online,Enterprise,UPI,2,20900.0,5,41800.0,No,2
+ORD0853,2024-09-24,September,Q3,P012,Monitor 24 inch,Electronics,Hyderabad,South,Online,Enterprise,Credit Card,9,14400.0,20,129600.0,No,4
+ORD0854,2024-01-02,January,Q1,P007,Mechanical Keyboard,Electronics,Guwahati,Northeast,Retail Store,SME,Cash,5,4500.0,0,22500.0,No,3
+ORD0855,2024-09-21,September,Q3,P013,Printer Ink Cartridge,Stationery,Guwahati,Northeast,Corporate B2B,Individual,Credit Card,5,807.5,15,4037.5,No,4
+ORD0856,2024-04-09,April,Q2,P006,USB-C Hub,Electronics,Delhi,North,Corporate B2B,Individual,UPI,7,2200.0,0,15400.0,No,
+ORD0857,2024-06-17,June,Q2,P005,LED Desk Lamp,Furniture,Delhi,North,Corporate B2B,Enterprise,Credit Card,1,1530.0,15,1530.0,No,
+ORD0858,2024-11-16,November,Q4,P015,Webcam HD,Electronics,Chennai,South,Retail Store,Individual,Credit Card,8,3040.0,5,24320.0,No,3
+ORD0859,2024-09-23,September,Q3,P013,Printer Ink Cartridge,Stationery,Bangalore,South,Online,Enterprise,EMI,8,950.0,0,7600.0,No,1
+ORD0860,2024-02-01,February,Q1,P015,Webcam HD,Electronics,Guwahati,Northeast,Retail Store,SME,Credit Card,3,3200.0,0,9600.0,No,3
+ORD0861,2024-11-08,November,Q4,P011,Standing Desk,Furniture,Kolkata,East,Online,Individual,Credit Card,9,22000.0,0,198000.0,No,1
+ORD0862,2024-11-12,November,Q4,P013,Printer Ink Cartridge,Stationery,Kolkata,East,Online,Enterprise,EMI,1,807.5,15,807.5,No,5
+ORD0863,2024-11-13,November,Q4,P002,Wireless Headphones,Electronics,Chennai,South,Corporate B2B,Enterprise,Credit Card,8,2800.0,20,22400.0,No,
+ORD0864,2024-02-22,February,Q1,P001,Laptop Pro 15,Electronics,Delhi,North,Corporate B2B,Individual,EMI,3,52000.0,20,156000.0,No,5
+ORD0865,2024-08-15,August,Q3,P003,Office Chair,Furniture,Bangalore,South,Online,Individual,Credit Card,3,10800.0,10,32400.0,No,3
+ORD0866,2024-06-08,June,Q2,P010,Whiteboard Marker Set,Stationery,Mumbai,West,Online,SME,Net Banking,10,162.0,10,1620.0,No,5
+ORD0867,2024-10-27,October,Q4,P011,Standing Desk,Furniture,Mumbai,West,Online,Individual,EMI,9,22000.0,0,198000.0,No,
+ORD0868,2024-04-12,April,Q2,P011,Standing Desk,Furniture,Bangalore,South,Online,SME,UPI,8,18700.0,15,149600.0,No,5
+ORD0869,2024-10-16,October,Q4,P006,USB-C Hub,Electronics,Hyderabad,South,Retail Store,SME,UPI,2,1870.0,15,3740.0,No,4
+ORD0870,2024-04-22,April,Q2,P015,Webcam HD,Electronics,Guwahati,Northeast,Corporate B2B,Individual,UPI,8,2560.0,20,20480.0,No,3
+ORD0871,2024-07-11,July,Q3,P004,Notebook Set (5 pack),Stationery,Kolkata,East,Online,Individual,Net Banking,1,250.0,0,250.0,No,2
+ORD0872,2024-05-28,May,Q2,P008,A4 Paper Ream,Stationery,Bangalore,South,Corporate B2B,Enterprise,Net Banking,1,400.0,0,400.0,No,
+ORD0873,2024-04-22,April,Q2,P015,Webcam HD,Electronics,Hyderabad,South,Corporate B2B,Individual,Net Banking,9,3040.0,5,27360.0,No,
+ORD0874,2024-05-14,May,Q2,P015,Webcam HD,Electronics,Delhi,North,Online,Enterprise,UPI,7,3200.0,0,22400.0,No,
+ORD0875,2024-08-21,August,Q3,P004,Notebook Set (5 pack),Stationery,Chennai,South,Retail Store,Enterprise,UPI,9,200.0,20,1800.0,No,1
+ORD0876,2024-03-01,March,Q1,P003,Office Chair,Furniture,Mumbai,West,Online,Individual,EMI,7,10800.0,10,75600.0,No,2
+ORD0877,2024-01-24,January,Q1,P013,Printer Ink Cartridge,Stationery,Bangalore,South,Corporate B2B,SME,UPI,6,902.5,5,5415.0,Yes,2
+ORD0878,2024-09-17,September,Q3,P010,Whiteboard Marker Set,Stationery,Pune,West,Online,Enterprise,Credit Card,8,144.0,20,1152.0,Yes,5
+ORD0879,2024-07-10,July,Q3,P008,A4 Paper Ream,Stationery,Pune,West,Online,SME,Net Banking,9,340.0,15,3060.0,No,3
+ORD0880,2024-10-24,October,Q4,P007,Mechanical Keyboard,Electronics,Guwahati,Northeast,Online,Individual,UPI,8,4275.0,5,34200.0,No,4
+ORD0881,2024-10-19,October,Q4,P003,Office Chair,Furniture,Chennai,South,Retail Store,Enterprise,Credit Card,3,12000.0,0,36000.0,No,2
+ORD0882,2024-10-25,October,Q4,P001,Laptop Pro 15,Electronics,Pune,West,Corporate B2B,Enterprise,Net Banking,7,55250.0,15,386750.0,No,4
+ORD0883,2024-06-11,June,Q2,P005,LED Desk Lamp,Furniture,Kolkata,East,Online,Individual,Cash,4,1620.0,10,6480.0,No,1
+ORD0884,2024-05-30,May,Q2,P014,Filing Cabinet,Furniture,Delhi,North,Retail Store,Individual,Credit Card,2,8500.0,0,17000.0,No,3
+ORD0885,2024-04-10,April,Q2,P011,Standing Desk,Furniture,Chennai,South,Retail Store,SME,Net Banking,4,17600.0,20,70400.0,No,5
+ORD0886,2024-05-13,May,Q2,P001,Laptop Pro 15,Electronics,Hyderabad,South,Retail Store,SME,Cash,7,52000.0,20,364000.0,No,
+ORD0887,2024-11-30,November,Q4,P009,Ergonomic Mouse,Electronics,Mumbai,West,Retail Store,Individual,UPI,4,1360.0,15,5440.0,No,5
+ORD0888,2024-08-27,August,Q3,P012,Monitor 24 inch,Electronics,Pune,West,Retail Store,Individual,Net Banking,4,15300.0,15,61200.0,No,2
+ORD0889,2024-08-12,August,Q3,P008,A4 Paper Ream,Stationery,Guwahati,Northeast,Retail Store,Individual,EMI,3,360.0,10,1080.0,No,
+ORD0890,2024-12-03,December,Q4,P014,Filing Cabinet,Furniture,Chennai,South,Retail Store,Individual,Cash,7,7225.0,15,50575.0,No,3
+ORD0891,2024-06-15,June,Q2,P010,Whiteboard Marker Set,Stationery,Guwahati,Northeast,Corporate B2B,Individual,UPI,3,162.0,10,486.0,No,5
+ORD0892,2024-10-20,October,Q4,P014,Filing Cabinet,Furniture,Kolkata,East,Retail Store,Individual,Cash,2,6800.0,20,13600.0,No,3
+ORD0893,2024-10-18,October,Q4,P008,A4 Paper Ream,Stationery,Hyderabad,South,Online,Individual,Credit Card,9,380.0,5,3420.0,Yes,4
+ORD0894,2024-01-14,January,Q1,P003,Office Chair,Furniture,Bangalore,South,Online,SME,Net Banking,4,11400.0,5,45600.0,No,4
+ORD0895,2024-01-30,January,Q1,P006,USB-C Hub,Electronics,Guwahati,Northeast,Online,SME,Cash,7,2090.0,5,14630.0,No,
+ORD0896,2024-08-02,August,Q3,P008,A4 Paper Ream,Stationery,Delhi,North,Retail Store,Individual,UPI,4,360.0,10,1440.0,No,4
+ORD0897,2024-03-22,March,Q1,P010,Whiteboard Marker Set,Stationery,Hyderabad,South,Corporate B2B,Individual,EMI,8,162.0,10,1296.0,No,4
+ORD0898,2024-02-02,February,Q1,P014,Filing Cabinet,Furniture,Kolkata,East,Corporate B2B,Individual,EMI,6,6800.0,20,40800.0,No,5
+ORD0899,2024-01-21,January,Q1,P012,Monitor 24 inch,Electronics,Delhi,North,Retail Store,Enterprise,Cash,6,16200.0,10,97200.0,No,2
+ORD0900,2024-07-31,July,Q3,P004,Notebook Set (5 pack),Stationery,Mumbai,West,Corporate B2B,Enterprise,Cash,8,212.5,15,1700.0,No,
+ORD0901,2024-10-18,October,Q4,P002,Wireless Headphones,Electronics,Kolkata,East,Corporate B2B,Individual,UPI,3,3150.0,10,9450.0,No,1
+ORD0902,2024-12-23,December,Q4,P012,Monitor 24 inch,Electronics,Bangalore,South,Retail Store,SME,EMI,2,16200.0,10,32400.0,No,
+ORD0903,2024-06-15,June,Q2,P007,Mechanical Keyboard,Electronics,Pune,West,Online,SME,UPI,9,4500.0,0,40500.0,No,
+ORD0904,2024-12-21,December,Q4,P011,Standing Desk,Furniture,Pune,West,Retail Store,SME,Cash,4,18700.0,15,74800.0,Yes,
+ORD0905,2024-12-29,December,Q4,P015,Webcam HD,Electronics,Mumbai,West,Retail Store,Enterprise,Cash,8,2720.0,15,21760.0,Yes,2
+ORD0906,2024-08-12,August,Q3,P003,Office Chair,Furniture,Pune,West,Retail Store,Individual,UPI,1,9600.0,20,9600.0,No,
+ORD0907,2024-09-30,September,Q3,P012,Monitor 24 inch,Electronics,Kolkata,East,Online,Individual,Credit Card,5,17100.0,5,85500.0,No,
+ORD0908,2024-01-18,January,Q1,P015,Webcam HD,Electronics,Bangalore,South,Retail Store,Enterprise,Credit Card,9,3200.0,0,28800.0,No,1
+ORD0909,2024-11-02,November,Q4,P001,Laptop Pro 15,Electronics,Guwahati,Northeast,Retail Store,Individual,UPI,6,61750.0,5,370500.0,No,
+ORD0910,2024-01-15,January,Q1,P001,Laptop Pro 15,Electronics,Chennai,South,Online,Enterprise,Credit Card,4,65000.0,0,260000.0,No,2
+ORD0911,2024-03-26,March,Q1,P001,Laptop Pro 15,Electronics,Kolkata,East,Corporate B2B,Individual,Net Banking,6,52000.0,20,312000.0,No,5
+ORD0912,2024-07-21,July,Q3,P007,Mechanical Keyboard,Electronics,Delhi,North,Online,Individual,Credit Card,6,4050.0,10,24300.0,No,3
+ORD0913,2024-01-07,January,Q1,P007,Mechanical Keyboard,Electronics,Bangalore,South,Retail Store,Individual,Credit Card,5,3600.0,20,18000.0,No,
+ORD0914,2024-04-21,April,Q2,P007,Mechanical Keyboard,Electronics,Hyderabad,South,Corporate B2B,SME,Credit Card,9,3600.0,20,32400.0,No,5
+ORD0915,2024-06-15,June,Q2,P011,Standing Desk,Furniture,Kolkata,East,Corporate B2B,Enterprise,UPI,6,20900.0,5,125400.0,No,3
+ORD0916,2024-12-07,December,Q4,P008,A4 Paper Ream,Stationery,Delhi,North,Retail Store,Individual,EMI,10,340.0,15,3400.0,No,2
+ORD0917,2024-09-14,September,Q3,P010,Whiteboard Marker Set,Stationery,Guwahati,Northeast,Online,Individual,EMI,2,162.0,10,324.0,No,2
+ORD0918,2024-11-13,November,Q4,P002,Wireless Headphones,Electronics,Guwahati,Northeast,Online,SME,Cash,5,3325.0,5,16625.0,No,
+ORD0919,2024-01-20,January,Q1,P004,Notebook Set (5 pack),Stationery,Pune,West,Corporate B2B,SME,UPI,5,225.0,10,1125.0,No,5
+ORD0920,2024-07-31,July,Q3,P011,Standing Desk,Furniture,Hyderabad,South,Online,Individual,Net Banking,6,20900.0,5,125400.0,No,
+ORD0921,2024-12-06,December,Q4,P004,Notebook Set (5 pack),Stationery,Bangalore,South,Corporate B2B,SME,EMI,6,237.5,5,1425.0,No,
+ORD0922,2024-09-08,September,Q3,P002,Wireless Headphones,Electronics,Bangalore,South,Online,Enterprise,UPI,4,3325.0,5,13300.0,No,2
+ORD0923,2024-04-30,April,Q2,P009,Ergonomic Mouse,Electronics,Delhi,North,Retail Store,Enterprise,Cash,5,1520.0,5,7600.0,No,
+ORD0924,2024-03-31,March,Q1,P010,Whiteboard Marker Set,Stationery,Bangalore,South,Retail Store,SME,EMI,8,171.0,5,1368.0,No,1
+ORD0925,2024-07-03,July,Q3,P007,Mechanical Keyboard,Electronics,Kolkata,East,Online,SME,Cash,7,3600.0,20,25200.0,No,2
+ORD0926,2024-09-03,September,Q3,P001,Laptop Pro 15,Electronics,Kolkata,East,Retail Store,Individual,Net Banking,10,52000.0,20,520000.0,No,3
+ORD0927,2024-07-13,July,Q3,P008,A4 Paper Ream,Stationery,Hyderabad,South,Retail Store,SME,Cash,9,320.0,20,2880.0,No,4
+ORD0928,2024-04-10,April,Q2,P003,Office Chair,Furniture,Bangalore,South,Online,Individual,EMI,6,10200.0,15,61200.0,No,4
+ORD0929,2024-07-10,July,Q3,P007,Mechanical Keyboard,Electronics,Pune,West,Retail Store,Enterprise,EMI,2,3825.0,15,7650.0,No,1
+ORD0930,2024-07-16,July,Q3,P015,Webcam HD,Electronics,Mumbai,West,Online,SME,Net Banking,6,2560.0,20,15360.0,No,3
+ORD0931,2024-12-22,December,Q4,P001,Laptop Pro 15,Electronics,Kolkata,East,Retail Store,Enterprise,UPI,4,55250.0,15,221000.0,Yes,1
+ORD0932,2024-12-23,December,Q4,P011,Standing Desk,Furniture,Mumbai,West,Retail Store,Enterprise,Cash,3,19800.0,10,59400.0,No,2
+ORD0933,2024-01-07,January,Q1,P002,Wireless Headphones,Electronics,Delhi,North,Corporate B2B,Enterprise,Cash,7,2800.0,20,19600.0,No,
+ORD0934,2024-04-06,April,Q2,P015,Webcam HD,Electronics,Kolkata,East,Online,SME,Net Banking,5,2560.0,20,12800.0,No,4
+ORD0935,2024-10-27,October,Q4,P005,LED Desk Lamp,Furniture,Kolkata,East,Corporate B2B,Individual,Credit Card,10,1620.0,10,16200.0,No,
+ORD0936,2024-04-17,April,Q2,P015,Webcam HD,Electronics,Kolkata,East,Corporate B2B,SME,Credit Card,3,2720.0,15,8160.0,Yes,
+ORD0937,2024-12-22,December,Q4,P007,Mechanical Keyboard,Electronics,Kolkata,East,Corporate B2B,SME,Cash,3,4275.0,5,12825.0,No,2
+ORD0938,2024-09-06,September,Q3,P003,Office Chair,Furniture,Delhi,North,Retail Store,Enterprise,UPI,3,11400.0,5,34200.0,Yes,
+ORD0939,2024-04-08,April,Q2,P005,LED Desk Lamp,Furniture,Kolkata,East,Retail Store,Enterprise,EMI,2,1710.0,5,3420.0,No,
+ORD0940,2024-03-04,March,Q1,P005,LED Desk Lamp,Furniture,Delhi,North,Retail Store,Individual,EMI,4,1530.0,15,6120.0,No,1
+ORD0941,2024-02-01,February,Q1,P005,LED Desk Lamp,Furniture,Guwahati,Northeast,Corporate B2B,Enterprise,Credit Card,2,1710.0,5,3420.0,No,
+ORD0942,2024-11-04,November,Q4,P009,Ergonomic Mouse,Electronics,Hyderabad,South,Retail Store,SME,Net Banking,10,1360.0,15,13600.0,No,3
+ORD0943,2024-06-10,June,Q2,P014,Filing Cabinet,Furniture,Bangalore,South,Retail Store,Enterprise,Cash,7,6800.0,20,47600.0,Yes,3
+ORD0944,2024-02-21,February,Q1,P001,Laptop Pro 15,Electronics,Pune,West,Corporate B2B,SME,UPI,1,52000.0,20,52000.0,No,2
+ORD0945,2024-07-07,July,Q3,P008,A4 Paper Ream,Stationery,Pune,West,Corporate B2B,SME,UPI,1,360.0,10,360.0,Yes,1
+ORD0946,2024-06-15,June,Q2,P011,Standing Desk,Furniture,Pune,West,Online,Enterprise,Cash,7,17600.0,20,123200.0,No,4
+ORD0947,2024-12-03,December,Q4,P014,Filing Cabinet,Furniture,Delhi,North,Corporate B2B,SME,Net Banking,10,8075.0,5,80750.0,No,5
+ORD0948,2024-09-15,September,Q3,P001,Laptop Pro 15,Electronics,Mumbai,West,Retail Store,Individual,Net Banking,9,55250.0,15,497250.0,No,1
+ORD0949,2024-09-03,September,Q3,P011,Standing Desk,Furniture,Bangalore,South,Online,Individual,UPI,2,22000.0,0,44000.0,No,2
+ORD0950,2024-06-16,June,Q2,P015,Webcam HD,Electronics,Kolkata,East,Retail Store,Individual,Net Banking,8,3200.0,0,25600.0,No,4
+ORD0951,2024-02-16,February,Q1,P013,Printer Ink Cartridge,Stationery,Chennai,South,Online,Enterprise,EMI,2,855.0,10,1710.0,No,4
+ORD0952,2024-11-30,November,Q4,P011,Standing Desk,Furniture,Kolkata,East,Online,Individual,Net Banking,2,19800.0,10,39600.0,No,
+ORD0953,2024-10-30,October,Q4,P015,Webcam HD,Electronics,Bangalore,South,Corporate B2B,Individual,EMI,6,3040.0,5,18240.0,No,5
+ORD0954,2024-01-01,January,Q1,P005,LED Desk Lamp,Furniture,Guwahati,Northeast,Corporate B2B,Enterprise,UPI,7,1530.0,15,10710.0,No,2
+ORD0955,2024-09-23,September,Q3,P011,Standing Desk,Furniture,Bangalore,South,Online,SME,Credit Card,9,18700.0,15,168300.0,No,3
+ORD0956,2024-04-22,April,Q2,P008,A4 Paper Ream,Stationery,Pune,West,Online,Enterprise,Net Banking,3,400.0,0,1200.0,No,1
+ORD0957,2024-05-20,May,Q2,P014,Filing Cabinet,Furniture,Pune,West,Corporate B2B,Individual,Cash,5,7225.0,15,36125.0,Yes,2
+ORD0958,2024-04-17,April,Q2,P014,Filing Cabinet,Furniture,Bangalore,South,Corporate B2B,Enterprise,Credit Card,3,7225.0,15,21675.0,No,
+ORD0959,2024-12-03,December,Q4,P015,Webcam HD,Electronics,Mumbai,West,Online,Enterprise,Cash,6,2720.0,15,16320.0,No,4
+ORD0960,2024-07-19,July,Q3,P002,Wireless Headphones,Electronics,Hyderabad,South,Retail Store,Enterprise,UPI,9,2975.0,15,26775.0,No,5
+ORD0961,2024-01-28,January,Q1,P014,Filing Cabinet,Furniture,Hyderabad,South,Retail Store,Enterprise,UPI,10,8075.0,5,80750.0,No,2
+ORD0962,2024-04-17,April,Q2,P004,Notebook Set (5 pack),Stationery,Bangalore,South,Corporate B2B,Enterprise,Credit Card,6,200.0,20,1200.0,No,2
+ORD0963,2024-07-11,July,Q3,P007,Mechanical Keyboard,Electronics,Mumbai,West,Online,Individual,Net Banking,8,4275.0,5,34200.0,No,
+ORD0964,2024-09-20,September,Q3,P011,Standing Desk,Furniture,Chennai,South,Corporate B2B,SME,UPI,7,20900.0,5,146300.0,Yes,
+ORD0965,2024-09-07,September,Q3,P005,LED Desk Lamp,Furniture,Mumbai,West,Corporate B2B,Enterprise,Cash,2,1530.0,15,3060.0,No,3
+ORD0966,2024-11-19,November,Q4,P011,Standing Desk,Furniture,Pune,West,Retail Store,Individual,Credit Card,2,22000.0,0,44000.0,No,5
+ORD0967,2024-04-25,April,Q2,P001,Laptop Pro 15,Electronics,Pune,West,Retail Store,Enterprise,Credit Card,10,61750.0,5,617500.0,No,4
+ORD0968,2024-06-01,June,Q2,P010,Whiteboard Marker Set,Stationery,Mumbai,West,Online,SME,Credit Card,9,171.0,5,1539.0,No,4
+ORD0969,2024-10-11,October,Q4,P014,Filing Cabinet,Furniture,Pune,West,Online,Enterprise,EMI,9,8500.0,0,76500.0,No,
+ORD0970,2024-12-03,December,Q4,P015,Webcam HD,Electronics,Delhi,North,Online,Enterprise,UPI,1,2560.0,20,2560.0,No,1
+ORD0971,2024-03-06,March,Q1,P010,Whiteboard Marker Set,Stationery,Bangalore,South,Corporate B2B,Individual,Credit Card,9,162.0,10,1458.0,No,
+ORD0972,2024-03-04,March,Q1,P009,Ergonomic Mouse,Electronics,Hyderabad,South,Retail Store,Enterprise,UPI,7,1600.0,0,11200.0,No,
+ORD0973,2024-09-22,September,Q3,P015,Webcam HD,Electronics,Hyderabad,South,Corporate B2B,Enterprise,Cash,3,2560.0,20,7680.0,No,3
+ORD0974,2024-11-06,November,Q4,P009,Ergonomic Mouse,Electronics,Bangalore,South,Corporate B2B,Individual,Credit Card,4,1600.0,0,6400.0,No,
+ORD0975,2024-04-20,April,Q2,P003,Office Chair,Furniture,Bangalore,South,Corporate B2B,SME,Net Banking,3,9600.0,20,28800.0,No,3
+ORD0976,2024-07-14,July,Q3,P011,Standing Desk,Furniture,Mumbai,West,Retail Store,SME,Credit Card,5,18700.0,15,93500.0,No,
+ORD0977,2024-04-14,April,Q2,P002,Wireless Headphones,Electronics,Hyderabad,South,Corporate B2B,Enterprise,UPI,6,2800.0,20,16800.0,No,5
+ORD0978,2024-03-24,March,Q1,P007,Mechanical Keyboard,Electronics,Mumbai,West,Retail Store,SME,Cash,1,3600.0,20,3600.0,No,
+ORD0979,2024-09-29,September,Q3,P002,Wireless Headphones,Electronics,Kolkata,East,Online,SME,Credit Card,6,3150.0,10,18900.0,No,
+ORD0980,2024-04-25,April,Q2,P005,LED Desk Lamp,Furniture,Guwahati,Northeast,Online,SME,UPI,7,1800.0,0,12600.0,No,
+ORD0981,2024-09-26,September,Q3,P012,Monitor 24 inch,Electronics,Hyderabad,South,Corporate B2B,SME,Credit Card,9,16200.0,10,145800.0,No,5
+ORD0982,2024-05-18,May,Q2,P010,Whiteboard Marker Set,Stationery,Delhi,North,Online,Individual,Net Banking,7,171.0,5,1197.0,No,5
+ORD0983,2024-10-09,October,Q4,P010,Whiteboard Marker Set,Stationery,Kolkata,East,Retail Store,Enterprise,UPI,5,180.0,0,900.0,No,2
+ORD0984,2024-03-14,March,Q1,P007,Mechanical Keyboard,Electronics,Hyderabad,South,Online,Enterprise,Net Banking,4,3600.0,20,14400.0,No,4
+ORD0985,2024-06-30,June,Q2,P013,Printer Ink Cartridge,Stationery,Pune,West,Corporate B2B,SME,Net Banking,7,760.0,20,5320.0,No,2
+ORD0986,2024-06-05,June,Q2,P011,Standing Desk,Furniture,Delhi,North,Retail Store,SME,Net Banking,2,22000.0,0,44000.0,No,
+ORD0987,2024-02-17,February,Q1,P003,Office Chair,Furniture,Guwahati,Northeast,Online,Enterprise,Net Banking,9,10200.0,15,91800.0,No,
+ORD0988,2024-08-05,August,Q3,P011,Standing Desk,Furniture,Mumbai,West,Retail Store,SME,EMI,9,22000.0,0,198000.0,No,1
+ORD0989,2024-08-05,August,Q3,P012,Monitor 24 inch,Electronics,Chennai,South,Online,Enterprise,EMI,10,18000.0,0,180000.0,No,5
+ORD0990,2024-04-25,April,Q2,P003,Office Chair,Furniture,Delhi,North,Retail Store,Individual,EMI,6,12000.0,0,72000.0,No,3
+ORD0991,2024-02-27,February,Q1,P006,USB-C Hub,Electronics,Bangalore,South,Corporate B2B,Individual,Net Banking,5,1870.0,15,9350.0,No,
+ORD0992,2024-11-19,November,Q4,P010,Whiteboard Marker Set,Stationery,Kolkata,East,Online,SME,EMI,1,153.0,15,153.0,No,1
+ORD0993,2024-07-01,July,Q3,P001,Laptop Pro 15,Electronics,Pune,West,Retail Store,SME,Net Banking,2,65000.0,0,130000.0,No,4
+ORD0994,2024-06-30,June,Q2,P001,Laptop Pro 15,Electronics,Delhi,North,Retail Store,SME,UPI,2,52000.0,20,104000.0,No,
+ORD0995,2024-03-04,March,Q1,P015,Webcam HD,Electronics,Pune,West,Online,Individual,Net Banking,4,2720.0,15,10880.0,No,
+ORD0996,2024-08-07,August,Q3,P015,Webcam HD,Electronics,Mumbai,West,Corporate B2B,SME,Credit Card,8,2720.0,15,21760.0,No,4
+ORD0997,2024-01-03,January,Q1,P006,USB-C Hub,Electronics,Bangalore,South,Online,Individual,Net Banking,1,2090.0,5,2090.0,No,1
+ORD0998,2024-03-23,March,Q1,P011,Standing Desk,Furniture,Bangalore,South,Retail Store,Enterprise,Net Banking,2,18700.0,15,37400.0,No,2
+ORD0999,2024-06-15,June,Q2,P013,Printer Ink Cartridge,Stationery,Kolkata,East,Corporate B2B,Enterprise,Cash,3,950.0,0,2850.0,No,2
+ORD1000,2024-03-20,March,Q1,P006,USB-C Hub,Electronics,Guwahati,Northeast,Corporate B2B,Individual,Credit Card,6,1870.0,15,11220.0,No,4
