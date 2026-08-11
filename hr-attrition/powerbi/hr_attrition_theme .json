@@ -1,0 +1,163 @@
+{
+  "name": "HR Attrition Dark",
+  "dataColors": [
+    "#E85D5D",
+    "#3EC9A7",
+    "#8B93A6",
+    "#F0997B",
+    "#5DCAA5",
+    "#D4537E",
+    "#378ADD",
+    "#EF9F27"
+  ],
+  "background": "#1A1D23",
+  "foreground": "#F4F5F7",
+  "tableAccent": "#3EC9A7",
+  "good": "#3EC9A7",
+  "bad": "#E85D5D",
+  "neutral": "#8B93A6",
+  "minimum": "#242832",
+  "center": "#8B93A6",
+  "maximum": "#E85D5D",
+  "null": "#5F5E5A",
+
+  "textClasses": {
+    "callout": {
+      "fontSize": 24,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#F4F5F7"
+    },
+    "title": {
+      "fontSize": 14,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#F4F5F7"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI",
+      "color": "#9BA1AE"
+    },
+    "label": {
+      "fontSize": 11,
+      "fontFace": "Segoe UI",
+      "color": "#9BA1AE"
+    }
+  },
+
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#242832" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "outline": [
+          {
+            "show": false
+          }
+        ],
+        "outspacePane": [
+          {
+            "color": { "solid": { "color": "#1A1D23" } }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#F4F5F7" } },
+            "fontSize": 28,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#9BA1AE" } },
+            "fontSize": 12
+          }
+        ]
+      }
+    },
+    "multiRowCard": {
+      "*": {
+        "card": [
+          {
+            "outlineColor": { "solid": { "color": "#2E333D" } },
+            "outlineWeight": 1,
+            "borderRadius": 12,
+            "backgroundColor": { "solid": { "color": "#242832" } }
+          }
+        ]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "color": { "solid": { "color": "#9BA1AE" } },
+            "gridlineColor": { "solid": { "color": "#2E333D" } }
+          }
+        ],
+        "valueAxis": [
+          {
+            "color": { "solid": { "color": "#9BA1AE" } },
+            "gridlineColor": { "solid": { "color": "#2E333D" } }
+          }
+        ]
+      }
+    },
+    "barChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "color": { "solid": { "color": "#9BA1AE" } },
+            "gridlineColor": { "solid": { "color": "#2E333D" } }
+          }
+        ],
+        "valueAxis": [
+          {
+            "color": { "solid": { "color": "#9BA1AE" } },
+            "gridlineColor": { "solid": { "color": "#2E333D" } }
+          }
+        ]
+      }
+    },
+    "pieChart": {
+      "*": {
+        "legend": [
+          {
+            "labelColor": { "solid": { "color": "#F4F5F7" } }
+          }
+        ]
+      }
+    },
+    "donutChart": {
+      "*": {
+        "legend": [
+          {
+            "labelColor": { "solid": { "color": "#F4F5F7" } }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#1A1D23" } },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}
